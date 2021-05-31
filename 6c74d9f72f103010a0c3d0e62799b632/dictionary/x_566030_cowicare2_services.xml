@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_566030_cowicare2_testing" label="Services" max_length="40" name="x_566030_cowicare2_services" sizeclass="1" type="collection">
+        <element label="Azithromycin-500" max_length="40" name="u_azithromycin" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Bed Required" max_length="40" name="u_bed_required" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Normal Bed" sequence="0" value="normal bed"/>
+                <element inactive_on_update="false" label="Ventilator Bed" sequence="1" value="ventilator bed"/>
+                <element inactive_on_update="false" label="Oxygen Bed" sequence="2" value="oxygen bed"/>
+            </choice>
+        </element>
+        <element label="FabiFlu-400MG" max_length="40" name="u_fabiflu" type="boolean"/>
+        <element label="Home Isolation" max_length="40" name="u_home_isolation" type="boolean"/>
+        <element label="Limcee" max_length="40" name="u_limcee" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
+        <element label="Report" mandatory="true" max_length="40" name="u_report2" type="file_attachment"/>
+        <element label="Zincovit" max_length="40" name="zincovit" type="boolean"/>
+    </element>
+</database>

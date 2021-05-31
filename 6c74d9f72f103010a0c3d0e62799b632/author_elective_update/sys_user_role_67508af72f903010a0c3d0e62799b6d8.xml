@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_566030_cowicare2.Cowicare Testing</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Cowicare Testing</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-30 10:46:47</sys_created_on>
+        <sys_id>67508af72f903010a0c3d0e62799b6d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_566030_cowicare2.Cowicare Testing</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sys_user_role_67508af72f903010a0c3d0e62799b6d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-30 10:46:47</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>5c196fa4db5433c02f68c597059619d3</instance_id>
+        <instance_name>dev75522</instance_name>
+        <name>sys_user_role_67508af72f903010a0c3d0e62799b6d8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_566030_cowicare2.Cowicare Testing</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>Cowicare Testing</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-30 10:46:47</sys_created_on><sys_id>67508af72f903010a0c3d0e62799b6d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_566030_cowicare2.Cowicare Testing</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>sys_user_role_67508af72f903010a0c3d0e62799b6d8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-30 10:46:47</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-247392342</payload_hash>
+        <record_name>x_566030_cowicare2.Cowicare Testing</record_name>
+        <reverted_from/>
+        <source>6474d9f72f103010a0c3d0e62799b635</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-30 10:46:47</sys_created_on>
+        <sys_id>b790c2f72f903010a0c3d0e62799b698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179bce2259d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-30 10:46:47</sys_updated_on>
+        <type>Role</type>
+        <update_guid>ff90c2f756903010604847935dd7ec97</update_guid>
+        <update_guid_history>ff90c2f756903010604847935dd7ec97:-247392342</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_566030_cowicare2.Cowicare Testing">b0d0023b2f903010a0c3d0e62799b652</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-30 10:47:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>51974a301d6e4caa86d3e11469d74ab9</sys_id>
+        <sys_metadata>67508af72f903010a0c3d0e62799b6d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_566030_cowicare2.Cowicare Testing</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>sys_user_role_67508af72f903010a0c3d0e62799b6d8</sys_update_name>
+        <sys_update_version display_value="sys_user_role_67508af72f903010a0c3d0e62799b6d8">b790c2f72f903010a0c3d0e62799b698</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-30 10:47:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
