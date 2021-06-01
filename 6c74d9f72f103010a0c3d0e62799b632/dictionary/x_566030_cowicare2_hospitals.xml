@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Hospitals" max_length="40" name="x_566030_cowicare2_hospitals" type="collection">
+        <element label="Name of Hospital" max_length="40" name="name_of_hospital" type="string"/>
+        <element label="No. of beds available" max_length="40" name="no_of_beds_available" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
