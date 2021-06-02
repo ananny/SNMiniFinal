@@ -9,6 +9,7 @@
                 <element inactive_on_update="false" label="Oxygen Bed" sequence="2" value="oxygen bed"/>
             </choice>
         </element>
+        <element label="Food Package" max_length="40" name="u_boolean_1" type="boolean"/>
         <element label="FabiFlu-400MG" max_length="40" name="u_fabiflu" type="boolean"/>
         <element label="Home Isolation" max_length="40" name="u_home_isolation" type="boolean"/>
         <element label="Limcee" max_length="40" name="u_limcee" type="boolean"/>
