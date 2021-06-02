@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>covid_test_flow</internal_name>
-        <label_cache>[{"name":"d0098667-0959-4194-b371-ef884a5c1abb.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.name","label":"Trigger➛Testing Record➛Name ","reference":"","reference_display":"Name ","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_testing","column_name":"name"},{"name":"Created or Updated_1.current.u_result","label":"Trigger➛Testing Record➛Test Result","reference":"","reference_display":"Test Result","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_testing","column_name":"u_result"},{"name":"Created or Updated_1.current.email","label":"Trigger➛Testing Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_testing","column_name":"email"},{"name":"4641c587-1825-497b-b409-630af05ff97f.email.user","label":"1➛Email➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user"},{"name":"d7903026-61d7-4337-85aa-b05b07dc1e55.email","label":"4➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e50ad20-6988-47ae-a224-585bd10d67e4.email","label":"3➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"da5d9e9f-a967-441b-ba6a-c93ee4ef75d9.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b71cf4b7-d007-444d-9679-d2a08c7e1df6.email","label":"3➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"{{static.0a826bf03710200044e0bfc8bcbe5d7a}}","label":"Adela Cervantsz","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.6cb1427b2f903010a0c3d0e62799b6d7}}","label":"Cowicare testing group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"2e49b0a2-864d-4c4e-a095-268c92093631.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e88583c9-050b-407b-aa26-59dd775b2028.decisions","label":"2➛Decisions","reference_display":"Decisions","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"visible_in_fd":"false","uiTypeLabel":"String (Full UTF-8)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string_full_utf8","uiUniqueId":"ceae4573-7f3f-46d0-a26e-13923ca0252b"}},{"name":"e88583c9-050b-407b-aa26-59dd775b2028.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"ffef9f46-2397-4435-939c-3bb37b7a39a7"}},{"name":"Created or Updated_1.current.u_long_mobile2","label":"Trigger➛Testing Record➛Mobile Number","reference":"","reference_display":"Mobile Number","type":"longint","base_type":"longint","parent_table_name":"x_566030_cowicare2_testing","column_name":"u_long_mobile2"},{"name":"Created or Updated_1.current","label":"Trigger➛Testing Record","reference":"x_566030_cowicare2_testing","reference_display":"Testing","type":"reference","base_type":"reference","attributes":{}},{"name":"4641c587-1825-497b-b409-630af05ff97f.email","label":"1➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"0223654f-054b-459f-b69d-3f0ff1711f74.email","label":"1➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.changed_fields","label":"Trigger➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"6703c573-17c4-4bc0-a661-3126bebec0d7.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"250c5909-74fb-495d-af82-f39fe175c63f.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"{{static.cf3d43482f603010a0c3d0e62799b604}}","label":"Elon Musk","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"d0098667-0959-4194-b371-ef884a5c1abb.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.name","label":"Trigger➛Testing Record➛Name ","reference":"","reference_display":"Name ","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_testing","column_name":"name"},{"name":"Created or Updated_1.current.u_result","label":"Trigger➛Testing Record➛Test Result","reference":"","reference_display":"Test Result","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_testing","column_name":"u_result"},{"name":"Created or Updated_1.current.email","label":"Trigger➛Testing Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_testing","column_name":"email"},{"name":"4641c587-1825-497b-b409-630af05ff97f.email.user","label":"1➛Email➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user"},{"name":"d7903026-61d7-4337-85aa-b05b07dc1e55.email","label":"4➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e50ad20-6988-47ae-a224-585bd10d67e4.email","label":"3➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"da5d9e9f-a967-441b-ba6a-c93ee4ef75d9.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b71cf4b7-d007-444d-9679-d2a08c7e1df6.email","label":"3➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"{{static.0a826bf03710200044e0bfc8bcbe5d7a}}","label":"Adela Cervantsz","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.6cb1427b2f903010a0c3d0e62799b6d7}}","label":"Cowicare testing group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"2e49b0a2-864d-4c4e-a095-268c92093631.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e88583c9-050b-407b-aa26-59dd775b2028.decisions","label":"2➛Decisions","reference_display":"Decisions","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"visible_in_fd":"false","uiTypeLabel":"String (Full UTF-8)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string_full_utf8","uiUniqueId":"ceae4573-7f3f-46d0-a26e-13923ca0252b"}},{"name":"e88583c9-050b-407b-aa26-59dd775b2028.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"ffef9f46-2397-4435-939c-3bb37b7a39a7"}},{"name":"Created or Updated_1.current.u_long_mobile2","label":"Trigger➛Testing Record➛Mobile Number","reference":"","reference_display":"Mobile Number","type":"longint","base_type":"longint","parent_table_name":"x_566030_cowicare2_testing","column_name":"u_long_mobile2"},{"name":"Created or Updated_1.current","label":"Trigger➛Testing Record","reference":"x_566030_cowicare2_testing","reference_display":"Testing","type":"reference","base_type":"reference","attributes":{}},{"name":"4641c587-1825-497b-b409-630af05ff97f.email","label":"1➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"0223654f-054b-459f-b69d-3f0ff1711f74.email","label":"1➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.changed_fields","label":"Trigger➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"6703c573-17c4-4bc0-a661-3126bebec0d7.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"250c5909-74fb-495d-af82-f39fe175c63f.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ec63bb4b-9e40-4d51-958b-eb9b19b15a8a.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Covid Test Flow</name>
@@ -30,15 +30,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>70b2ce3b2f903010a0c3d0e62799b6db</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Covid Test Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
         <sys_policy/>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_update_name>sys_hub_flow_70b2ce3b2f903010a0c3d0e62799b6db</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:32:56</sys_updated_on>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:54:57</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=70b2ce3b2f903010a0c3d0e62799b6db"/>
@@ -53,10 +53,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-30 11:12:13</sys_created_on>
         <sys_id>5c76c63f2f903010a0c3d0e62799b6e0</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:32:56</sys_updated_on>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:54:57</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -270,7 +270,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD119d933fd49430105dc835566c08cbff,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD7e8727cc92a0301050e3fcc12cb80752,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -328,14 +328,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-30 11:12:12</sys_created_on>
         <sys_id>d876c63f2f903010a0c3d0e62799b6d3</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:32:56</sys_updated_on>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:54:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -347,7 +347,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=70b2ce3b2f903010a0c3d0e62799b6db^sys_idNOT IN0ed7ca7f2f903010a0c3d0e62799b665,1de69b772f943010a0c3d0e62799b64b,24760a3f2f903010a0c3d0e62799b629,f76d877f2f543010a0c3d0e62799b67f"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=70b2ce3b2f903010a0c3d0e62799b6db^sys_idNOT IN0ed7ca7f2f903010a0c3d0e62799b665,24760a3f2f903010a0c3d0e62799b629,9047af8c2fa03010a0c3d0e62799b6d5,f76d877f2f543010a0c3d0e62799b67f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -363,10 +363,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-30 11:18:21</sys_created_on>
         <sys_id>0ed7ca7f2f903010a0c3d0e62799b665</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:32:56</sys_updated_on>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:54:57</sys_updated_on>
         <ui_id>0223654f-054b-459f-b69d-3f0ff1711f74</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0ed7ca7f2f903010a0c3d0e62799b665"/>
@@ -491,93 +491,6 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Covid Test Flow">70b2ce3b2f903010a0c3d0e62799b6db</flow>
-        <order>3</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-30 17:03:43</sys_created_on>
-        <sys_id>1de69b772f943010a0c3d0e62799b64b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:32:56</sys_updated_on>
-        <ui_id>d0098667-0959-4194-b371-ef884a5c1abb</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=1de69b772f943010a0c3d0e62799b64b"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>1de69b772f943010a0c3d0e62799b64b</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-30 17:03:43</sys_created_on>
-        <sys_id>9de69b772f943010a0c3d0e62799b64e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:03:43</sys_updated_on>
-        <value>x_566030_cowicare2_testing</value>
-        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>1de69b772f943010a0c3d0e62799b64b</document_key>
-        <order>3</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-30 17:03:43</sys_created_on>
-        <sys_id>d5e69b772f943010a0c3d0e62799b64e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:03:43</sys_updated_on>
-        <value>u_result=positive^ORu_result=negative</value>
-        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=1de69b772f943010a0c3d0e62799b64b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conditions</field>
-        <id>1de69b772f943010a0c3d0e62799b64b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-30 17:03:43</sys_created_on>
-        <sys_id>91e69b772f943010a0c3d0e62799b64e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:03:43</sys_updated_on>
-        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>1de69b772f943010a0c3d0e62799b64b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-30 17:03:43</sys_created_on>
-        <sys_id>d9e69b772f943010a0c3d0e62799b64d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:03:43</sys_updated_on>
-        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
-        <value>{{Created or Updated_1.current}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>1de69b772f943010a0c3d0e62799b64b</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-30 17:03:43</sys_created_on>
-        <sys_id>55e69b772f943010a0c3d0e62799b64e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:03:43</sys_updated_on>
-        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
         <action_type_parent/>
         <comment/>
@@ -590,10 +503,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-30 11:12:13</sys_created_on>
         <sys_id>24760a3f2f903010a0c3d0e62799b629</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:32:56</sys_updated_on>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:54:57</sys_updated_on>
         <ui_id>d7903026-61d7-4337-85aa-b05b07dc1e55</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=24760a3f2f903010a0c3d0e62799b629"/>
@@ -680,6 +593,93 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Covid Test Flow">70b2ce3b2f903010a0c3d0e62799b6db</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>UID1221</sys_created_by>
+        <sys_created_on>2021-05-31 12:53:40</sys_created_on>
+        <sys_id>9047af8c2fa03010a0c3d0e62799b6d5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:54:57</sys_updated_on>
+        <ui_id>ec63bb4b-9e40-4d51-958b-eb9b19b15a8a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9047af8c2fa03010a0c3d0e62799b6d5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9047af8c2fa03010a0c3d0e62799b6d5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>UID1221</sys_created_by>
+        <sys_created_on>2021-05-31 12:53:40</sys_created_on>
+        <sys_id>5447af8c2fa03010a0c3d0e62799b6d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:53:40</sys_updated_on>
+        <value>x_566030_cowicare2_testing</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9047af8c2fa03010a0c3d0e62799b6d5</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>UID1221</sys_created_by>
+        <sys_created_on>2021-05-31 12:53:40</sys_created_on>
+        <sys_id>9c47af8c2fa03010a0c3d0e62799b6d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:54:11</sys_updated_on>
+        <value>u_result=approved^ORu_result=rejected</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9047af8c2fa03010a0c3d0e62799b6d5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>9047af8c2fa03010a0c3d0e62799b6d5</id>
+        <sys_created_by>UID1221</sys_created_by>
+        <sys_created_on>2021-05-31 12:53:40</sys_created_on>
+        <sys_id>5847af8c2fa03010a0c3d0e62799b6d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:53:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>9047af8c2fa03010a0c3d0e62799b6d5</id>
+        <sys_created_by>UID1221</sys_created_by>
+        <sys_created_on>2021-05-31 12:53:40</sys_created_on>
+        <sys_id>9047af8c2fa03010a0c3d0e62799b6d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:53:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>9047af8c2fa03010a0c3d0e62799b6d5</id>
+        <sys_created_by>UID1221</sys_created_by>
+        <sys_created_on>2021-05-31 12:53:40</sys_created_on>
+        <sys_id>1c47af8c2fa03010a0c3d0e62799b6d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:53:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
         <comment/>
@@ -692,10 +692,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-30 16:22:23</sys_created_on>
         <sys_id>f76d877f2f543010a0c3d0e62799b67f</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:32:56</sys_updated_on>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:54:57</sys_updated_on>
         <ui_id>250c5909-74fb-495d-af82-f39fe175c63f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f76d877f2f543010a0c3d0e62799b67f"/>
@@ -776,11 +776,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-30 16:22:23</sys_created_on>
         <sys_id>f76d877f2f543010a0c3d0e62799b681</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 17:32:56</sys_updated_on>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_updated_by>UID1221</sys_updated_by>
+        <sys_updated_on>2021-05-31 12:51:50</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesAnyU[{{static.5137153cc611227c000bbd1bd8cd2005}}]G[{{static.6cb1427b2f903010a0c3d0e62799b6d7}}]</value>
+        <value>ApprovesRejectsAnyU[{{static.cf3d43482f603010a0c3d0e62799b604}}]</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>approval_field</field>
