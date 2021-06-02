@@ -4,13 +4,13 @@
             <element>u_home_isolation</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-30 09:39:25</sys_created_on>
-            <sys_id>c1313dfb2f503010a0c3d0e62799b6d5</sys_id>
+            <sys_created_on>2021-06-02 08:06:36</sys_created_on>
+            <sys_id>f6b874bc2f6874102144265df699b687</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Services" display_value="Additional Services" name="x_566030_cowicare2_services" sys_domain="global" view="Default view">80313dfb2f503010a0c3d0e62799b600</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-30 09:39:25</sys_updated_on>
+            <sys_updated_on>2021-06-02 08:06:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-30 09:39:25</sys_created_on>
-            <sys_id>45313dfb2f503010a0c3d0e62799b6d5</sys_id>
+            <sys_created_on>2021-06-02 08:06:36</sys_created_on>
+            <sys_id>7ab874bc2f6874102144265df699b687</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Services" display_value="Additional Services" name="x_566030_cowicare2_services" sys_domain="global" view="Default view">80313dfb2f503010a0c3d0e62799b600</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-30 09:39:25</sys_updated_on>
+            <sys_updated_on>2021-06-02 08:06:36</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,27 @@
             <element>u_bed_required</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-30 09:39:25</sys_created_on>
-            <sys_id>c5313dfb2f503010a0c3d0e62799b6d5</sys_id>
+            <sys_created_on>2021-06-02 08:06:36</sys_created_on>
+            <sys_id>fab874bc2f6874102144265df699b687</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Additional Services" display_value="Additional Services" name="x_566030_cowicare2_services" sys_domain="global" view="Default view">80313dfb2f503010a0c3d0e62799b600</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-30 09:39:25</sys_updated_on>
+            <sys_updated_on>2021-06-02 08:06:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>select_hospitals</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-02 08:06:36</sys_created_on>
+            <sys_id>7eb874bc2f6874102144265df699b687</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Additional Services" display_value="Additional Services" name="x_566030_cowicare2_services" sys_domain="global" view="Default view">80313dfb2f503010a0c3d0e62799b600</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 08:06:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
