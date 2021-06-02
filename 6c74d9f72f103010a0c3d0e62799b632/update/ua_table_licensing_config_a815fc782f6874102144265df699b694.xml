@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_566030_cowicare2_testing</name>
+        <name>x_566030_cowicare2_services</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-30 07:38:16</sys_created_on>
-        <sys_id>e275593b2f103010a0c3d0e62799b62f</sys_id>
+        <sys_created_on>2021-05-30 09:24:28</sys_created_on>
+        <sys_id>a815fc782f6874102144265df699b694</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_566030_cowicare2_testing</sys_name>
+        <sys_name>x_566030_cowicare2_services</sys_name>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
         <sys_policy/>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
-        <sys_update_name>ua_table_licensing_config_e275593b2f103010a0c3d0e62799b62f</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_a815fc782f6874102144265df699b694</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-30 07:38:16</sys_updated_on>
+        <sys_updated_on>2021-05-30 09:24:28</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
