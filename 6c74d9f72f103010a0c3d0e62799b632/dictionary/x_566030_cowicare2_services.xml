@@ -12,6 +12,7 @@
         <element label="Food Package" max_length="40" name="u_boolean_1" type="boolean"/>
         <element label="FabiFlu-400MG" max_length="40" name="u_fabiflu" type="boolean"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Medicines" max_length="1024" name="u_glide_list_4" reference="x_566030_cowicare2_services" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Name of Medicine/injection" max_length="1024" name="u_glide_list_7" reference="x_566030_cowicare2_medicine" type="glide_list"/>
         <element label="Home Isolation" max_length="40" name="u_home_isolation" type="boolean"/>
         <element label="Limcee" max_length="40" name="u_limcee" type="boolean"/>
         <element dependent="u_azithromycin" dependent_on_field="u_azithromycin" label="Medi" max_length="80" name="u_medi" type="field_name" use_dependent_field="true"/>
