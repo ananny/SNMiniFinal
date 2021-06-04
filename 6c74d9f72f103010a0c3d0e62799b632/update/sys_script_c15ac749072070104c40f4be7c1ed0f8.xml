@@ -33,10 +33,10 @@
     hs.addQuery('sys_id',current.select_hospitals.sys_id);
     hs.query();
     //gs.info("message"+ getValue('current.select_hospitals'));
-
     hs.no_of_beds_available = hs.no_of_beds_available - 1;
     hs.update();
-
+		
+	
 
 })(current, previous);
 
@@ -48,7 +48,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c15ac749072070104c40f4be7c1ed0f8</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Hospital BR</sys_name>
         <sys_overrides/>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_update_name>sys_script_c15ac749072070104c40f4be7c1ed0f8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-04 09:22:13</sys_updated_on>
+        <sys_updated_on>2021-06-04 09:51:04</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
