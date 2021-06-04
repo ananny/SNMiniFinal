@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_566030_cowicare2_testing" label="Services" max_length="40" name="x_566030_cowicare2_services" sizeclass="1" type="collection">
+    <element extends="x_566030_cowicare2_testing" label="Services" max_length="40" name="x_566030_cowicare2_services" sizeclass="4" type="collection">
         <element dependent="u_bed_required" dependent_on_field="u_bed_required" label="Select Hospital" max_length="32" name="select_hospitals" reference="x_566030_cowicare2_hospitals" type="reference" use_dependent_field="true"/>
         <element label="Azithromycin-500" max_length="40" name="u_azithromycin" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Bed Required" max_length="40" name="u_bed_required" type="string">
@@ -9,7 +9,38 @@
                 <element inactive_on_update="false" label="Oxygen Bed" sequence="2" value="oxygen bed"/>
             </choice>
         </element>
-        <element label="Food Package" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="Veg Food" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="Non-Veg Food" max_length="40" name="u_boolean_4" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Veg Food Choice" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Veg Thali" sequence="0" value="mini pack"/>
+                <element inactive_on_update="false" label="Fruit Package" sequence="1" value="fruit pack"/>
+                <element inactive_on_update="false" label="Veg Thali + Fruit Package" sequence="2" value="mini fruit"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Non-Veg Food choice" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Non-veg Thali" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Fruit Package" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Non-veg Thali + Fruit Package" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Other Requirements" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Oxygen Concentrator" sequence="0" value="oxygen concentrator"/>
+                <element inactive_on_update="false" label="Ventilator" sequence="1" value="ventilator"/>
+                <element inactive_on_update="false" label="Isolation Care Package" sequence="2" value="isolation care package"/>
+                <element inactive_on_update="false" label="Oxymeter" sequence="3" value="oxymeter"/>
+                <element inactive_on_update="false" label="Thermometer" sequence="4" value="thermometer"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
         <element label="FabiFlu-400MG" max_length="40" name="u_fabiflu" type="boolean"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Medicines" max_length="1024" name="u_glide_list_4" reference="x_566030_cowicare2_services" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Name of Medicine/injection" max_length="1024" name="u_glide_list_7" reference="x_566030_cowicare2_medicine" type="glide_list"/>
@@ -19,6 +50,8 @@
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element label="Report" max_length="40" name="u_report2" type="file_attachment"/>
         <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_3" type="simple_name_values"/>
+        <element attributes="edge_encryption_enabled=true" label="Please mention if any Specific Requirement" max_length="40" name="u_string_7" type="string"/>
+        <element attributes="is_multi_text=true,preview_first=true,preview_selector=true" label="New Wiki" max_length="65536" name="u_wiki_text_8" type="wiki_text"/>
         <element label="Zincovit" max_length="40" name="zincovit" type="boolean"/>
         <index name="index">
             <element name="select_hospitals"/>
