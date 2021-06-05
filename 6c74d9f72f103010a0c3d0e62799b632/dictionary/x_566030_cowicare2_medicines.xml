@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Medicines" max_length="40" name="x_566030_cowicare2_medicines" sizeclass="20" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name of Medicine/injection" label="Name of Medicine/injection" max_length="40" name="u_name_of_medicine_injection" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="integer"/>
+    </element>
+</database>
