@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="x_566030_cowicare2_testing" label="Services" max_length="40" name="x_566030_cowicare2_services" sizeclass="6" type="collection">
+    <element extends="x_566030_cowicare2_testing" label="Services" max_length="40" name="x_566030_cowicare2_services" sizeclass="4" type="collection">
         <element dependent="u_bed_required" dependent_on_field="u_bed_required" label="Select Hospital" max_length="32" name="select_hospitals" reference="x_566030_cowicare2_hospitals" type="reference" use_dependent_field="true"/>
-        <element label="Azithromycin-500" max_length="40" name="u_azithromycin" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Bed Required" max_length="40" name="u_bed_required" type="string">
             <choice>
                 <element inactive_on_update="false" label="Normal Bed" sequence="0" value="normal bed"/>
@@ -41,19 +40,12 @@
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
-        <element label="FabiFlu-400MG" max_length="40" name="u_fabiflu" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false,no_sort=true,slushbucket_ref_no_expand=true" dependent="u_glide_list_4" dependent_on_field="u_glide_list_4" label="Medicines/Injections" max_length="1024" name="u_glide_list_4" reference="x_566030_cowicare2_medicine" type="reference" use_dependent_field="true"/>
         <element label="Home Isolation" max_length="40" name="u_home_isolation" type="boolean"/>
-        <element label="Limcee" max_length="40" name="u_limcee" type="boolean"/>
-        <element dependent="u_azithromycin" dependent_on_field="u_azithromycin" label="Medi" max_length="80" name="u_medi" type="field_name" use_dependent_field="true"/>
         <element attributes="encode_utf8=false" label="Medicines/Injections" max_length="32" name="u_medicines" reference="x_566030_cowicare2_medicine" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element label="Report" max_length="40" name="u_report2" type="file_attachment"/>
-        <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_3" type="simple_name_values"/>
         <element attributes="edge_encryption_enabled=true" label="Please mention if any Specific Requirement" max_length="40" name="u_string_7" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Others" max_length="40" name="u_string_9" type="string"/>
-        <element attributes="is_multi_text=true,preview_first=true,preview_selector=true" label="New Wiki" max_length="65536" name="u_wiki_text_8" type="wiki_text"/>
-        <element label="Zincovit" max_length="40" name="zincovit" type="boolean"/>
         <index name="index">
             <element name="select_hospitals"/>
         </index>

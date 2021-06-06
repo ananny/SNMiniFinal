@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="5fffd5492f68b4102144265df699b62b">cf6dfe302fe07010a0c3d0e62799b628</list_id>
+            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="c0e09f302f247010a0c3d0e62799b63e">cf6dfe302fe07010a0c3d0e62799b628</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="5fffd5492f68b4102144265df699b62b">cf6dfe302fe07010a0c3d0e62799b628</list_id>
+            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="c0e09f302f247010a0c3d0e62799b63e">cf6dfe302fe07010a0c3d0e62799b628</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>email</element>
-            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="5fffd5492f68b4102144265df699b62b">cf6dfe302fe07010a0c3d0e62799b628</list_id>
+            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="c0e09f302f247010a0c3d0e62799b63e">cf6dfe302fe07010a0c3d0e62799b628</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_covid_test</element>
-            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="5fffd5492f68b4102144265df699b62b">cf6dfe302fe07010a0c3d0e62799b628</list_id>
+            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="c0e09f302f247010a0c3d0e62799b63e">cf6dfe302fe07010a0c3d0e62799b628</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_result</element>
-            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="5fffd5492f68b4102144265df699b62b">cf6dfe302fe07010a0c3d0e62799b628</list_id>
+            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="c0e09f302f247010a0c3d0e62799b63e">cf6dfe302fe07010a0c3d0e62799b628</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -100,7 +100,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-06-02 17:46:21</sys_updated_on>
             <sys_user/>
-            <view display_value="Rptc36d7e302fe07010a0c3d0e62799b611" name="RPTc36d7e302fe07010a0c3d0e62799b611">5fffd5492f68b4102144265df699b62b</view>
+            <view display_value="Rptc36d7e302fe07010a0c3d0e62799b611" name="RPTc36d7e302fe07010a0c3d0e62799b611">c0e09f302f247010a0c3d0e62799b63e</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
