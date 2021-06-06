@@ -43,8 +43,8 @@
         <action>DELETE</action>
         <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
         <file_path/>
-        <instance_id>3afcea99db8d08508aea21c4059619e9</instance_id>
-        <instance_name>dev94518</instance_name>
+        <instance_id>5c196fa4db5433c02f68c597059619d3</instance_id>
+        <instance_name>dev75522</instance_name>
         <name>sys_app_module_996b03992f2cf4102144265df699b6f4</name>
         <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
@@ -91,25 +91,25 @@
         <payload_hash>39884909</payload_hash>
         <record_name>Medicines</record_name>
         <reverted_from/>
-        <source>3d5702fd076cb0104c40f4be7c1ed089</source>
+        <source>36b091792fa03010a0c3d0e62799b6aa</source>
         <source_table>sys_upgrade_history</source_table>
-        <state>previous</state>
+        <state>current</state>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-05 16:24:22</sys_created_on>
-        <sys_id>6f6706fd076cb0104c40f4be7c1ed081</sys_id>
+        <sys_created_on>2021-06-05 12:25:34</sys_created_on>
+        <sys_id>59c055792fa03010a0c3d0e62799b6b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>179dcfd5ecb0000001</sys_recorded_at>
+        <sys_recorded_at>179dc22bb830000001</sys_recorded_at>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-05 16:24:22</sys_updated_on>
+        <sys_updated_on>2021-06-05 12:25:34</sys_updated_on>
         <type>Module</type>
-        <update_guid>eb6706fd2b6cb0106b390caba69a7381</update_guid>
-        <update_guid_history>eb6706fd2b6cb0106b390caba69a7381:0,c61675b13f6cb0100e7cbfd30b632452:-828848518,fd72f5fd462cb010311b0fac84b0691b:39884909</update_guid_history>
+        <update_guid>19c055796ca03010a3e0dc5f566eb6b8</update_guid>
+        <update_guid_history>19c055796ca03010a3e0dc5f566eb6b8:39884909</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Medicines">1ff7023107acb0104c40f4be7c1ed069</sys_audit_delete>
+        <sys_audit_delete display_value="Medicines">de5ad9312fe03010a0c3d0e62799b643</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-05 16:26:49</sys_created_on>
+        <sys_created_on>2021-06-05 13:07:25</sys_created_on>
         <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
         <sys_id>03087aa614f64a488a76205817e23e69</sys_id>
         <sys_metadata>996b03992f2cf4102144265df699b6f4</sys_metadata>
@@ -121,8 +121,8 @@
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
         <sys_update_name>sys_app_module_996b03992f2cf4102144265df699b6f4</sys_update_name>
-        <sys_update_version display_value="sys_app_module_996b03992f2cf4102144265df699b6f4">6f6706fd076cb0104c40f4be7c1ed081</sys_update_version>
+        <sys_update_version display_value="sys_app_module_996b03992f2cf4102144265df699b6f4">59c055792fa03010a0c3d0e62799b6b8</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-05 16:26:49</sys_updated_on>
+        <sys_updated_on>2021-06-05 13:07:25</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

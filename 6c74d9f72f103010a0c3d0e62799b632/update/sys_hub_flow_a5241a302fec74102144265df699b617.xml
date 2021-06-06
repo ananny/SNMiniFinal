@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>request_service</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.u_bed_required","label":"Trigger➛Services Record➛Bed Required","reference":"","reference_display":"Bed Required","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_services","column_name":"u_bed_required"},{"name":"d009e079-d07d-4689-8d33-1b6307354f8d.email","label":"1➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Services Record","reference":"x_566030_cowicare2_services","reference_display":"Services","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.email","label":"Trigger➛Services Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_services","column_name":"email"},{"name":"Created or Updated_1.current.name","label":"Trigger➛Services Record➛Name ","reference":"","reference_display":"Name ","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_services","column_name":"name"},{"name":"643cf595-2e87-4daf-aa6c-bfc407f061ed.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.7e8c557c2fe874102144265df699b6df}}","label":"Srashti Sharma","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"b4dcd478-a03f-4e78-a34e-d91bc5a75603.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"667471b9-a43f-4b9d-8651-0882f38f11b9.email","label":"4➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_azithromycin","label":"Trigger➛Services Record➛Azithromycin-500","reference":"","reference_display":"Azithromycin-500","type":"boolean","base_type":"boolean","parent_table_name":"x_566030_cowicare2_services","column_name":"u_azithromycin"},{"name":"Created or Updated_1.current.u_choice_3","label":"Trigger➛Services Record➛Non-Veg Food choice","reference":"","reference_display":"Non-Veg Food choice","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_services","column_name":"u_choice_3"},{"name":"Created or Updated_1.current.u_glide_list_4","label":"Trigger➛Services Record➛Medicines","reference":"x_566030_cowicare2_services","reference_display":"Services","type":"glide_list","base_type":"glide_list","parent_table_name":"x_566030_cowicare2_services","column_name":"u_glide_list_4"},{"name":"Created or Updated_1.current.u_glide_list_7","label":"Trigger➛Services Record➛Name of Medicine/injection","reference":"x_566030_cowicare2_medicine","reference_display":"Medicine","type":"glide_list","base_type":"glide_list","parent_table_name":"x_566030_cowicare2_services","column_name":"u_glide_list_7"},{"name":"Created or Updated_1.current.u_choice_2","label":"Trigger➛Services Record➛Veg Food Choice","reference":"","reference_display":"Veg Food Choice","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_services","column_name":"u_choice_2"},{"name":"Created or Updated_1.current.u_choice_5","label":"Trigger➛Services Record➛Other Requirements","reference":"","reference_display":"Other Requirements","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_services","column_name":"u_choice_5"},{"name":"Created or Updated_1.current.u_string_7","label":"Trigger➛Services Record➛Please mention if any Specific Requirement","reference":"","reference_display":"Please mention if any Specific Requirement","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_services","column_name":"u_string_7"},{"name":"Created or Updated_1.current.u_string_9","label":"Trigger➛Services Record➛Others","reference":"","reference_display":"Others","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_services","column_name":"u_string_9"},{"name":"Created or Updated_1.current.select_hospitals.name_of_hospital","label":"Trigger➛Services Record➛Select Hospital➛Name of Hospital","reference":"","reference_display":"Name of Hospital","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_hospitals","column_name":"name_of_hospital"}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.select_hospitals.name_of_hospital","label":"Trigger➛Services Record➛Select Hospital➛Name of Hospital","reference":"","reference_display":"Name of Hospital","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_hospitals","column_name":"name_of_hospital"},{"name":"Created or Updated_1.current.u_string_9","label":"Trigger➛Services Record➛Others","reference":"","reference_display":"Others","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_services","column_name":"u_string_9"},{"name":"Created or Updated_1.current.u_string_7","label":"Trigger➛Services Record➛Please mention if any Specific Requirement","reference":"","reference_display":"Please mention if any Specific Requirement","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_services","column_name":"u_string_7"},{"name":"Created or Updated_1.current.u_choice_5","label":"Trigger➛Services Record➛Other Requirements","reference":"","reference_display":"Other Requirements","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_services","column_name":"u_choice_5"},{"name":"Created or Updated_1.current.u_choice_2","label":"Trigger➛Services Record➛Veg Food Choice","reference":"","reference_display":"Veg Food Choice","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_services","column_name":"u_choice_2"},{"name":"Created or Updated_1.current.u_glide_list_7","label":"Trigger➛Services Record➛Name of Medicine/injection","reference":"x_566030_cowicare2_medicine","reference_display":"Medicine","type":"glide_list","base_type":"glide_list","parent_table_name":"x_566030_cowicare2_services","column_name":"u_glide_list_7"},{"name":"Created or Updated_1.current.u_glide_list_4","label":"Trigger➛Services Record➛Medicines","reference":"x_566030_cowicare2_services","reference_display":"Services","type":"glide_list","base_type":"glide_list","parent_table_name":"x_566030_cowicare2_services","column_name":"u_glide_list_4"},{"name":"Created or Updated_1.current.u_choice_3","label":"Trigger➛Services Record➛Non-Veg Food choice","reference":"","reference_display":"Non-Veg Food choice","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_services","column_name":"u_choice_3"},{"name":"Created or Updated_1.current.u_azithromycin","label":"Trigger➛Services Record➛Azithromycin-500","reference":"","reference_display":"Azithromycin-500","type":"boolean","base_type":"boolean","parent_table_name":"x_566030_cowicare2_services","column_name":"u_azithromycin"},{"name":"667471b9-a43f-4b9d-8651-0882f38f11b9.email","label":"4➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b4dcd478-a03f-4e78-a34e-d91bc5a75603.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"{{static.7e8c557c2fe874102144265df699b6df}}","label":"Srashti Sharma","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"643cf595-2e87-4daf-aa6c-bfc407f061ed.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.name","label":"Trigger➛Services Record➛Name ","reference":"","reference_display":"Name ","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_services","column_name":"name"},{"name":"Created or Updated_1.current.email","label":"Trigger➛Services Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_services","column_name":"email"},{"name":"Created or Updated_1.current","label":"Trigger➛Services Record","reference":"x_566030_cowicare2_services","reference_display":"Services","type":"reference","base_type":"reference","attributes":{}},{"name":"d009e079-d07d-4689-8d33-1b6307354f8d.email","label":"1➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.u_bed_required","label":"Trigger➛Services Record➛Bed Required","reference":"","reference_display":"Bed Required","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_services","column_name":"u_bed_required"},{"name":"{{static.d79c11712fe03010a0c3d0e62799b653}}","label":"Mukesh Ambani","reference":"sys_user","type":"reference","base_type":"reference"}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Request Service</name>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a5241a302fec74102144265df699b617</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Request Service</sys_name>
         <sys_overrides/>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_update_name>sys_hub_flow_a5241a302fec74102144265df699b617</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-04 17:03:09</sys_updated_on>
+        <sys_updated_on>2021-06-05 13:33:41</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=a5241a302fec74102144265df699b617"/>
@@ -53,10 +53,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-02 15:19:52</sys_created_on>
         <sys_id>59eb16f42fec74102144265df699b6c9</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-04 17:03:09</sys_updated_on>
+        <sys_updated_on>2021-06-05 13:33:41</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -108,7 +108,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDedb6cde5d2e03810993ca4f26fe524b9,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDf250ad7542e03010e60414ce384420f8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -166,14 +166,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-02 15:19:52</sys_created_on>
         <sys_id>19eb16f42fec74102144265df699b6bd</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-04 17:03:08</sys_updated_on>
+        <sys_updated_on>2021-06-05 13:33:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -363,10 +363,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-02 15:19:53</sys_created_on>
         <sys_id>21eb56f42fec74102144265df699b601</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-04 17:03:09</sys_updated_on>
+        <sys_updated_on>2021-06-05 13:33:41</sys_updated_on>
         <ui_id>643cf595-2e87-4daf-aa6c-bfc407f061ed</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=21eb56f42fec74102144265df699b601"/>
@@ -419,11 +419,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-02 15:19:53</sys_created_on>
         <sys_id>65eb56f42fec74102144265df699b603</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-02 15:19:53</sys_updated_on>
+        <sys_updated_on>2021-06-05 13:33:41</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesRejectsAnyU[{{static.7e8c557c2fe874102144265df699b6df}}]</value>
+        <value>ApprovesRejectsAnyU[{{static.d79c11712fe03010a0c3d0e62799b653}}]</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>approval_field</field>
@@ -488,10 +488,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-02 15:19:52</sys_created_on>
         <sys_id>9deb16f42fec74102144265df699b6f7</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-04 17:03:09</sys_updated_on>
+        <sys_updated_on>2021-06-05 13:33:41</sys_updated_on>
         <ui_id>d009e079-d07d-4689-8d33-1b6307354f8d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9deb16f42fec74102144265df699b6f7"/>
@@ -616,10 +616,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-02 15:19:53</sys_created_on>
         <sys_id>a1eb56f42fec74102144265df699b609</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-04 17:03:09</sys_updated_on>
+        <sys_updated_on>2021-06-05 13:33:41</sys_updated_on>
         <ui_id>b4dcd478-a03f-4e78-a34e-d91bc5a75603</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a1eb56f42fec74102144265df699b609"/>
@@ -703,10 +703,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-02 15:19:53</sys_created_on>
         <sys_id>edeb56f42fec74102144265df699b61d</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-04 17:03:09</sys_updated_on>
+        <sys_updated_on>2021-06-05 13:33:41</sys_updated_on>
         <ui_id>667471b9-a43f-4b9d-8651-0882f38f11b9</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=edeb56f42fec74102144265df699b61d"/>
