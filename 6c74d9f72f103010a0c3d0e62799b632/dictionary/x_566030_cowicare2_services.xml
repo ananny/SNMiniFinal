@@ -41,7 +41,7 @@
             </choice>
         </element>
         <element label="Home Isolation" max_length="40" name="u_home_isolation" type="boolean"/>
-        <element attributes="encode_utf8=false" label="Medicines/Injections" max_length="32" name="u_medicines" reference="x_566030_cowicare2_medicine" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,no_sort=true,slushbucket_ref_no_expand=true" label="Medicines/Injections" max_length="1024" name="u_medicines" reference="x_566030_cowicare2_medicine" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element label="Report" max_length="40" name="u_report2" type="file_attachment"/>
         <element attributes="edge_encryption_enabled=true" label="Please mention if any Specific Requirement" max_length="40" name="u_string_7" type="string"/>
