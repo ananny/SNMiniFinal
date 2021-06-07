@@ -156,7 +156,7 @@
         <update_guid_history>4ea1c296a1ecb810c4d3760381d20142:1741062190</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">3a34c25a2fecb8102144265df699b6a5</sys_audit_delete>
+        <sys_audit_delete display_value="Select Hospital">3a34c25a2fecb8102144265df699b6a5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 05:27:22</sys_created_on>

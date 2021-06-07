@@ -69,7 +69,7 @@
         <update_guid_history>b7044a1a78ecb810cc9d6b7a7d6f2957:721762637,8a3ec2d26020f810da2100b7b4a2ff7f:1222618809,6c3e42d2dd20f8103f6fe8ee550be6ef:0,b7044a1a78ecb810cc9d6b7a7d6f2957:721762637,cfa1069613ecb810b13d65de5aa9cf39:1448537620</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">8ec7de9e2f20f8102144265df699b6c9</sys_audit_delete>
+        <sys_audit_delete display_value="Request Services UI Policy">8ec7de9e2f20f8102144265df699b6c9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 06:52:47</sys_created_on>

@@ -41,7 +41,7 @@
         <update_guid_history>e9f5f3ce84e4b8100f07f1eab48ffc87:-1918089581</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">1d763fce2fe4b8102144265df699b6ea</sys_audit_delete>
+        <sys_audit_delete display_value="Service Catalog.Request Services">1d763fce2fe4b8102144265df699b6ea</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-06 19:07:56</sys_created_on>

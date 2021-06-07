@@ -156,7 +156,7 @@
         <update_guid_history>1ce0889a4628b81037ccd346be7cf0ac:-2044133557,148cf786d628b8108ff418c30cd2d82a:766738060,ed8b7746f028b810169cccf75b664067:2025295988,3c3b7f06b328b81093a528368efa0365:-2112351567,985a3fc24628b8106b60db59eefe4ae8:-628255888,7e0a3bc27c28b810856f74738a7004bd:-2108157514,140af7c2c128b810aacdf9bd6191307b:-1950837773,13a933c28828b8108ecaca8d25dcbbdd:-692279845,2399bf823028b810dd53b7529442894c:791815834,cd57fb02f828b810a45d06aa5cd4cc25:-2019055783</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">c03086162fecb8102144265df699b631</sys_audit_delete>
+        <sys_audit_delete display_value="Veg Food">c03086162fecb8102144265df699b631</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 05:09:42</sys_created_on>

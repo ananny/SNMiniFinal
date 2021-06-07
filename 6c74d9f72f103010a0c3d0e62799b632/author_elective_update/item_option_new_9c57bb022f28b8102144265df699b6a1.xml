@@ -156,7 +156,7 @@
         <update_guid_history>dad0089ab228b8103080802a418506e9:130998363,867c7786a828b810557128013d20ac8f:1071089180,737bf346fe28b81068749db5d7a84b9b:-809092454,432bfb066328b810b120e389bc2824dc:-274488426,06faf7067728b810e53e0e0814127da4:-1196444171,3bf9f7c2d528b810a34f5a5c9a31f003:2011179997,bfa973c23228b810ca4766ce9c6c3266:-256353354,7799bf821228b810ef76e3bc3cd90d8a:-1196444171,1457bb021d28b8102a0b6278b21acdb4:-2136534988</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">583086162fecb8102144265df699b669</sys_audit_delete>
+        <sys_audit_delete display_value="Bed Required">583086162fecb8102144265df699b669</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 05:09:43</sys_created_on>
