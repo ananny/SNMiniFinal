@@ -156,7 +156,7 @@
         <update_guid_history>898e22965ca0f8109d55c268deda6924:-1295994192,f720c796e7e0f810b306c9d0b57215e1:-1174098815,b220879600e0f8105d61696e1beca3f0:0,898e22965ca0f8109d55c268deda6924:-1295994192</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Request ID">15960fde2fe0f8102144265df699b6a6</sys_audit_delete>
+        <sys_audit_delete display_value="">15960fde2fe0f8102144265df699b6a6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 10:17:15</sys_created_on>

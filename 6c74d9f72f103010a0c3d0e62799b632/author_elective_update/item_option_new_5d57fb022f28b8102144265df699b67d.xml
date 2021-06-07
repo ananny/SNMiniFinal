@@ -156,7 +156,7 @@
         <update_guid_history>bbd0889a1a28b81046407da565d46554:1506615919,f33e730aa428b8108edf65e4a2fc9bb7:696090830,2f7cb786b628b810b39cde3c48441f9d:1430728276,cd8b37462628b810e5a07d4a754a61ef:-1097087152,0c3b3f06e328b810d422ae590d3b3887:1357677431,91fab7063d28b81067d3e93589d09bf5:-728350030,aaa933c25f28b8101946dfb14b01e03c:597013871,fa997f826328b8102b7839a7f60748a1:1038801838,3879bb824128b810b9d2117e16ad76b7:555479909,0f39f7828228b8101cd018159b1b9b73:-1838654010,d557fb028628b810e88814f412f3ca8a:830622449</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Name of Medicines/Injections required">1930c6162fecb8102144265df699b651</sys_audit_delete>
+        <sys_audit_delete display_value="">1930c6162fecb8102144265df699b651</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 05:09:47</sys_created_on>

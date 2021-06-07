@@ -156,7 +156,7 @@
         <update_guid_history>bad0489abb28b810c08551e5c1042a35:-1929615663,68aef70ad128b81055fcaff39fc84774:-1036188549,e27c77861328b81093f7fb32a43ea4dd:-1233885200,888bf346cc28b810a61621d571b410d9:1865894745,5f2b3f063028b8101497a93b6db18317:-582816427,6dfaf706e528b810f5f9b8da504ebd08:29361366,dff9b7c27228b8109eb15e195d18f95b:-1807172013,bea933c2ac28b8100f899aa70a3b057b:-582816427,03997f82ab28b81078c4eba0f3070ae0:-1194994220,b457fb024e28b810e6ca48a1de439d0b:-1807172013</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Other Requirements">ae300a162fecb8102144265df699b653</sys_audit_delete>
+        <sys_audit_delete display_value="">ae300a162fecb8102144265df699b653</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 05:09:52</sys_created_on>

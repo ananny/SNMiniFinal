@@ -156,7 +156,7 @@
         <update_guid_history>76d0489a5428b81081075d4cc4ee3057:-616341588,727c7786d128b8103770fdb8048caff3:696311341,8c8b37460728b810dc029770c8160813:570065046,6f2b3f067c28b8107b1d61449f16a02b:-385579374,a9faf7068228b810624662157cf99d3c:-2055240812,eff9b7c22628b810940c4942097d8497:-1698232303,0fa933c28528b8105710dd93b8fa7a9d:927073555,db99bf828c28b810b9bf831d868b440d:-385579374,e857bb023228b81098141dad176c08e3:-1698232303</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Please mention if any Specific Requirement">a4408a162fecb8102144265df699b639</sys_audit_delete>
+        <sys_audit_delete display_value="">a4408a162fecb8102144265df699b639</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 05:10:01</sys_created_on>

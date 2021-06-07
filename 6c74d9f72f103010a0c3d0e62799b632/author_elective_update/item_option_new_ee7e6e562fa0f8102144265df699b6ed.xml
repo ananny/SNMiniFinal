@@ -156,7 +156,7 @@
         <update_guid_history>6a7e6e56d5a0f810938ed3843f7bf2f6:632559418,81304b9611e0f810c0d35affeafaa022:-1507682223,3220c796ece0f810dc2782372eb0a80e:0,6a7e6e56d5a0f810938ed3843f7bf2f6:632559418</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Medicines/Injections">b5964fde2fe0f8102144265df699b65a</sys_audit_delete>
+        <sys_audit_delete display_value="">b5964fde2fe0f8102144265df699b65a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 10:17:18</sys_created_on>

@@ -155,7 +155,7 @@
         <update_guid_history>90204c5a6f28b810899ebb18553e9dcd:-592351315,9fdf7b4a4028b8104533a35383e5f0f4:807099483,3bcf774a3a28b81043827b772d028764:1944353503,9457bb02c428b810bebdb79e6977a498:1124067571</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Request Services">d0504e162fecb8102144265df699b668</sys_audit_delete>
+        <sys_audit_delete display_value="">d0504e162fecb8102144265df699b668</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 05:10:16</sys_created_on>
@@ -165,7 +165,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Request Services</sys_name>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
-        <sys_parent display_value="Services">e015fc782f6874102144265df699b670</sys_parent>
+        <sys_parent display_value="">e015fc782f6874102144265df699b670</sys_parent>
         <sys_policy/>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
