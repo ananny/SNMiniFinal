@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Request Services">68e43f4e2fe4b8102144265df699b697</catalog_item>
+        <catalog_variable>IO:b9e4338e2fe4b8102144265df699b615</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 06:50:05</sys_created_on>
+        <sys_id>5a27929e2f20f8102144265df699b6d2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_choice_2</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_5a27929e2f20f8102144265df699b6d2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-07 06:52:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'u_choice_2' hidden depending on 'u_boolean_1'">1227929e2f20f8102144265df699b6cf</ui_policy>
+        <variable>u_choice_2</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>1447003cdb3d9b041ddcf22ebf9619c7</instance_id>
+        <instance_name>dev57683</instance_name>
+        <name>catalog_ui_policy_action_5a27929e2f20f8102144265df699b6d2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Request Services">68e43f4e2fe4b8102144265df699b697</catalog_item><catalog_variable>IO:b9e4338e2fe4b8102144265df699b615</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-07 06:50:05</sys_created_on><sys_id>5a27929e2f20f8102144265df699b6d2</sys_id><sys_mod_count>2</sys_mod_count><sys_name>u_choice_2</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>catalog_ui_policy_action_5a27929e2f20f8102144265df699b6d2</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2021-06-07 06:52:48</sys_updated_on><table/><ui_policy display_value="Make 'u_choice_2' hidden depending on 'u_boolean_1'">1227929e2f20f8102144265df699b6cf</ui_policy><variable>u_choice_2</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>569625780</payload_hash>
+        <record_name>u_choice_2</record_name>
+        <reverted_from/>
+        <source>7ef15abc2fac74102144265df699b6c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-07 06:52:48</sys_created_on>
+        <sys_id>9ac712de2f20f8102144265df699b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e53ecb6c0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-07 06:52:48</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>52c712de3420f810bb19ee8e4db33327</update_guid>
+        <update_guid_history>52c712de3420f810bb19ee8e4db33327:569625780,e627929edf20f81014c4ad5420e9b2e6:616659358,a227929e9e20f8106155f69681789ad5:569625780</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="u_choice_2">437687de2fe0f8102144265df699b685</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-07 10:16:50</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>1dc96d4bbf6045b889dbfe13b4341790</sys_id>
+        <sys_metadata>5a27929e2f20f8102144265df699b6d2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_choice_2</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_5a27929e2f20f8102144265df699b6d2</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_5a27929e2f20f8102144265df699b6d2">9ac712de2f20f8102144265df699b627</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-07 10:16:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

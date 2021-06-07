@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="Fruit Package">bde4338e2fe4b8102144265df699b624</published_ref>
+        <question display_value="Veg Food Choice">c88eee562fa0f8102144265df699b665</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 08:32:03</sys_created_on>
+        <sys_id>9c8eee562fa0f8102144265df699b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fruit Package</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>question_choice_9c8eee562fa0f8102144265df699b68e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 08:32:03</sys_updated_on>
+        <text>Fruit Package</text>
+        <value>fruit pack</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=9c8eee562fa0f8102144265df699b68e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>1447003cdb3d9b041ddcf22ebf9619c7</instance_id>
+        <instance_name>dev57683</instance_name>
+        <name>question_choice_9c8eee562fa0f8102144265df699b68e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref display_value="Fruit Package">bde4338e2fe4b8102144265df699b624</published_ref><question display_value="Veg Food Choice">c88eee562fa0f8102144265df699b665</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-07 08:32:03</sys_created_on><sys_id>9c8eee562fa0f8102144265df699b68e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Fruit Package</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>question_choice_9c8eee562fa0f8102144265df699b68e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-07 08:32:03</sys_updated_on><text>Fruit Package</text><value>fruit pack</value></question_choice><fx_price action="delete_multiple" query="id=9c8eee562fa0f8102144265df699b68e"/></record_update>]]></payload>
+        <payload_hash>-779774920</payload_hash>
+        <record_name>Fruit Package</record_name>
+        <reverted_from/>
+        <source>6081835a2fe0f8102144265df699b6e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 09:55:23</sys_created_on>
+        <sys_id>f091475a2fe0f8102144265df699b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e5e5f4ce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 09:55:23</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>588eee566ba0f810c6180a191b678990</update_guid>
+        <update_guid_history>588eee566ba0f810c6180a191b678990:-779774920,6f20c7968ee0f81035714d3e65d29b84:-1081809852,588eee566ba0f810c6180a191b678990:-779774920</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Fruit Package">9486c7de2fe0f8102144265df699b6f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-07 10:16:55</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>298dde53cd4e4670840cd77e3bec85c4</sys_id>
+        <sys_metadata>9c8eee562fa0f8102144265df699b68e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fruit Package</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent display_value="">c88eee562fa0f8102144265df699b665</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>question_choice_9c8eee562fa0f8102144265df699b68e</sys_update_name>
+        <sys_update_version display_value="question_choice_9c8eee562fa0f8102144265df699b68e">f091475a2fe0f8102144265df699b6b8</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-07 10:16:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
