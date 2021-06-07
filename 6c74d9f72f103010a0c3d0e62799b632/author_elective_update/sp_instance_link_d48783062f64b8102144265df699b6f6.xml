@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <glyph>users</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Browse the catalog to request our Covid-19 Services</short_description>
+        <size>md</size>
+        <sp_column display_value="1">fb6783062f64b8102144265df699b654</sp_column>
+        <sp_page display_value="requests">31ed6a51d7130200a9ad1e173e24d479</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 15:42:48</sys_created_on>
+        <sys_id>d48783062f64b8102144265df699b6f6</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Request Services</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sp_instance_link_d48783062f64b8102144265df699b6f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 15:54:40</sys_updated_on>
+        <title>Request Services</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=d48783062f64b8102144265df699b6f6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>1447003cdb3d9b041ddcf22ebf9619c7</instance_id>
+        <instance_name>dev57683</instance_name>
+        <name>sp_instance_link_d48783062f64b8102144265df699b6f6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;success&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;users&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Browse the catalog to request our Covid-19 Services&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;fb6783062f64b8102144265df699b654&lt;/sp_column&gt;&lt;sp_page display_value="requests"&gt;31ed6a51d7130200a9ad1e173e24d479&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-06 15:42:48&lt;/sys_created_on&gt;&lt;sys_id&gt;d48783062f64b8102144265df699b6f6&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Request Services&lt;/sys_name&gt;&lt;sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2"&gt;6c74d9f72f103010a0c3d0e62799b632&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CowiCare 2.0"&gt;6c74d9f72f103010a0c3d0e62799b632&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_d48783062f64b8102144265df699b6f6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-06 15:54:40&lt;/sys_updated_on&gt;&lt;title&gt;Request Services&lt;/title&gt;&lt;type&gt;page&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d48783062f64b8102144265df699b6f6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>46547513</payload_hash>
+        <record_name>Request Services</record_name>
+        <reverted_from/>
+        <source>7ef15abc2fac74102144265df699b6c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 15:54:40</sys_created_on>
+        <sys_id>c63a0b862f64b8102144265df699b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e208867e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 15:54:40</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>023a0b86d864b81021988ee30d019c9b</update_guid>
+        <update_guid_history>023a0b86d864b81021988ee30d019c9b:46547513,166903860164b81033dda3b3003e2949:1786971633,08598f466364b8107e3235741b78308f:-1625046447,8fa8c346e164b810e5c6181992078e1b:1786971633,b36883467a64b8108a326236624d028e:1444467056,00684346b464b810c3f1a293f946e0c4:1138983950,9d488f068b64b810567971e367b7e7cf:1714496848,c5288f06f264b810ce032fc3a2f4528d:-1981302074,f0d743063364b810d74e25d89f2141bf:1907125094,d48783069864b8100b8ce6fcf3a7c9f8:1112558277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request Services">b3ab030a2f64b8102144265df699b6c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 16:01:04</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>15afc000da59484584703c6d96e17db9</sys_id>
+        <sys_metadata>d48783062f64b8102144265df699b6f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Services</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>sp_instance_link_d48783062f64b8102144265df699b6f6</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_d48783062f64b8102144265df699b6f6">c63a0b862f64b8102144265df699b69b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 16:01:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

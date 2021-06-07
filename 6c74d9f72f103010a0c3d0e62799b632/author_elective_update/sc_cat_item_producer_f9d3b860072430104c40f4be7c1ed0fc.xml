@@ -116,7 +116,7 @@
         <update_guid_history>2fa5f0f800687410349419583a950059:118843163,a825f0b8b9687410c6dec73da65a396b:0,a7f8ec7ce9287410915495847759a7c8:1236395762,97f8ec7c9b287410faa36b10e5f3cc82:118843163,5b3cd9a01aac34105641edbf2df54c4c:1818631916</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">77a5f0f82f6874102144265df699b6be</sys_audit_delete>
+        <sys_audit_delete display_value="Covid -19 Testing">77a5f0f82f6874102144265df699b6be</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-02 07:53:18</sys_created_on>
@@ -126,7 +126,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Covid -19 Testing</sys_name>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
-        <sys_parent display_value="">8815fc782f6874102144265df699b615</sys_parent>
+        <sys_parent display_value="Testing">8815fc782f6874102144265df699b615</sys_parent>
         <sys_policy/>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>

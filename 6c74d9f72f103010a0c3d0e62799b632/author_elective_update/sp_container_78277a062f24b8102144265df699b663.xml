@@ -90,7 +90,7 @@
         <update_guid_history>57887e46e124b8109478250d585ca7a2:1573463566,0a683e46e424b810afe37d15caab515b:469706333,7b183a46f824b810de8fbe760b22141e:-744977024,63183a467724b8107522c176a44f5219:-913788973,d637fa06f624b81049ddb1b4bce7f098:-1448822290,c437ba061d24b810653f521ee56701e5:-440802396,cc37ba068f24b8108bdce687419b4edf:1381747076,bc277a063124b810da55d7aa90153e64:-983777001</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">d8a83e462f24b8102144265df699b67d</sys_audit_delete>
+        <sys_audit_delete display_value="CowiCare Homepage - Container 1">d8a83e462f24b8102144265df699b67d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-06 14:37:49</sys_created_on>

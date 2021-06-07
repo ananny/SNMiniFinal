@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>danger</color>
+        <css/>
+        <glyph>id-card-o</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Srashti.Sharma@cognizant.com</short_description>
+        <size>md</size>
+        <sp_column display_value="3">272757822fa4b8102144265df699b6cd</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 16:52:20</sys_created_on>
+        <sys_id>7e67d7822fa4b8102144265df699b6c1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Srashti Sharma</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sp_instance_link_7e67d7822fa4b8102144265df699b6c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 17:06:59</sys_updated_on>
+        <title>Srashti Sharma</title>
+        <type>url</type>
+        <url>Srashti.Sharma@cognizant.com</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=7e67d7822fa4b8102144265df699b6c1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>1447003cdb3d9b041ddcf22ebf9619c7</instance_id>
+        <instance_name>dev57683</instance_name>
+        <name>sp_instance_link_7e67d7822fa4b8102144265df699b6c1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;danger&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;id-card-o&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Srashti.Sharma@cognizant.com&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;272757822fa4b8102144265df699b6cd&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-06 16:52:20&lt;/sys_created_on&gt;&lt;sys_id&gt;7e67d7822fa4b8102144265df699b6c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Srashti Sharma&lt;/sys_name&gt;&lt;sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2"&gt;6c74d9f72f103010a0c3d0e62799b632&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CowiCare 2.0"&gt;6c74d9f72f103010a0c3d0e62799b632&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_7e67d7822fa4b8102144265df699b6c1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-06 17:06:59&lt;/sys_updated_on&gt;&lt;title&gt;Srashti Sharma&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;Srashti.Sharma@cognizant.com&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7e67d7822fa4b8102144265df699b6c1"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>850586823</payload_hash>
+        <record_name>Srashti Sharma</record_name>
+        <reverted_from/>
+        <source>7ef15abc2fac74102144265df699b6c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 17:06:59</sys_created_on>
+        <sys_id>e9ca1b462fa4b8102144265df699b60b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e24abd850000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 17:06:59</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>25ca1b463fa4b810c759788a33800c0b</update_guid>
+        <update_guid_history>25ca1b463fa4b810c759788a33800c0b:850586823,75ba1b461ea4b810809033e0efffcd03:1443170771,6a5a53464da4b810e2e96365c1953719:1262159153,361a5f06fda4b8106089310d42d20b82:1443170771,8289d3066fa4b810c3d01de3b52be270:1262159153,f667d78264a4b8103ac1fadba7e93ec3:-229118542</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Srashti Sharma">d16b53862fa4b8102144265df699b6fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 17:09:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>03b488967c9f4fd495441f58b07cdb90</sys_id>
+        <sys_metadata>7e67d7822fa4b8102144265df699b6c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Srashti Sharma</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>sp_instance_link_7e67d7822fa4b8102144265df699b6c1</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_7e67d7822fa4b8102144265df699b6c1">e9ca1b462fa4b8102144265df699b60b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 17:09:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

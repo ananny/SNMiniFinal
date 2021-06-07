@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>3</order>
+        <published_ref display_value="Isolation Care Package">11e4ff4e2fe4b8102144265df699b6a8</published_ref>
+        <question display_value="Other Requirements">f057fb022f28b8102144265df699b602</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 19:11:44</sys_created_on>
+        <sys_id>7c57fb022f28b8102144265df699b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Isolation Care Package</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>question_choice_7c57fb022f28b8102144265df699b60c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 19:11:44</sys_updated_on>
+        <text>Isolation Care Package</text>
+        <value>isolation care package</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=7c57fb022f28b8102144265df699b60c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>1447003cdb3d9b041ddcf22ebf9619c7</instance_id>
+        <instance_name>dev57683</instance_name>
+        <name>question_choice_7c57fb022f28b8102144265df699b60c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>3</order><published_ref display_value="Isolation Care Package">11e4ff4e2fe4b8102144265df699b6a8</published_ref><question display_value="Other Requirements">f057fb022f28b8102144265df699b602</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-06 19:11:44</sys_created_on><sys_id>7c57fb022f28b8102144265df699b60c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Isolation Care Package</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>question_choice_7c57fb022f28b8102144265df699b60c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-06 19:11:44</sys_updated_on><text>Isolation Care Package</text><value>isolation care package</value></question_choice><fx_price action="delete_multiple" query="id=7c57fb022f28b8102144265df699b60c"/></record_update>]]></payload>
+        <payload_hash>387710567</payload_hash>
+        <record_name>Isolation Care Package</record_name>
+        <reverted_from/>
+        <source>7ef15abc2fac74102144265df699b6c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 19:11:44</sys_created_on>
+        <sys_id>b057fb022f28b8102144265df699b60f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e2bcf44f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 19:11:44</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>3857fb02b528b81024e1061511cdf70e</update_guid>
+        <update_guid_history>3857fb02b528b81024e1061511cdf70e:387710567</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Isolation Care Package">7920c2162fecb8102144265df699b6a1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-07 05:09:32</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0d92d25d6ba5425d817bd60380ad32d9</sys_id>
+        <sys_metadata>7c57fb022f28b8102144265df699b60c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Isolation Care Package</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent display_value="">f057fb022f28b8102144265df699b602</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>question_choice_7c57fb022f28b8102144265df699b60c</sys_update_name>
+        <sys_update_version display_value="question_choice_7c57fb022f28b8102144265df699b60c">b057fb022f28b8102144265df699b60f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-07 05:09:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

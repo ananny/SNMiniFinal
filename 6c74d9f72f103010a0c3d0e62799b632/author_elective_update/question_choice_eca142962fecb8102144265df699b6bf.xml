@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>1</order>
+        <published_ref display_value="Oxygen Concentrator">d9e4ff4e2fe4b8102144265df699b6a3</published_ref>
+        <question display_value="Other Requirements">58a142962fecb8102144265df699b699</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 05:16:00</sys_created_on>
+        <sys_id>eca142962fecb8102144265df699b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Oxygen Concentrator</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>question_choice_eca142962fecb8102144265df699b6bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 05:16:00</sys_updated_on>
+        <text>Oxygen Concentrator</text>
+        <value>oxygen concentrator</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=eca142962fecb8102144265df699b6bf"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>1447003cdb3d9b041ddcf22ebf9619c7</instance_id>
+        <instance_name>dev57683</instance_name>
+        <name>question_choice_eca142962fecb8102144265df699b6bf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>1</order><published_ref display_value="Oxygen Concentrator">d9e4ff4e2fe4b8102144265df699b6a3</published_ref><question display_value="Other Requirements">58a142962fecb8102144265df699b699</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-07 05:16:00</sys_created_on><sys_id>eca142962fecb8102144265df699b6bf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Oxygen Concentrator</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>question_choice_eca142962fecb8102144265df699b6bf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-07 05:16:00</sys_updated_on><text>Oxygen Concentrator</text><value>oxygen concentrator</value></question_choice><fx_price action="delete_multiple" query="id=eca142962fecb8102144265df699b6bf"/></record_update>]]></payload>
+        <payload_hash>984198235</payload_hash>
+        <record_name>Oxygen Concentrator</record_name>
+        <reverted_from/>
+        <source>7ef15abc2fac74102144265df699b6c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 05:16:00</sys_created_on>
+        <sys_id>a0a142962fecb8102144265df699b6c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e4e62dc60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 05:16:00</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>28a14296a7ecb8106956100934d465c1</update_guid>
+        <update_guid_history>28a14296a7ecb8106956100934d465c1:984198235</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Oxygen Concentrator">1d14ca1a2fecb8102144265df699b637</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-07 05:26:43</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>2ad8478a469e4f209721a0fd3830fa39</sys_id>
+        <sys_metadata>eca142962fecb8102144265df699b6bf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Oxygen Concentrator</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent display_value="">58a142962fecb8102144265df699b699</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>question_choice_eca142962fecb8102144265df699b6bf</sys_update_name>
+        <sys_update_version display_value="question_choice_eca142962fecb8102144265df699b6bf">a0a142962fecb8102144265df699b6c2</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-07 05:26:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
