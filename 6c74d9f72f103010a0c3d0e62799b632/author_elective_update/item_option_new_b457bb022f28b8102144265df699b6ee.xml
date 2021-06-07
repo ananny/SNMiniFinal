@@ -143,7 +143,7 @@
         <reverted_from/>
         <source>7ef15abc2fac74102144265df699b6c6</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-06 19:32:25</sys_created_on>
         <sys_id>b30c7f462f28b8102144265df699b6dd</sys_id>
@@ -156,7 +156,7 @@
         <update_guid_history>3b0c7f46eb28b810d19faee2e6efbcdc:1677457819,367bb346af28b810bfc22f244abfb5d1:-178823266,b9a9ff828428b81001eb25f046099483:1677457819,c2993f82e328b810afe657df861912eb:-567093350,1e18f742eb28b810f3ccb3eef8433488:15311776,bc57bb02f328b81091b9c3c6e15b70f6:-1526157601</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Patient's Name ">5d408a162fecb8102144265df699b6e6</sys_audit_delete>
+        <sys_audit_delete display_value="">5d408a162fecb8102144265df699b6e6</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 05:10:04</sys_created_on>

@@ -155,7 +155,7 @@
         <update_guid_history>7407e29e9f60f8106baec4a3534cfdfd:2038894933,27f6e29e9160f8108163bc089da196af:-740147010,e657169e4220f810fc1d0a9d379211ea:371100332</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Covid -19 Testing">ad38a6de2f60f8102144265df699b676</sys_audit_delete>
+        <sys_audit_delete display_value="">ad38a6de2f60f8102144265df699b676</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-07 08:04:33</sys_created_on>

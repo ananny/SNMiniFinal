@@ -143,7 +143,7 @@
         <reverted_from/>
         <source>7ef15abc2fac74102144265df699b6c6</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-06 19:53:29</sys_created_on>
         <sys_id>98e0889a2f28b8102144265df699b6c2</sys_id>
@@ -156,7 +156,7 @@
         <update_guid_history>10e0889a0828b8109fb41010f11f42c2:-714104884,688cf7865e28b810536abd9e457ada4c:225985933,bd8b7746d028b810b64709f42c2a8e7c:1700680778,3c3b7f06a928b81026d0b2a0b2c49779:613337650,26faf7066a28b810c8e4daf4c602bdee:-326753167,946abfc25f28b81036e7fbc471a11433:2088032495,760a3bc25a28b810588fa7f35ef961ab:608130869,d80af7c2fe28b8107324a88e6e90f369:2082825714,6aa933c23028b8101fe1b705d6bad84d:-350095020,3e997f823128b81099a9e490f54ff9be:-1290185837,5457bb02a628b8101f21f4684789c1a0:1374631276</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Non-Veg Food">fd30c6162fecb8102144265df699b6b7</sys_audit_delete>
+        <sys_audit_delete display_value="">fd30c6162fecb8102144265df699b6b7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 05:09:49</sys_created_on>

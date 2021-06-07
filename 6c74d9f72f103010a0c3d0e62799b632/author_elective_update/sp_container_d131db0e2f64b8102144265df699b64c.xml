@@ -38,7 +38,7 @@
         <reverted_from/>
         <source>7ef15abc2fac74102144265df699b6c6</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-06 16:25:11</sys_created_on>
         <sys_id>9d31db0e2f64b8102144265df699b64d</sys_id>
@@ -51,7 +51,7 @@
         <update_guid_history>d531db0ebd64b8101ac5857087ae9d4d:-18661483</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="CowiCare Homepage - Container 3">fd81934e2f64b8102144265df699b656</sys_audit_delete>
+        <sys_audit_delete display_value="">fd81934e2f64b8102144265df699b656</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-06 16:26:36</sys_created_on>

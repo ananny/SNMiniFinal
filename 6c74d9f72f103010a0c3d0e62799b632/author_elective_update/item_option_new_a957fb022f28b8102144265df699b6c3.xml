@@ -143,7 +143,7 @@
         <reverted_from/>
         <source>7ef15abc2fac74102144265df699b6c6</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-06 19:53:20</sys_created_on>
         <sys_id>8ad0089a2f28b8102144265df699b6c8</sys_id>
@@ -156,7 +156,7 @@
         <update_guid_history>02d0089ae028b8108265a6006f4aedc8:-423507721,5d3fff0ab928b810ba296d4fd21356e9:1049451000,397c77862928b810bdf3463237c19279:-430450626,a37bf346f528b8100161bfe4af00f686:918599228,3e2bfb060d28b8106d9017338ff74ea2:-678268360,0dfab706a328b810b5289e560b2606cd:-2027318214,1ea933c2f128b81061210c3950c8941a:2133772530,6a997f82e228b81053f418462f7f7f67:660813809,2957fb021528b8102d7ae1fcae3dcad1:-936053779</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Home Isolation">c72046162fecb8102144265df699b621</sys_audit_delete>
+        <sys_audit_delete display_value="">c72046162fecb8102144265df699b621</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 05:09:38</sys_created_on>

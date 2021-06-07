@@ -6,35 +6,35 @@
         <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <extension_model/>
-        <is_extendable>false</is_extendable>
-        <label>Hospitals</label>
+        <is_extendable>true</is_extendable>
+        <label>Services</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_566030_cowicare2_hospitals</name>
-        <number_ref display_value="HOS">530859e8076430104c40f4be7c1ed08f</number_ref>
+        <name>x_566030_cowicare2_services</name>
+        <number_ref display_value="COV">d44ee57b2f503010a0c3d0e62799b666</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class/>
+        <super_class display_value="Testing" name="x_566030_cowicare2_testing">5a75193b2f103010a0c3d0e62799b6f9</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-01 15:44:57</sys_created_on>
-        <sys_id>2015fc782f6874102144265df699b698</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Hospitals</sys_name>
+        <sys_created_on>2021-05-30 09:24:26</sys_created_on>
+        <sys_id>578d65f72f503010a0c3d0e62799b68a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Services</sys_name>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
         <sys_policy/>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
-        <sys_update_name>sys_db_object_2015fc782f6874102144265df699b698</sys_update_name>
+        <sys_update_name>sys_db_object_578d65f72f503010a0c3d0e62799b68a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-01 15:44:58</sys_updated_on>
-        <update_access>false</update_access>
-        <user_role display_value="x_566030_cowicare2.hospitals_user" name="x_566030_cowicare2.hospitals_user">b6081da8076430104c40f4be7c1ed020</user_role>
+        <sys_updated_on>2021-06-07 08:21:46</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_566030_cowicare2.services_user" name="x_566030_cowicare2.services_user">61cda17b2f503010a0c3d0e62799b6ae</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

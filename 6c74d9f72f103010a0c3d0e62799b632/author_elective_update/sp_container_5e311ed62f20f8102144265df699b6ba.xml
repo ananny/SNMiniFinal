@@ -90,7 +90,7 @@
         <update_guid_history>52615ed6fe20f810853e36be9caab564:608415786,4c619ed60b20f810bd97bae5394badda:-1894865184,08619ed6b620f81046a137b73b5243d4:-1405065033,d6311ed6ac20f81057b5debab99c9fbc:1120333995</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="CowiCare About - Container 1">8fa1ded62f20f8102144265df699b68e</sys_audit_delete>
+        <sys_audit_delete display_value="">8fa1ded62f20f8102144265df699b68e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-07 06:26:06</sys_created_on>
