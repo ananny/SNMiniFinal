@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>70b2ce3b2f903010a0c3d0e62799b6db</copied_from>
+        <copied_from_name>Covid Test Flow</copied_from_name>
+        <description/>
+        <internal_name>request_covid19_services</internal_name>
+        <label_cache>[{"name":"ec63bb4b-9e40-4d51-958b-eb9b19b15a8a.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"250c5909-74fb-495d-af82-f39fe175c63f.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6703c573-17c4-4bc0-a661-3126bebec0d7.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Created or Updated_1.changed_fields","label":"Trigger➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"0223654f-054b-459f-b69d-3f0ff1711f74.email","label":"1➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4641c587-1825-497b-b409-630af05ff97f.email","label":"1➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"Created or Updated_1.current","label":"Trigger➛Services Record","reference":"x_566030_cowicare2_services","reference_display":"Services","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.u_long_mobile2","label":"Trigger➛Testing Record➛Mobile Number","reference":"","reference_display":"Mobile Number","type":"longint","base_type":"longint","parent_table_name":"x_566030_cowicare2_testing","column_name":"u_long_mobile2"},{"name":"e88583c9-050b-407b-aa26-59dd775b2028.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"ffef9f46-2397-4435-939c-3bb37b7a39a7"}},{"name":"e88583c9-050b-407b-aa26-59dd775b2028.decisions","label":"2➛Decisions","reference_display":"Decisions","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"visible_in_fd":"false","uiTypeLabel":"String (Full UTF-8)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string_full_utf8","uiUniqueId":"ceae4573-7f3f-46d0-a26e-13923ca0252b"}},{"name":"2e49b0a2-864d-4c4e-a095-268c92093631.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.6cb1427b2f903010a0c3d0e62799b6d7}}","label":"Cowicare testing group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.0a826bf03710200044e0bfc8bcbe5d7a}}","label":"Adela Cervantsz","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"b71cf4b7-d007-444d-9679-d2a08c7e1df6.email","label":"3➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"da5d9e9f-a967-441b-ba6a-c93ee4ef75d9.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e50ad20-6988-47ae-a224-585bd10d67e4.email","label":"3➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"d7903026-61d7-4337-85aa-b05b07dc1e55.email","label":"4➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4641c587-1825-497b-b409-630af05ff97f.email.user","label":"1➛Email➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user"},{"name":"Created or Updated_1.current.email","label":"Trigger➛Services Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_services","column_name":"email"},{"name":"Created or Updated_1.current.u_result","label":"Trigger➛Testing Record➛Test Result","reference":"","reference_display":"Test Result","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_testing","column_name":"u_result"},{"name":"Created or Updated_1.current.name","label":"Trigger➛Testing Record➛Name ","reference":"","reference_display":"Name ","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_testing","column_name":"name"},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"d0098667-0959-4194-b371-ef884a5c1abb.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"{{static.cf3d43482f603010a0c3d0e62799b604}}","label":"Elon Musk","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.7e8c557c2fe874102144265df699b6df}}","label":"Srashti Sharma","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Request Covid-19 Services</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f8b95e522f60f8102144265df699b658</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Request Covid-19 Services</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sys_hub_flow_f8b95e522f60f8102144265df699b658</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f8b95e522f60f8102144265df699b658"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f8b95e522f60f8102144265df699b658"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f8b95e522f60f8102144265df699b658^sys_idNOT INd9b95e522f60f8102144265df699b6a5"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Request Covid-19 Services">f8b95e522f60f8102144265df699b658</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>d9b95e522f60f8102144265df699b6a5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d9b95e522f60f8102144265df699b6a5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d9b95e522f60f8102144265df699b6a5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>1db95e522f60f8102144265df699b6a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <value>x_566030_cowicare2_services</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d9b95e522f60f8102144265df699b6a5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>59b95e522f60f8102144265df699b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f8b95e522f60f8102144265df699b658^sys_idNOT INf0b95e522f60f8102144265df699b65a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f8b95e522f60f8102144265df699b658</id>
+        <name>Request Covid-19 Services</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:09</sys_created_on>
+        <sys_id>f0b95e522f60f8102144265df699b65a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=f8b95e522f60f8102144265df699b658^sys_idNOT IN7cb95e522f60f8102144265df699b66c,b8b95e522f60f8102144265df699b660,f0b95e522f60f8102144265df699b667"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Request Covid-19 Services">f8b95e522f60f8102144265df699b658</model>
+        <model_id>f8b95e522f60f8102144265df699b658</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f8b95e522f60f8102144265df699b658</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:10</sys_created_on>
+        <sys_id>7cb95e522f60f8102144265df699b66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Request Covid-19 Services">f8b95e522f60f8102144265df699b658</model>
+        <model_id>f8b95e522f60f8102144265df699b658</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f8b95e522f60f8102144265df699b658</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:10</sys_created_on>
+        <sys_id>b8b95e522f60f8102144265df699b660</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Request Covid-19 Services">f8b95e522f60f8102144265df699b658</model>
+        <model_id>f8b95e522f60f8102144265df699b658</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f8b95e522f60f8102144265df699b658</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:10</sys_created_on>
+        <sys_id>f0b95e522f60f8102144265df699b667</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f8b95e522f60f8102144265df699b658^sys_idNOT IN45b95e522f60f8102144265df699b67b,4db95e522f60f8102144265df699b691,51b95e522f60f8102144265df699b6a3,89b95e522f60f8102144265df699b69a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Request Covid-19 Services">f8b95e522f60f8102144265df699b658</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:10</sys_created_on>
+        <sys_id>45b95e522f60f8102144265df699b67b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <ui_id>0223654f-054b-459f-b69d-3f0ff1711f74</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=45b95e522f60f8102144265df699b67b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>45b95e522f60f8102144265df699b67b</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>41b95e522f60f8102144265df699b68c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <value>Covid Service Request</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>45b95e522f60f8102144265df699b67b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>8db95e522f60f8102144265df699b68b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <value>x_566030_cowicare2_services</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>45b95e522f60f8102144265df699b67b</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>c5b95e522f60f8102144265df699b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>45b95e522f60f8102144265df699b67b</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:07:38</sys_created_on>
+        <sys_id>e72b1ad22f60f8102144265df699b64b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Include Watermark">066bb6b57303230082999cfd7bf6a7c3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=45b95e522f60f8102144265df699b67b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>45b95e522f60f8102144265df699b67b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>0db95e522f60f8102144265df699b68a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #000000;"&gt;Dear&amp;nbsp;&lt;/span&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:56dc85c6-397d-4e1a-a201-7f377a212bc2}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:56dc85c6-397d-4e1a-a201-7f377a212bc2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span style="box-sizing: border-box; overflow-wrap: break-word;"&gt;Trigger&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Services Record&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;/span&gt;&lt;button id="transform_function_facade_56dc85c6-397d-4e1a-a201-7f377a212bc2" class="transform_function_facade no_transform_applied" style="box-sizing: border-box; color: inherit; font: inherit; margin: 0px 0px 0px -16px; overflow: visible; text-transform: none; appearance: button; cursor: pointer; overflow-wrap: break-word; padding: 0px; height: 16px; width: 16px; min-width: 16px; border-radius: 50%; opacity: 0; background-color: #ffffff; transition-property: opacity, margin-left; transition-duration: 150ms; transition-timing-function: ease-out; border: 0px; box-shadow: none; outline: none;"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word;" /&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word;" /&gt;&lt;/p&gt;
+&lt;p style="text-align: left;" data-tinymcerootblock=""&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #000000;"&gt;Hope you are doing well.&lt;/span&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word;" /&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #000000;"&gt;&lt;span style="text-decoration: underline;"&gt;Your request has been submitted.&lt;/span&gt;&amp;nbsp;You will receive a more detailed mail regarding your requirements once the request&amp;nbsp;is&amp;nbsp;&lt;strong style="box-sizing: border-box; font-weight: bold; overflow-wrap: break-word;"&gt;approved&lt;/strong&gt;.&lt;/span&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word;" /&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #000000;"&gt;Thank you for using CowiCare!&lt;/span&gt;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word; color: #343d47; font-family: Poppins, SourceSansPro, 'Helvetica Neue', Arial; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;" data-tinymcerootblock=""&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word; color: #343d47; font-family: Poppins, SourceSansPro, 'Helvetica Neue', Arial; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;" data-tinymcerootblock=""&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #808080;"&gt;Stay Safe &amp;amp; Healthy&lt;/span&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word;" /&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #808080;"&gt;Regards&lt;/span&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word;" /&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #808080;"&gt;Team CowiCare&amp;nbsp;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>45b95e522f60f8102144265df699b67b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>45b95e522f60f8102144265df699b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>45b95e522f60f8102144265df699b67b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>45b95e522f60f8102144265df699b68a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value> {{Created or Updated_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>45b95e522f60f8102144265df699b67b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>cdb95e522f60f8102144265df699b68a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>45b95e522f60f8102144265df699b67b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>81b95e522f60f8102144265df699b68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>watermark_email</field>
+        <id>45b95e522f60f8102144265df699b67b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:07:38</sys_created_on>
+        <sys_id>af2b1ad22f60f8102144265df699b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Request Covid-19 Services">f8b95e522f60f8102144265df699b658</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>4db95e522f60f8102144265df699b691</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <ui_id>250c5909-74fb-495d-af82-f39fe175c63f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4db95e522f60f8102144265df699b691"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4db95e522f60f8102144265df699b691</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>0db95e522f60f8102144265df699b694</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <value>x_566030_cowicare2_services</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4db95e522f60f8102144265df699b691</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>49b95e522f60f8102144265df699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4db95e522f60f8102144265df699b691</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>85b95e522f60f8102144265df699b694</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <value>u_report2</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4db95e522f60f8102144265df699b691"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>4db95e522f60f8102144265df699b691</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>41b95e522f60f8102144265df699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesRejectsAnyU[{{static.cf3d43482f603010a0c3d0e62799b604}},{{static.7e8c557c2fe874102144265df699b6df}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>4db95e522f60f8102144265df699b691</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>09b95e522f60f8102144265df699b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>4db95e522f60f8102144265df699b691</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>8db95e522f60f8102144265df699b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>4db95e522f60f8102144265df699b691</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>c9b95e522f60f8102144265df699b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>4db95e522f60f8102144265df699b691</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>05b95e522f60f8102144265df699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Request Covid-19 Services">f8b95e522f60f8102144265df699b658</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>51b95e522f60f8102144265df699b6a3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <ui_id>d7903026-61d7-4337-85aa-b05b07dc1e55</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=51b95e522f60f8102144265df699b6a3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>51b95e522f60f8102144265df699b6a3</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>15b95e522f60f8102144265df699b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>51b95e522f60f8102144265df699b6a3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:07:38</sys_created_on>
+        <sys_id>2f2b1ad22f60f8102144265df699b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <value>x_566030_cowicare2_services</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>51b95e522f60f8102144265df699b6a3</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:07:38</sys_created_on>
+        <sys_id>6b2b1ad22f60f8102144265df699b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Include Watermark">066bb6b57303230082999cfd7bf6a7c3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>51b95e522f60f8102144265df699b6a3</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>d5b95e522f60f8102144265df699b6a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <value>Service Request Status</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=51b95e522f60f8102144265df699b6a3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>51b95e522f60f8102144265df699b6a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>ddb95e522f60f8102144265df699b6a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #000000;"&gt;Hello&amp;nbsp;&lt;/span&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:248c52c1-efab-42f6-b478-6198fdb93b0b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:248c52c1-efab-42f6-b478-6198fdb93b0b}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span style="box-sizing: border-box; overflow-wrap: break-word;"&gt;Trigger&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Services Record&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Name&lt;/span&gt;&lt;button id="transform_function_facade_248c52c1-efab-42f6-b478-6198fdb93b0b" class="transform_function_facade no_transform_applied" style="box-sizing: border-box; color: inherit; font: inherit; margin: 0px 0px 0px -16px; overflow: visible; text-transform: none; appearance: button; cursor: pointer; overflow-wrap: break-word; padding: 0px; height: 16px; width: 16px; min-width: 16px; border-radius: 50%; opacity: 0; background-color: #ffffff; transition-property: opacity, margin-left; transition-duration: 150ms; transition-timing-function: ease-out; border: 0px; box-shadow: none; outline: none;"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word; color: #343d47; font-family: Poppins, SourceSansPro, 'Helvetica Neue', Arial; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;" data-tinymcerootblock=""&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #000000;"&gt;Hope you are doing well. Your request for the covid services are mentioned below:&lt;/span&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word;" /&gt;&lt;span class="data_parent_pill" style="box-sizing: border-box; overflow-wrap: break-word; cursor: default; line-height: normal; display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:746aec48-300a-4a77-a3aa-19d2006a7034}}"&gt;&lt;span class="data_pill  accepts_transform_functions" style="box-sizing: border-box; display: inline-flex; justify-content: space-between; align-items: center; max-width: 100%; background-color: #f2f6f7; border-radius: 24px; margin: 0px 3px; border: 1px solid #01778e; word-break: break-all; line-height: 24px; position: relative; transition: none 0s ease 0s; min-height: 24px; padding-left: 12px; padding-right: 8px; overflow-wrap: break-word; cursor: pointer; color: #425051; font-size: 12px;" contenteditable="false" data-pillvalue="{{fd_transform:746aec48-300a-4a77-a3aa-19d2006a7034}}"&gt;&lt;span class="data-pill-content-container" style="box-sizing: border-box; overflow-wrap: break-word; display: flex; align-items: center; padding: 0px 12px; transition-duration: 150ms; transition-timing-function: ease-out; transition-property: padding;"&gt;&lt;span style="box-sizing: border-box; overflow-wrap: break-word;"&gt;Trigger&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Services Record&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Bed Required&lt;/span&gt;&lt;button id="transform_function_facade_746aec48-300a-4a77-a3aa-19d2006a7034" class="transform_function_facade no_transform_applied" style="box-sizing: border-box; color: inherit; font: inherit; margin: 0px 0px 0px -16px; overflow: visible; text-transform: none; appearance: button; cursor: pointer; overflow-wrap: break-word; padding: 0px; height: 16px; width: 16px; min-width: 16px; border-radius: 50%; opacity: 0; background-color: #ffffff; transition-property: opacity, margin-left; transition-duration: 150ms; transition-timing-function: ease-out; border: 0px; box-shadow: none; outline: none;"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word; color: #343d47; font-family: Poppins, SourceSansPro, 'Helvetica Neue', Arial; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="box-sizing: border-box; overflow-wrap: break-word; cursor: default; line-height: normal; display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:ab751353-0686-404a-ad6c-3b35d5a8159b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" style="box-sizing: border-box; display: inline-flex; justify-content: space-between; align-items: center; max-width: 100%; background-color: #f2f6f7; border-radius: 24px; margin: 0px 3px; border: 1px solid #01778e; word-break: break-all; line-height: 24px; position: relative; transition: none 0s ease 0s; min-height: 24px; padding-left: 12px; padding-right: 8px; overflow-wrap: break-word; cursor: pointer; color: #425051; font-size: 12px;" contenteditable="false" data-pillvalue="{{fd_transform:ab751353-0686-404a-ad6c-3b35d5a8159b}}"&gt;&lt;span class="data-pill-content-container" style="box-sizing: border-box; overflow-wrap: break-word; display: flex; align-items: center; padding: 0px 12px; transition-duration: 150ms; transition-timing-function: ease-out; transition-property: padding;"&gt;&lt;span style="box-sizing: border-box; overflow-wrap: break-word;"&gt;Trigger&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Services Record&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Select Hospital&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Name of Hospital&lt;/span&gt;&lt;button id="transform_function_facade_ab751353-0686-404a-ad6c-3b35d5a8159b" class="transform_function_facade no_transform_applied" style="box-sizing: border-box; color: inherit; font: inherit; margin: 0px 0px 0px -16px; overflow: visible; text-transform: none; appearance: button; cursor: pointer; overflow-wrap: break-word; padding: 0px; height: 16px; width: 16px; min-width: 16px; border-radius: 50%; opacity: 0; background-color: #ffffff; transition-property: opacity, margin-left; transition-duration: 150ms; transition-timing-function: ease-out; border: 0px; box-shadow: none; outline: none;"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word; color: #343d47; font-family: Poppins, SourceSansPro, 'Helvetica Neue', Arial; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"&gt;&lt;span class="data_parent_pill" style="box-sizing: border-box; overflow-wrap: break-word; cursor: default; line-height: normal; display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:5db2ae66-113e-4942-8f1a-01453ce1372b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" style="box-sizing: border-box; display: inline-flex; justify-content: space-between; align-items: center; max-width: 100%; background-color: #f2f6f7; border-radius: 24px; margin: 0px 3px; border: 1px solid #01778e; word-break: break-all; line-height: 24px; position: relative; transition: none 0s ease 0s; min-height: 24px; padding-left: 12px; padding-right: 8px; overflow-wrap: break-word; cursor: pointer; color: #425051; font-size: 12px;" contenteditable="false" data-pillvalue="{{fd_transform:5db2ae66-113e-4942-8f1a-01453ce1372b}}"&gt;&lt;span class="data-pill-content-container" style="box-sizing: border-box; overflow-wrap: break-word; display: flex; align-items: center; padding: 0px 12px; transition-duration: 150ms; transition-timing-function: ease-out; transition-property: padding;"&gt;&lt;span style="box-sizing: border-box; overflow-wrap: break-word;"&gt;Trigger&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Services Record&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Name of Medicine/injection&lt;/span&gt;&lt;button id="transform_function_facade_5db2ae66-113e-4942-8f1a-01453ce1372b" class="transform_function_facade no_transform_applied" style="box-sizing: border-box; color: inherit; font: inherit; margin: 0px 0px 0px -16px; overflow: visible; text-transform: none; appearance: button; cursor: pointer; overflow-wrap: break-word; padding: 0px; height: 16px; width: 16px; min-width: 16px; border-radius: 50%; opacity: 0; background-color: #ffffff; transition-property: opacity, margin-left; transition-duration: 150ms; transition-timing-function: ease-out; border: 0px; box-shadow: none; outline: none;"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 10pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;span class="data_parent_pill" style="box-sizing: border-box; overflow-wrap: break-word; cursor: default; line-height: normal; display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:e4f21562-52be-4784-b618-22e4de48c9d9}}"&gt;&lt;span class="data_pill  accepts_transform_functions" style="box-sizing: border-box; display: inline-flex; justify-content: space-between; align-items: center; max-width: 100%; background-color: #f2f6f7; border-radius: 24px; margin: 0px 3px; border: 1px solid #01778e; word-break: break-all; line-height: 24px; position: relative; transition: none 0s ease 0s; min-height: 24px; padding-left: 12px; padding-right: 8px; overflow-wrap: break-word; cursor: pointer; color: #425051; font-size: 12px;" contenteditable="false" data-pillvalue="{{fd_transform:e4f21562-52be-4784-b618-22e4de48c9d9}}"&gt;&lt;span class="data-pill-content-container" style="box-sizing: border-box; overflow-wrap: break-word; display: flex; align-items: center; padding: 0px 12px; transition-duration: 150ms; transition-timing-function: ease-out; transition-property: padding;"&gt;&lt;span style="box-sizing: border-box; overflow-wrap: break-word;"&gt;Trigger&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Services Record&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Others&lt;/span&gt;&lt;button id="transform_function_facade_e4f21562-52be-4784-b618-22e4de48c9d9" class="transform_function_facade no_transform_applied" style="box-sizing: border-box; color: inherit; font: inherit; margin: 0px 0px 0px -16px; overflow: visible; text-transform: none; appearance: button; cursor: pointer; overflow-wrap: break-word; padding: 0px; height: 16px; width: 16px; min-width: 16px; border-radius: 50%; opacity: 0; background-color: #ffffff; transition-property: opacity, margin-left; transition-duration: 150ms; transition-timing-function: ease-out; border: 0px; box-shadow: none; outline: none;"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word; color: #343d47; font-family: Poppins, SourceSansPro, 'Helvetica Neue', Arial; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"&gt;&lt;span class="data_parent_pill" style="box-sizing: border-box; overflow-wrap: break-word; cursor: default; line-height: normal; display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:dd1cf563-a900-48be-bb9d-4e0085225f23}}"&gt;&lt;span class="data_pill  accepts_transform_functions" style="box-sizing: border-box; display: inline-flex; justify-content: space-between; align-items: center; max-width: 100%; background-color: #f2f6f7; border-radius: 24px; margin: 0px 3px; border: 1px solid #01778e; word-break: break-all; line-height: 24px; position: relative; transition: none 0s ease 0s; min-height: 24px; padding-left: 12px; padding-right: 8px; overflow-wrap: break-word; cursor: pointer; color: #425051; font-size: 12px;" contenteditable="false" data-pillvalue="{{fd_transform:dd1cf563-a900-48be-bb9d-4e0085225f23}}"&gt;&lt;span class="data-pill-content-container" style="box-sizing: border-box; overflow-wrap: break-word; display: flex; align-items: center; padding: 0px 12px; transition-duration: 150ms; transition-timing-function: ease-out; transition-property: padding;"&gt;&lt;span style="box-sizing: border-box; overflow-wrap: break-word;"&gt;Trigger&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Services Record&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Other Requirements&lt;/span&gt;&lt;button id="transform_function_facade_dd1cf563-a900-48be-bb9d-4e0085225f23" class="transform_function_facade no_transform_applied" style="box-sizing: border-box; color: inherit; font: inherit; margin: 0px 0px 0px -16px; overflow: visible; text-transform: none; appearance: button; cursor: pointer; overflow-wrap: break-word; padding: 0px; height: 16px; width: 16px; min-width: 16px; border-radius: 50%; opacity: 0; background-color: #ffffff; transition-property: opacity, margin-left; transition-duration: 150ms; transition-timing-function: ease-out; border: 0px; box-shadow: none; outline: none;"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word; color: #343d47; font-family: Poppins, SourceSansPro, 'Helvetica Neue', Arial; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"&gt;&lt;span class="data_pill  accepts_transform_functions" style="font-family: arial, helvetica, sans-serif;" contenteditable="false" data-pillvalue="{{fd_transform:4a0e541c-c713-4cf8-91a6-89da102f54e7}}"&gt;&lt;span class="data-pill-content-container" style="box-sizing: border-box; overflow-wrap: break-word; display: flex; align-items: center; padding: 0px 12px; transition-duration: 150ms; transition-timing-function: ease-out; transition-property: padding;"&gt;Trigger&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Services Record&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Please mention if any Specific Requirement&lt;button id="transform_function_facade_4a0e541c-c713-4cf8-91a6-89da102f54e7" class="transform_function_facade no_transform_applied" style="box-sizing: border-box; color: inherit; font: inherit; margin: 0px 0px 0px -16px; overflow: visible; text-transform: none; appearance: button; cursor: pointer; overflow-wrap: break-word; padding: 0px; height: 16px; width: 16px; min-width: 16px; border-radius: 50%; opacity: 0; background-color: #ffffff; transition-property: opacity, margin-left; transition-duration: 150ms; transition-timing-function: ease-out; border: 0px; box-shadow: none; outline: none;"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;span class="data_parent_pill" style="box-sizing: border-box; overflow-wrap: break-word; cursor: default; line-height: normal; display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:0074573c-dcda-4a5f-bf4c-e99ce5da46fc}}"&gt;&lt;span class="data_pill  accepts_transform_functions" style="box-sizing: border-box; display: inline-flex; justify-content: space-between; align-items: center; max-width: 100%; background-color: #f2f6f7; border-radius: 24px; margin: 0px 3px; border: 1px solid #01778e; word-break: break-all; line-height: 24px; position: relative; transition: none 0s ease 0s; min-height: 24px; padding-left: 12px; padding-right: 8px; overflow-wrap: break-word; cursor: pointer; color: #425051; font-size: 12px;" contenteditable="false" data-pillvalue="{{fd_transform:0074573c-dcda-4a5f-bf4c-e99ce5da46fc}}"&gt;&lt;span class="data-pill-content-container" style="box-sizing: border-box; overflow-wrap: break-word; display: flex; align-items: center; padding: 0px 12px; transition-duration: 150ms; transition-timing-function: ease-out; transition-property: padding;"&gt;&lt;span style="box-sizing: border-box; overflow-wrap: break-word;"&gt;Trigger&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Services Record&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Veg Food Choice&lt;/span&gt;&lt;button id="transform_function_facade_0074573c-dcda-4a5f-bf4c-e99ce5da46fc" class="transform_function_facade no_transform_applied" style="box-sizing: border-box; color: inherit; font: inherit; margin: 0px 0px 0px -16px; overflow: visible; text-transform: none; appearance: button; cursor: pointer; overflow-wrap: break-word; padding: 0px; height: 16px; width: 16px; min-width: 16px; border-radius: 50%; opacity: 0; background-color: #ffffff; transition-property: opacity, margin-left; transition-duration: 150ms; transition-timing-function: ease-out; border: 0px; box-shadow: none; outline: none;"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word; color: #343d47; font-family: Poppins, SourceSansPro, 'Helvetica Neue', Arial; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"&gt;&lt;span class="data_parent_pill" style="box-sizing: border-box; overflow-wrap: break-word; cursor: default; line-height: normal; display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:9cd7619f-f614-40a5-a782-4e6878654d7b}}"&gt;&lt;span class="data_pill  accepts_transform_functions" style="box-sizing: border-box; display: inline-flex; justify-content: space-between; align-items: center; max-width: 100%; background-color: #f2f6f7; border-radius: 24px; margin: 0px 3px; border: 1px solid #01778e; word-break: break-all; line-height: 24px; position: relative; transition: none 0s ease 0s; min-height: 24px; padding-left: 12px; padding-right: 8px; overflow-wrap: break-word; cursor: pointer; color: #425051; font-size: 12px;" contenteditable="false" data-pillvalue="{{fd_transform:9cd7619f-f614-40a5-a782-4e6878654d7b}}"&gt;&lt;span class="data-pill-content-container" style="box-sizing: border-box; overflow-wrap: break-word; display: flex; align-items: center; padding: 0px 12px; transition-duration: 150ms; transition-timing-function: ease-out; transition-property: padding;"&gt;&lt;span style="box-sizing: border-box; overflow-wrap: break-word;"&gt;Trigger&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Services Record&lt;span class="data-pill-label-caret" style="box-sizing: border-box; overflow-wrap: break-word;"&gt;&lt;span class="data-pill-label-arrow" style="box-sizing: border-box; overflow-wrap: break-word; margin: -5.5px; opacity: 0;"&gt;➛&lt;/span&gt;&lt;/span&gt;Non-Veg Food choice&lt;/span&gt;&lt;button id="transform_function_facade_9cd7619f-f614-40a5-a782-4e6878654d7b" class="transform_function_facade no_transform_applied" style="box-sizing: border-box; color: inherit; font: inherit; margin: 0px 0px 0px -16px; overflow: visible; text-transform: none; appearance: button; cursor: pointer; overflow-wrap: break-word; padding: 0px; height: 16px; width: 16px; min-width: 16px; border-radius: 50%; opacity: 0; background-color: #ffffff; transition-property: opacity, margin-left; transition-duration: 150ms; transition-timing-function: ease-out; border: 0px; box-shadow: none; outline: none;"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: 10pt;"&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word;" /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word; color: #343d47; font-family: Poppins, SourceSansPro, 'Helvetica Neue', Arial; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #000000;"&gt;We know that these times are tough due to the pandemic but we assure you that the good times are near. Your Mental Health is a Priority, Your Happiness is fundamental and Your Self-care is vital. So stay strong and take care.&amp;nbsp;&lt;/span&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word;" /&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #000000;"&gt;Thank you for using CowiCare!&lt;/span&gt;&lt;/p&gt;
+&lt;p style="box-sizing: border-box; margin: 0px 0px 9px; overflow-wrap: break-word; color: #343d47; font-family: Poppins, SourceSansPro, 'Helvetica Neue', Arial; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #999999;"&gt;Stay Safe and Healthy&lt;/span&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word;" /&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #999999;"&gt;Regards&lt;/span&gt;&lt;br style="box-sizing: border-box; overflow-wrap: break-word;" /&gt;&lt;span style="font-family: arial, helvetica, sans-serif; font-size: 10pt; color: #999999;"&gt;Team CowiCare&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>51b95e522f60f8102144265df699b6a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>91b95e522f60f8102144265df699b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>51b95e522f60f8102144265df699b6a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>1db95e522f60f8102144265df699b6a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>  {{Created or Updated_1.current.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>51b95e522f60f8102144265df699b6a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:07:38</sys_created_on>
+        <sys_id>a32b1ad22f60f8102144265df699b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>51b95e522f60f8102144265df699b6a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:07:38</sys_created_on>
+        <sys_id>672b1ad22f60f8102144265df699b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>watermark_email</field>
+        <id>51b95e522f60f8102144265df699b6a3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:07:38</sys_created_on>
+        <sys_id>2f2b1ad22f60f8102144265df699b652</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Request Covid-19 Services">f8b95e522f60f8102144265df699b658</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>89b95e522f60f8102144265df699b69a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <ui_id>ec63bb4b-9e40-4d51-958b-eb9b19b15a8a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=89b95e522f60f8102144265df699b69a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>89b95e522f60f8102144265df699b69a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>11b95e522f60f8102144265df699b69d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <value>x_566030_cowicare2_services</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>89b95e522f60f8102144265df699b69a</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>5db95e522f60f8102144265df699b69c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:07:38</sys_updated_on>
+        <value>state=2</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=89b95e522f60f8102144265df699b69a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>89b95e522f60f8102144265df699b69a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>19b95e522f60f8102144265df699b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>89b95e522f60f8102144265df699b69a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>55b95e522f60f8102144265df699b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>89b95e522f60f8102144265df699b69a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:11</sys_created_on>
+        <sys_id>d9b95e522f60f8102144265df699b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f8b95e522f60f8102144265df699b658^sys_idNOT IN11b95e522f60f8102144265df699b6b4,1db95e522f60f8102144265df699b6b3,91b95e522f60f8102144265df699b6b4,95b95e522f60f8102144265df699b6b3,9db95e522f60f8102144265df699b6b3"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f8b95e522f60f8102144265df699b658</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.u_result}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:12</sys_created_on>
+        <sys_id>11b95e522f60f8102144265df699b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f4f19d1f-6d7a-4072-985e-3df62b01ab84</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f8b95e522f60f8102144265df699b658</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:12</sys_created_on>
+        <sys_id>1db95e522f60f8102144265df699b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b9704f7f-c3ee-4bed-af36-4a4c8344f377</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f8b95e522f60f8102144265df699b658</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.changed_fields}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:12</sys_created_on>
+        <sys_id>91b95e522f60f8102144265df699b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c3ffb7df-db14-4dfa-ac82-a2dd1cea4138</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f8b95e522f60f8102144265df699b658</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:12</sys_created_on>
+        <sys_id>95b95e522f60f8102144265df699b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8b15bbd5-6cda-4b2f-af48-73ed5e298aca</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f8b95e522f60f8102144265df699b658</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:12</sys_created_on>
+        <sys_id>9db95e522f60f8102144265df699b6b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:12</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3728f173-6480-4950-9dba-fef8cc20d7c9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f8b95e522f60f8102144265df699b658^sys_idNOT IN3cb95e522f60f8102144265df699b665,b4b95e522f60f8102144265df699b66b,f4b95e522f60f8102144265df699b671"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f8b95e522f60f8102144265df699b658</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:10</sys_created_on>
+        <sys_id>3cb95e522f60f8102144265df699b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f8b95e522f60f8102144265df699b658</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:10</sys_created_on>
+        <sys_id>b4b95e522f60f8102144265df699b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f8b95e522f60f8102144265df699b658</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 07:01:10</sys_created_on>
+        <sys_id>f4b95e522f60f8102144265df699b671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 07:01:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
