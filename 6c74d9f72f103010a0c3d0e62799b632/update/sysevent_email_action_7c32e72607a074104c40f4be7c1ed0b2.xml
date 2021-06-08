@@ -7,8 +7,8 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_566030_cowicare2_services</collection>
-        <condition table="x_566030_cowicare2_services">state=2^u_home_isolation=false^EQ<item display_value="Work in progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
-            <item endquery="false" field="u_home_isolation" goto="false" newquery="false" operator="=" or="false" value="false"/>
+        <condition table="x_566030_cowicare2_services">state=2^u_home_isolation=true^EQ<item display_value="Work in progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="false" field="u_home_isolation" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -41,22 +41,21 @@
         <message_html><![CDATA[<p>Dear&nbsp; <strong>${name}</strong><br /></p>
 <p>Hope you are doing well!</p>
 <p>According to your request submitted,Your requirements are listed below-</p>
-<p>You have been alloted a ${u_bed_required} in ${select_hospitals}<br /></p>
 <p>Medicines/Injections: ${u_medicines} ${u_string_9}</p>
 <p>Other Requirements: ${u_choice_5}</p>
 <p>${u_choice_2}</p>
 <p>&nbsp;${u_choice_3}</p>
 <p>Please mention if any Specific Requirement: ${u_string_7}</p>
-<p>&nbsp;</p>
-<p>The requested item will reach to you shortly in 1-2 days.</p>
+<p><br /></p>
+<p>The requested item will reach to you address shortly in 1-2 days.</p>
 <p><br /></p>
 <p><strong>Stay Safe , Stay Healthy</strong></p>
 <p><strong>With regards</strong></p>
 <p><strong>CowiCare team</strong></p>
-<p><strong><img style="align: bottom;" src="4%20(1).JPGx" width="71" height="71" align="bottom" /></strong></p>]]></message_html>
+<p><img style="align: baseline;" title="" src="4%20(1).JPGx" alt="" width="73" height="73" align="baseline" border="" hspace="" vspace="" /></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Service work progress</name>
+        <name>Home isolation</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -67,23 +66,23 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Updated Services Requested </subject>
+        <subject>Healthcare Services Requested </subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-07 14:00:54</sys_created_on>
+        <sys_created_on>2021-06-08 07:01:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2b95bbd6072834104c40f4be7c1ed0d7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Service work progress</sys_name>
+        <sys_id>7c32e72607a074104c40f4be7c1ed0b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home isolation</sys_name>
         <sys_overrides/>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
         <sys_policy/>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
-        <sys_update_name>sysevent_email_action_2b95bbd6072834104c40f4be7c1ed0d7</sys_update_name>
+        <sys_update_name>sysevent_email_action_7c32e72607a074104c40f4be7c1ed0b2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-08 06:54:53</sys_updated_on>
+        <sys_updated_on>2021-06-08 07:01:36</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
