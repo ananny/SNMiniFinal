@@ -43,7 +43,7 @@
         <order>1000</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <published_ref display_value="Test Result">bde4338e2fe4b8102144265df699b628</published_ref>
+        <published_ref display_value="Covid Test Result">bde4338e2fe4b8102144265df699b628</published_ref>
         <question_text>Test Result</question_text>
         <read_only>false</read_only>
         <read_roles/>

@@ -156,7 +156,7 @@
         <update_guid_history>ded0089a3628b81011553c1e2c7486fe:-1413359837,167c77866728b810b06dc09868e01ba5:180983524,337bf3460c28b8108c636e39e82da7b0:1287264098,432bfb069428b8104f474e8bc38df9f0:-795142050,bdfaf706b628b81038dc856d58e1cb7c:1775326885,b7f9b7c24f28b8100e631826489bfae0:1287264098,53a933c2a828b810864e7d5fe2cc7ecc:180983524,a799bf820828b810cd33c6620a8bbe3b:-1413359837,a557fb022128b810387af5de5b52f4c2:1287264098</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">93304a162fecb8102144265df699b60a</sys_audit_delete>
+        <sys_audit_delete display_value="Select Hospital">93304a162fecb8102144265df699b60a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 05:09:55</sys_created_on>

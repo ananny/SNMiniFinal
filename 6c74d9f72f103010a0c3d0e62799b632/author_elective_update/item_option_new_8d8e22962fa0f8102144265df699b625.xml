@@ -156,7 +156,7 @@
         <update_guid_history>d18e229613a0f810ef161df0ea51be44:-1865640817,5f20c796b4e0f8102168e6e372c68952:1009370816,a220879689e0f810f28325cfc82f59c1:0,d18e229613a0f810ef161df0ea51be44:-1865640817</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">deb607122f24f8102144265df699b6f4</sys_audit_delete>
+        <sys_audit_delete display_value="Others">deb607122f24f8102144265df699b6f4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 10:17:52</sys_created_on>

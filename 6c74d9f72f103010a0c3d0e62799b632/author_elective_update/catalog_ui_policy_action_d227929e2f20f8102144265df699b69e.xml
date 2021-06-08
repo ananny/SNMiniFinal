@@ -51,7 +51,7 @@
         <update_guid_history>12c712de1a20f810fa6e3dc6b934b63c:372864237,9a27929e9a20f810392edfc7f870ceb4:-1464395353,5e27929e6e20f81033d453852f7bada1:372864237</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">df7687de2fe0f8102144265df699b6ad</sys_audit_delete>
+        <sys_audit_delete display_value="select_hospitals">df7687de2fe0f8102144265df699b6ad</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 10:16:51</sys_created_on>

@@ -72,7 +72,7 @@
         <update_guid_history>3e3c0b0a9664b8106d94234f47d3fe77:1166153330,04ebc30aeb64b810a34597a4cb5d5784:-403675610</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">c2cd4f4a2f64b8102144265df699b698</sys_audit_delete>
+        <sys_audit_delete display_value="Home">c2cd4f4a2f64b8102144265df699b698</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-06 16:10:13</sys_created_on>
