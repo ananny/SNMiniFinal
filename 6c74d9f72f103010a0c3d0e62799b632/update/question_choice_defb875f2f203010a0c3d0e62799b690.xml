@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="Veg Thali">f9e4338e2fe4b8102144265df699b622</published_ref>
+        <question display_value="Veg Food Choice">16fb875f2f203010a0c3d0e62799b67f</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 13:14:44</sys_created_on>
+        <sys_id>defb875f2f203010a0c3d0e62799b690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Veg Thali</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>question_choice_defb875f2f203010a0c3d0e62799b690</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 13:14:44</sys_updated_on>
+        <text>Veg Thali</text>
+        <value>veg_thali</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=defb875f2f203010a0c3d0e62799b690"/>
+</record_update>
