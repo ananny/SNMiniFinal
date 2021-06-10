@@ -69,7 +69,7 @@
         <update_guid_history>bb044a1a28ecb810e774e9ac23cf9a78:-1737847468,a84ec6d2be20f8106abd9392b393940e:-1563977568,7c3e42d27120f81051a548d60e5f7df1:0,bb044a1a28ecb810e774e9ac23cf9a78:-1737847468,0ba1c2967aecb8105060911583b8b3fc:1215711020</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'u_choice_3' hidden depending on 'u_boolean_4'">02c7de9e2f20f8102144265df699b6e5</sys_audit_delete>
+        <sys_audit_delete display_value="">02c7de9e2f20f8102144265df699b6e5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 06:52:47</sys_created_on>

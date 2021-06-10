@@ -46,7 +46,7 @@
         <update_guid_history>fee0369fe2603010b2da7dd8becd212d:742767394,b5e0f29f0e6030106b60aafec342a8ae:-1428051036,e4e0f29f2c6030108a59472acbdbcc65:696097830,5bd0b29f6c603010552dd67ea626dafc:-1474720600,45d0b29fef60301034bcc1f7acb9de2b:649428266,8bb0329feb6030104a8bef41759b3ca7:-1567912900,30b0329fce6030101c01565c0cd8231e:-1188525604,8d90ba5fd8603010ab52ebf4655bf9fe:696097830</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="5">c8f0369f2f6030102144265df699b685</sys_audit_delete>
+        <sys_audit_delete display_value="">c8f0369f2f6030102144265df699b685</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-10 11:16:37</sys_created_on>

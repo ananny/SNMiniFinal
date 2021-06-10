@@ -46,7 +46,7 @@
         <update_guid_history>e57637225d603010b7ef276cc3619dd5:-1517130456</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Oxygen Concentrator">7368ffa22f6030102144265df699b6d3</sys_audit_delete>
+        <sys_audit_delete display_value="">7368ffa22f6030102144265df699b6d3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:33:33</sys_created_on>

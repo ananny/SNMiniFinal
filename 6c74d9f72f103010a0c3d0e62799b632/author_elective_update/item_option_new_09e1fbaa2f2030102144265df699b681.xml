@@ -156,7 +156,7 @@
         <update_guid_history>27747b6ee820301004a6bfe13455577d:83882186,b943f72ed7203010dc306353bb66cf29:213701147,49e1fbaa11203010badf0181fa8ea98b:-228086820</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Attach Covid-test Report">cf65b3ee2f2030102144265df699b6ae</sys_audit_delete>
+        <sys_audit_delete display_value="">cf65b3ee2f2030102144265df699b6ae</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:20:23</sys_created_on>

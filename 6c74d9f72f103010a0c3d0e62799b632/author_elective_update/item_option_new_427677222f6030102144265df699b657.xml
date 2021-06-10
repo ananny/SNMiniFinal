@@ -156,7 +156,7 @@
         <update_guid_history>ea08b7a263603010b3380ab230696d8d:-361315627,06767722ae603010cf091d1afd310665:-1812931404</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Test Result">0a8877e22f6030102144265df699b6b5</sys_audit_delete>
+        <sys_audit_delete display_value="">0a8877e22f6030102144265df699b6b5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:33:58</sys_created_on>

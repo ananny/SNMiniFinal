@@ -156,7 +156,7 @@
         <update_guid_history>d9e1fbaa462030101661247a50b25aae:-578789209</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Address">21457bae2f2030102144265df699b6d3</sys_audit_delete>
+        <sys_audit_delete display_value="">21457bae2f2030102144265df699b6d3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:19:44</sys_created_on>

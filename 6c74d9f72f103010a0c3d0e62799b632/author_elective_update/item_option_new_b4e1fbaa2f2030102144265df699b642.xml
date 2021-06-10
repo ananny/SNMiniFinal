@@ -156,7 +156,7 @@
         <update_guid_history>fc43b72e95203010056d3177bf808c06:-111603076,bce1fbaac8203010f795cfab57a2814a:-1033558821</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Food Package">08453bae2f2030102144265df699b68c</sys_audit_delete>
+        <sys_audit_delete display_value="">08453bae2f2030102144265df699b68c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:19:38</sys_created_on>

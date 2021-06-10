@@ -156,7 +156,7 @@
         <update_guid_history>7e33372e742030104c718e27352ace7a:-753804275,99e1fbaa83203010ecb1a80e92db7aa2:-1136309490</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Additional Services">7655bfae2f2030102144265df699b6c9</sys_audit_delete>
+        <sys_audit_delete display_value="">7655bfae2f2030102144265df699b6c9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:20:06</sys_created_on>

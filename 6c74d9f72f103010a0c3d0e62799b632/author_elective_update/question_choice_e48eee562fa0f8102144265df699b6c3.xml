@@ -46,7 +46,7 @@
         <update_guid_history>608eee5661a0f8100a061a7d6c905bc5:509304435,74300b96cbe0f810effd31f5ff67dbdd:207269503,608eee5661a0f8100a061a7d6c905bc5:509304435</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Fruit Package">05860bde2fe0f8102144265df699b6dc</sys_audit_delete>
+        <sys_audit_delete display_value="">05860bde2fe0f8102144265df699b6dc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 10:16:58</sys_created_on>

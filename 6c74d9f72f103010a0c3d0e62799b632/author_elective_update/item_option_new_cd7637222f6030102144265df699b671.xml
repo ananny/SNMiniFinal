@@ -156,7 +156,7 @@
         <update_guid_history>3108b7a22f6030103cdfde6060fa6f0c:947095077,5d7637225060301095556c3a7db04588:-289112892</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Mobile Number">b0a8fbe22f6030102144265df699b6b1</sys_audit_delete>
+        <sys_audit_delete display_value="">b0a8fbe22f6030102144265df699b6b1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:34:26</sys_created_on>

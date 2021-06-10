@@ -156,7 +156,7 @@
         <update_guid_history>a58e229673a0f810b8ae611fa102337f:172380985,74300b96c5e0f8103e7ad8fe367895ea:-1312064982,b220c796e3e0f81003d299df0557ac0a:0,a58e229673a0f810b8ae611fa102337f:172380985</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Home Isolation">57868bde2fe0f8102144265df699b6af</sys_audit_delete>
+        <sys_audit_delete display_value="">57868bde2fe0f8102144265df699b6af</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 10:17:07</sys_created_on>

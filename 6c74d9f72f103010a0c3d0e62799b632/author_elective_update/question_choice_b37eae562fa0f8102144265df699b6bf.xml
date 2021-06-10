@@ -46,7 +46,7 @@
         <update_guid_history>3f7eae5661a0f810ad66378c3a17ccc0:-1676927941,6320c7968fe0f8107dbb04411559c698:733201447,3f7eae5661a0f810ad66378c3a17ccc0:-1676927941</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Oxymeter">60860bde2fe0f8102144265df699b628</sys_audit_delete>
+        <sys_audit_delete display_value="">60860bde2fe0f8102144265df699b628</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 10:16:56</sys_created_on>

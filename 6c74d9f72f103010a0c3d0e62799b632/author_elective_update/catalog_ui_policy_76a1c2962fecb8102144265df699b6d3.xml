@@ -69,7 +69,7 @@
         <update_guid_history>ef044a1a26ecb810963b119518dc1d4e:680577548,c93e82d2c220f81020dd291dcd4c906b:1711518584,6c3e42d2db20f8104ccc485cf45e32ed:0,ef044a1a26ecb810963b119518dc1d4e:680577548,7ea1c296cbecb810d8e362a51b757bd5:-2087776301</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'select_hospitals' hidden depending on 'u_home_isolation'">b9c7de9e2f20f8102144265df699b6ae</sys_audit_delete>
+        <sys_audit_delete display_value="">b9c7de9e2f20f8102144265df699b6ae</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 06:52:46</sys_created_on>

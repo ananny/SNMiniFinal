@@ -69,7 +69,7 @@
         <update_guid_history>677687decee0f810b62f67ac709192fb:1083050173,a28e629642a0f81045f7062c6d2ac11f:1019178059,cf10c39650e0f8105ebeb9abb05a85c5:-55366697,a28e629642a0f81045f7062c6d2ac11f:1019178059</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Make 'u_bed_required' hidden depending on 'u_home_isolation'">d43577ae2f2030102144265df699b620</sys_audit_delete>
+        <sys_audit_delete display_value="">d43577ae2f2030102144265df699b620</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:19:22</sys_created_on>

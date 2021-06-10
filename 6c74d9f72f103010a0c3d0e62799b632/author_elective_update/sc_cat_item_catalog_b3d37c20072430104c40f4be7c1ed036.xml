@@ -58,7 +58,7 @@
         <update_guid_history>9c25f0b8ab687410768ad623cddb4855:0,c92fe4347e687410f61e5b285c33f2d3:2042570987,073cd9a091ac3410d998c7412c680d27:-917386942</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Covid -19 Testing">bf49aa122fa0f8102144265df699b603</sys_audit_delete>
+        <sys_audit_delete display_value="">bf49aa122fa0f8102144265df699b603</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-07 08:09:21</sys_created_on>

@@ -46,7 +46,7 @@
         <update_guid_history>68a1429678ecb81047cc1939adb45ebe:-722330264</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Ventilator">1c144a1a2fecb8102144265df699b6f7</sys_audit_delete>
+        <sys_audit_delete display_value="">1c144a1a2fecb8102144265df699b6f7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 05:26:39</sys_created_on>

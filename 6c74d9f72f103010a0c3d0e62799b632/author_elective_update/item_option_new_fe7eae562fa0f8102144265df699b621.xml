@@ -156,7 +156,7 @@
         <update_guid_history>837eae5643a0f81031e5541d84c1e52c:1234933454,51304b9634e0f810bc2c9b29305e596c:874116927,3e20c79674e0f81033ce7ba4bfe82215:0,837eae5643a0f81031e5541d84c1e52c:1234933454</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Please mention if any Specific Requirement">03968fde2fe0f8102144265df699b637</sys_audit_delete>
+        <sys_audit_delete display_value="">03968fde2fe0f8102144265df699b637</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-07 10:17:23</sys_created_on>

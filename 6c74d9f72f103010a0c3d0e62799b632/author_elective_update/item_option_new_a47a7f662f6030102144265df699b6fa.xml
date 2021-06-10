@@ -156,7 +156,7 @@
         <update_guid_history>eecab7a63b603010cfd48f3ead536911:-824492542,06ba37a6a060301072d972ca076d1bcd:-1592098463,e47abf66d460301093c61f4f58646421:-940125609</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Covid Test Result">f54b3fe62f6030102144265df699b659</sys_audit_delete>
+        <sys_audit_delete display_value="">f54b3fe62f6030102144265df699b659</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:45:59</sys_created_on>

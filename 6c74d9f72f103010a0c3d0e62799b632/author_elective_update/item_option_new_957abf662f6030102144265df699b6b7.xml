@@ -156,7 +156,7 @@
         <update_guid_history>17da7ba628603010d332886d0805dc66:1745422443,d97abf66496030107a7d2f3288c3cec7:2131998764</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Attach your covid report by clicking on the &quot;add attachments&quot; icon.">fa1b73e62f6030102144265df699b678</sys_audit_delete>
+        <sys_audit_delete display_value="">fa1b73e62f6030102144265df699b678</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:45:13</sys_created_on>

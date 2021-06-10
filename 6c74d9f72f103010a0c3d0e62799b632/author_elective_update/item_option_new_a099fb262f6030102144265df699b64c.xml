@@ -156,7 +156,7 @@
         <update_guid_history>d9f97366ce603010ffda3ca523f33f5d:680562973,ac99fb2699603010e9d04c61fe9b0853:-501601412</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Patient's Name">ea2ab7662f6030102144265df699b6f7</sys_audit_delete>
+        <sys_audit_delete display_value="">ea2ab7662f6030102144265df699b6f7</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:41:07</sys_created_on>

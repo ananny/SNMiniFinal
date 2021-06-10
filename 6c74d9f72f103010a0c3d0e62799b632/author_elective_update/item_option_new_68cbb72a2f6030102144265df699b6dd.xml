@@ -156,7 +156,7 @@
         <update_guid_history>b4cbb72a246030104b02446a986851ef:1471586556</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Home Isolation">de3d73aa2f6030102144265df699b6ee</sys_audit_delete>
+        <sys_audit_delete display_value="">de3d73aa2f6030102144265df699b6ee</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:54:28</sys_created_on>

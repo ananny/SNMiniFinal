@@ -46,7 +46,7 @@
         <update_guid_history>bc7abf66896030103f5d7443e1314649:-1051424041</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Fruit Package">df0bbfa62f6030102144265df699b60f</sys_audit_delete>
+        <sys_audit_delete display_value="">df0bbfa62f6030102144265df699b60f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-08 08:44:59</sys_created_on>

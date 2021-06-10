@@ -41,7 +41,7 @@
         <update_guid_history>06faa69214a0f81077461961bf024c30:-287003449</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Can We Help You?.Covid-19 Testing">ec5b2e922fa0f8102144265df699b6f5</sys_audit_delete>
+        <sys_audit_delete display_value="">ec5b2e922fa0f8102144265df699b6f5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-07 08:18:09</sys_created_on>
