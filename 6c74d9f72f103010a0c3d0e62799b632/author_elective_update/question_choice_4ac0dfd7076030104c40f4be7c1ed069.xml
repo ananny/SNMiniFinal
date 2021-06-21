@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>3</order>
+        <published_ref display_value="Non-veg Thali + Fruit Package">15e4ff4e2fe4b8102144265df699b682</published_ref>
+        <question display_value="Non-Veg Food choice">86c0dfd7076030104c40f4be7c1ed040</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 13:35:45</sys_created_on>
+        <sys_id>4ac0dfd7076030104c40f4be7c1ed069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Non-veg Thali + Fruit Package</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>question_choice_4ac0dfd7076030104c40f4be7c1ed069</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 13:35:45</sys_updated_on>
+        <text>Non-veg Thali + Fruit Package</text>
+        <value>Choice 3</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=4ac0dfd7076030104c40f4be7c1ed069"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>3afcea99db8d08508aea21c4059619e9</instance_id>
+        <instance_name>dev94518</instance_name>
+        <name>question_choice_4ac0dfd7076030104c40f4be7c1ed069</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>3</order><published_ref display_value="Non-veg Thali + Fruit Package">15e4ff4e2fe4b8102144265df699b682</published_ref><question display_value="Non-Veg Food choice">86c0dfd7076030104c40f4be7c1ed040</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-10 13:35:45</sys_created_on><sys_id>4ac0dfd7076030104c40f4be7c1ed069</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Non-veg Thali + Fruit Package</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>question_choice_4ac0dfd7076030104c40f4be7c1ed069</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-10 13:35:45</sys_updated_on><text>Non-veg Thali + Fruit Package</text><value>Choice 3</value></question_choice><fx_price action="delete_multiple" query="id=4ac0dfd7076030104c40f4be7c1ed069"/></record_update>]]></payload>
+        <payload_hash>-82791000</payload_hash>
+        <record_name>Non-veg Thali + Fruit Package</record_name>
+        <reverted_from/>
+        <source>e3f3b64c076c30104c40f4be7c1ed0d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 13:35:45</sys_created_on>
+        <sys_id>8ec0dfd7076030104c40f4be7c1ed06b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179f622ca520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 13:35:45</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>06c0dfd757603010bef7ff13b6db616b</update_guid>
+        <update_guid_history>06c0dfd757603010bef7ff13b6db616b:-82791000</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Non-veg Thali + Fruit Package">66519b1b076030104c40f4be7c1ed054</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-10 13:38:14</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0cb42d1edfde45fc96ace1e1f61876c4</sys_id>
+        <sys_metadata>4ac0dfd7076030104c40f4be7c1ed069</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Non-veg Thali + Fruit Package</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent display_value="">86c0dfd7076030104c40f4be7c1ed040</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>question_choice_4ac0dfd7076030104c40f4be7c1ed069</sys_update_name>
+        <sys_update_version display_value="question_choice_4ac0dfd7076030104c40f4be7c1ed069">8ec0dfd7076030104c40f4be7c1ed06b</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-10 13:38:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
