@@ -38,24 +38,23 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Dear&nbsp; <strong>${name}</strong><br /></p>
-<p>Hope you are doing well!</p>
-<p>According to your request submitted, Your requirements are listed below-</p>
-<p>Medicines/Injections: ${u_medicines} ${u_string_9}</p>
-<p>Other Requirements: ${u_glide_list_1}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /></p>
-<p>${u_choice_5}</p>
-<p>${u_choice_2}</p>
-<p>&nbsp;${u_choice_3}</p>
-<p>&nbsp;${u_string_7}</p>
+        <message_html><![CDATA[<p><span style="font-family: 'times new roman', times; font-size: 12pt;">Dear&nbsp; <strong>${name}</strong></span><br /></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">Hope you are doing well!</span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">According to your request submitted, Your requirements are listed below-</span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">Medicines/Injections: ${u_medicines} ${u_string_9}</span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">Other Requirements: ${u_glide_list_1}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br /></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">${u_choice_5}</span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">${u_choice_2}</span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">&nbsp;${u_choice_3}</span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">&nbsp;${u_string_7}</span></p>
+<div><span style="font-family: 'times new roman', times; font-size: 12pt;">We know that these times are tough due to the pandemic but we assure you that the good times are near. Your Mental Health is a Priority, Your Happiness is fundamental and Your Self-care is vital. So stay strong and take care.&nbsp;</span></div>
+<div><span style="font-family: 'times new roman', times; font-size: 12pt;">Thank you for using CowiCare!</span></div>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">The requested item will reach your address shortly in 1-2 days.</span></p>
 <p><br /></p>
-<div>We know that these times are tough due to the pandemic but we assure you that the good times are near. Your Mental Health is a Priority, Your Happiness is fundamental and Your Self-care is vital. So stay strong and take care.&nbsp;</div>
-<div>Thank you for using CowiCare!</div>
-<p>The requested item will reach your address shortly in 1-2 days.</p>
-<p><br /></p>
-<p><strong>Stay Safe, Stay Healthy</strong></p>
-<p><strong>With regards</strong></p>
-<p><strong>CowiCare team</strong></p>
-<p><img style="align: baseline;" title="" src="4%20(1).JPGx" alt="" width="73" height="73" align="baseline" border="" hspace="" vspace="" /></p>]]></message_html>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong>Stay Safe, Stay Healthy</strong></span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong>With regards</strong></span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong>CowiCare team</strong></span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;"><img style="align: baseline;" title="" src="4%20(1).JPGx" alt="" width="73" height="73" align="baseline" border="" hspace="" vspace="" /></span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Home isolation</name>
@@ -64,7 +63,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>email</recipient_fields>
         <recipient_groups/>
-        <recipient_users>jass.superstarr@gmail.com,6816f79cc0a8016401c5a33be04be441,7e8c557c2fe874102144265df699b6df</recipient_users>
+        <recipient_users>jass.superstarr@gmail.com,6816f79cc0a8016401c5a33be04be441,srashti1.sharma@gmail.com</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -77,7 +76,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7c32e72607a074104c40f4be7c1ed0b2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Home isolation</sys_name>
         <sys_overrides/>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
@@ -85,7 +84,7 @@
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_update_name>sysevent_email_action_7c32e72607a074104c40f4be7c1ed0b2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 12:47:56</sys_updated_on>
+        <sys_updated_on>2021-06-25 16:56:31</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

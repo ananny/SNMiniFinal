@@ -47,8 +47,8 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-04 08:04:21</sys_created_on>
-        <sys_id>056b03992f2cf4102144265df699b6dd</sys_id>
+        <sys_created_on>2021-06-26 10:14:59</sys_created_on>
+        <sys_id>4d4c34ac1bc17010fdc3ece4604bcbdf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Name of Medicine/injection</sys_name>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_update_name>sys_dictionary_x_566030_cowicare2_medicines_u_name_of_medicine_injection</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-04 08:04:21</sys_updated_on>
+        <sys_updated_on>2021-06-26 10:14:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -68,119 +68,49 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_dictionary>
-<sys_update_version action="INSERT_OR_UPDATE">
+    <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
         <file_path/>
-        <instance_id>3afcea99db8d08508aea21c4059619e9</instance_id>
-        <instance_name>dev94518</instance_name>
+        <instance_id>bdbcf2fc1b44341032182f8dee4bcb1b</instance_id>
+        <instance_name>dev114283</instance_name>
         <name>sys_dictionary_x_566030_cowicare2_medicines_u_name_of_medicine_injection</name>
-        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_name_of_medicine_injection" table="x_566030_cowicare2_medicines">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true,import_attribute_name=Name of Medicine/injection</attributes>
-        <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
-        <choice_field/>
-        <choice_table/>
-        <column_label>Name of Medicine/injection</column_label>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>u_name_of_medicine_injection</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_566030_cowicare2_medicines</name>
-        <next_element/>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-04 08:04:21</sys_created_on>
-        <sys_id>056b03992f2cf4102144265df699b6dd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Name of Medicine/injection</sys_name>
-        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
-        <sys_update_name>sys_dictionary_x_566030_cowicare2_medicines_u_name_of_medicine_injection</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-04 08:04:21</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_dictionary>
-</record_update>]]></payload>
-        <payload_hash>-918737786</payload_hash>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_name_of_medicine_injection" table="x_566030_cowicare2_medicines"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true,import_attribute_name=Name of Medicine/injection</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Name of Medicine/injection</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_name_of_medicine_injection</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_566030_cowicare2_medicines</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-26 10:14:59</sys_created_on><sys_id>4d4c34ac1bc17010fdc3ece4604bcbdf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Name of Medicine/injection</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>sys_dictionary_x_566030_cowicare2_medicines_u_name_of_medicine_injection</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-26 10:14:59</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>179668318</payload_hash>
         <record_name>Medicines.Name of Medicine/injection</record_name>
         <reverted_from/>
-        <source>3d5702fd076cb0104c40f4be7c1ed089</source>
-        <source_table>sys_upgrade_history</source_table>
+        <source>918e98c31b343010fdc3ece4604bcb30</source>
+        <source_table>sys_update_set</source_table>
         <state>previous</state>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-05 16:24:21</sys_created_on>
-        <sys_id>d36706fd076cb0104c40f4be7c1ed017</sys_id>
+        <sys_created_on>2021-06-26 10:14:59</sys_created_on>
+        <sys_id>594c34ac1bc17010fdc3ece4604bcbed</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_recorded_at>179dcfd5acb0000001</sys_recorded_at>
+        <sys_recorded_at>17a47d0bc000000001</sys_recorded_at>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-05 16:24:21</sys_updated_on>
+        <sys_updated_on>2021-06-26 10:14:59</sys_updated_on>
         <type>Dictionary</type>
-        <update_guid>536706fdf36cb0103aba45cf674d0e17</update_guid>
-        <update_guid_history>536706fdf36cb0103aba45cf674d0e17:0,a21675b1326cb01059369acf314665b3:-270917614,887275fd5a2cb01087120bd7ef5b6fbc:0,c87275fd682cb0102f1ff58d21ac8ab6:179668318</update_guid_history>
+        <update_guid>514c34ac03c170100d637b41c8eabded</update_guid>
+        <update_guid_history>514c34ac03c170100d637b41c8eabded:179668318,06fd1c47ab343010084cd9cad8f80595:0,536706fdf36cb0103aba45cf674d0e17:0,a21675b1326cb01059369acf314665b3:-270917614,887275fd5a2cb01087120bd7ef5b6fbc:0,c87275fd682cb0102f1ff58d21ac8ab6:179668318</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
         <sys_audit_delete/>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-06-05 16:26:51</sys_created_on>
+        <sys_created_on>2021-06-26 10:18:17</sys_created_on>
         <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
-        <sys_id>28b30585639546c8a657a48b2992e8f9</sys_id>
-        <sys_metadata>5667c2fd076cb0104c40f4be7c1ed018</sys_metadata>
+        <sys_id>e0c47dc8db824df9bd452a659c6a7f41</sys_id>
+        <sys_metadata>4d4c34ac1bc17010fdc3ece4604bcbdf</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Name of Medicine/injection</sys_name>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
-        <sys_parent display_value="">1e67c2fd076cb0104c40f4be7c1ed011</sys_parent>
+        <sys_parent display_value="">c14c34ac1bc17010fdc3ece4604bcbb2</sys_parent>
         <sys_policy/>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
         <sys_update_name>sys_dictionary_x_566030_cowicare2_medicines_u_name_of_medicine_injection</sys_update_name>
-        <sys_update_version display_value="sys_dictionary_x_566030_cowicare2_medicines_u_name_of_medicine_injection">d36706fd076cb0104c40f4be7c1ed017</sys_update_version>
+        <sys_update_version display_value="sys_dictionary_x_566030_cowicare2_medicines_u_name_of_medicine_injection">594c34ac1bc17010fdc3ece4604bcbed</sys_update_version>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-05 16:26:51</sys_updated_on>
+        <sys_updated_on>2021-06-26 10:18:17</sys_updated_on>
     </sys_metadata_delete>
 </record_update>

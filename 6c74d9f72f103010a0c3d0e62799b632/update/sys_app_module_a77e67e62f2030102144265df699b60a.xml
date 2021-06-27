@@ -24,17 +24,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a77e67e62f2030102144265df699b60a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Other Requirements</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Other Requirements Availables</sys_name>
         <sys_overrides/>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
         <sys_policy/>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_update_name>sys_app_module_a77e67e62f2030102144265df699b60a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-08 07:50:06</sys_updated_on>
+        <sys_updated_on>2021-06-26 10:23:53</sys_updated_on>
         <timeline_page/>
-        <title>Other Requirements</title>
+        <title>Other Requirements Availables</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

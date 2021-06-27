@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Request Services">00fb0b1f2f203010a0c3d0e62799b68d</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 14:44:27</sys_created_on>
+        <sys_id>e7f9400b07b4b0104c40f4be7c1ed0e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Services.SNC External</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_e7f9400b07b4b0104c40f4be7c1ed0e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 14:44:27</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>bdbcf2fc1b44341032182f8dee4bcb1b</instance_id>
+        <instance_name>dev114283</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_e7f9400b07b4b0104c40f4be7c1ed0e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Request Services">00fb0b1f2f203010a0c3d0e62799b68d</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 14:44:27</sys_created_on>
+        <sys_id>e7f9400b07b4b0104c40f4be7c1ed0e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Services.SNC External</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_e7f9400b07b4b0104c40f4be7c1ed0e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 14:44:27</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>]]></payload>
+        <payload_hash>1611447541</payload_hash>
+        <record_name>Request Services.SNC External</record_name>
+        <reverted_from/>
+        <source>c3bdd0071b343010fdc3ece4604bcb88</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 16:11:19</sys_created_on>
+        <sys_id>14edd0471b343010fdc3ece4604bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a2f5728d50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 16:11:19</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>d0edd0479a343010623f5c9fd202bdaf</update_guid>
+        <update_guid_history>d0edd0479a343010623f5c9fd202bdaf:1611447541</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request Services.SNC External">b047f8681bc17010fdc3ece4604bcb1f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-26 09:53:07</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>7e6123436eeb436084952e3c12e4b510</sys_id>
+        <sys_metadata>e7f9400b07b4b0104c40f4be7c1ed0e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Services.SNC External</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_e7f9400b07b4b0104c40f4be7c1ed0e0</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_e7f9400b07b4b0104c40f4be7c1ed0e0">14edd0471b343010fdc3ece4604bcbaf</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-26 09:53:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">368cbd931bf03010fdc3ece4604bcb59</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 17:43:24</sys_created_on>
+        <sys_id>368cbd931bf03010fdc3ece4604bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sp_column_368cbd931bf03010fdc3ece4604bcb5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 17:43:24</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>bdbcf2fc1b44341032182f8dee4bcb1b</instance_id>
+        <instance_name>dev114283</instance_name>
+        <name>sp_column_368cbd931bf03010fdc3ece4604bcb5b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">368cbd931bf03010fdc3ece4604bcb59</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-22 17:43:24</sys_created_on><sys_id>368cbd931bf03010fdc3ece4604bcb5b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>sp_column_368cbd931bf03010fdc3ece4604bcb5b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-22 17:43:24</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-876035736</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>5d97726b1b743010fdc3ece4604bcb93</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 16:39:59</sys_created_on>
+        <sys_id>a797b26b1b743010fdc3ece4604bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a39be21c50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 16:39:59</sys_updated_on>
+        <type>Column</type>
+        <update_guid>b28cbd9328f030106cfad984de47435c</update_guid>
+        <update_guid_history>b28cbd9328f030106cfad984de47435c:-876035736,3a477ee767743010157451dc6c3a6690:-2087042173,b28cbd9328f030106cfad984de47435c:-876035736,ec9fb52b34b03010215b7c88a13b8d65:-2087042173,b28cbd9328f030106cfad984de47435c:-876035736</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">cb8ccfcc1b013010fdc3ece4604bcb0a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 07:28:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>11a549ec0bb243c3aa51b926f8c5f1d1</sys_id>
+        <sys_metadata>368cbd931bf03010fdc3ece4604bcb5b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>sp_column_368cbd931bf03010fdc3ece4604bcb5b</sys_update_name>
+        <sys_update_version display_value="sp_column_368cbd931bf03010fdc3ece4604bcb5b">a797b26b1b743010fdc3ece4604bcbfd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 07:28:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

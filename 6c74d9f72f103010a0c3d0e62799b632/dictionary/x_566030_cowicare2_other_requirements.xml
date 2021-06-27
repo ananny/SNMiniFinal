@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Other Requirements" max_length="40" name="x_566030_cowicare2_other_requirements" sizeclass="7" type="collection">
+    <element label="Other Requirements Available" max_length="40" name="x_566030_cowicare2_other_requirements" sizeclass="7" type="collection">
         <element display="true" label="Other Requirements" max_length="40" name="other_requirements" type="string"/>
     </element>
 </database>

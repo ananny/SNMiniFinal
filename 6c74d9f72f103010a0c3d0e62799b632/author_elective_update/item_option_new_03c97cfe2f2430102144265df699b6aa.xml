@@ -288,7 +288,7 @@
         <update_guid_history>37b9bed3512030103c324c56c791eb87:2039593795</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Request ID">b0e19f5b076030104c40f4be7c1ed027</sys_audit_delete>
+        <sys_audit_delete display_value="">b0e19f5b076030104c40f4be7c1ed027</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-10 13:40:35</sys_created_on>

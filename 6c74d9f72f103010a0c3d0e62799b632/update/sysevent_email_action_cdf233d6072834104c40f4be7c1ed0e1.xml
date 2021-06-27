@@ -37,16 +37,16 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Dear<strong> ${name}</strong><br /></p>
+        <message_html><![CDATA[<p><span style="font-family: 'times new roman', times; font-size: 12pt;">Dear<strong> ${name}</strong></span><br /></p>
 <p><br /></p>
-<p data-tinymcerootblock="">Hope you are doing well.</p>
-<p data-tinymcerootblock="">Your request has been submitted. You will receive a more detailed mail regarding your requirements once the request is approved.</p>
-<p data-tinymcerootblock="">Thank you for using CowiCare!</p>
+<p data-tinymcerootblock=""><span style="font-family: 'times new roman', times; font-size: 12pt;">Hope you are doing well.</span></p>
+<p data-tinymcerootblock=""><span style="font-family: 'times new roman', times; font-size: 12pt;">Your request has been submitted. You will receive a more detailed mail regarding your requirements once the request is approved.</span></p>
+<p data-tinymcerootblock=""><span style="font-family: 'times new roman', times; font-size: 12pt;">Thank you for using CowiCare!</span></p>
 <p><br /></p>
-<p><span style="color: #999999;"><strong><span style="background-color: #ffffff;">Stay safe, Stay Healthy&nbsp;</span></strong></span></p>
-<p><span style="color: #999999;"><strong><span style="background-color: #ffffff;">With Regards&nbsp;</span></strong></span></p>
-<p><span style="color: #999999;"><strong><span style="background-color: #ffffff;">CowiCare Team</span></strong></span></p>
-<p><span style="color: #999999;"><strong><span style="background-color: #ffffff;"><img style="align: baseline;" title="" src="4%20(1).JPGx" alt="" width="69" height="69" align="baseline" border="" hspace="" vspace="" /></span></strong></span></p>]]></message_html>
+<p><span style="color: #999999; font-family: 'times new roman', times; font-size: 12pt;"><strong><span style="background-color: #ffffff;">Stay safe, Stay Healthy&nbsp;</span></strong></span></p>
+<p><span style="color: #999999; font-family: 'times new roman', times; font-size: 12pt;"><strong><span style="background-color: #ffffff;">With Regards&nbsp;</span></strong></span></p>
+<p><span style="color: #999999; font-family: 'times new roman', times; font-size: 12pt;"><strong><span style="background-color: #ffffff;">CowiCare Team</span></strong></span></p>
+<p><span style="color: #999999; font-family: 'times new roman', times; font-size: 12pt;"><strong><span style="background-color: #ffffff;"><img style="align: baseline;" title="" src="4%20(1).JPGx" alt="" width="69" height="69" align="baseline" border="" hspace="" vspace="" /></span></strong></span></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Service Notification</name>
@@ -55,7 +55,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>email</recipient_fields>
         <recipient_groups/>
-        <recipient_users>jass.superstarr@gmail.com,6816f79cc0a8016401c5a33be04be441,7e8c557c2fe874102144265df699b6df</recipient_users>
+        <recipient_users>jass.superstarr@gmail.com,6816f79cc0a8016401c5a33be04be441,659605541bc53010fdc3ece4604bcb09</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -68,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cdf233d6072834104c40f4be7c1ed0e1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Service Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
@@ -76,7 +76,7 @@
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_update_name>sysevent_email_action_cdf233d6072834104c40f4be7c1ed0e1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-10 13:48:46</sys_updated_on>
+        <sys_updated_on>2021-06-25 16:58:04</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
