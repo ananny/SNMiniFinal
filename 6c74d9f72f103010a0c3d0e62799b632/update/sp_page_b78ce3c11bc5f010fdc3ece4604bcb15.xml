@@ -22,7 +22,7 @@ section.page main.body:before {&#13;
 }</css>
         <draft>false</draft>
         <dynamic_title_structure/>
-        <id>copy_of_landing_1</id>
+        <id>cowicare_login_register</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>
         <public>true</public>
@@ -33,15 +33,15 @@ section.page main.body:before {&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-28 12:22:10</sys_created_on>
         <sys_id>b78ce3c11bc5f010fdc3ece4604bcb15</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>copy_of_landing_1</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>cowicare_login_register</sys_name>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
         <sys_policy/>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_update_name>sp_page_b78ce3c11bc5f010fdc3ece4604bcb15</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-28 12:22:30</sys_updated_on>
-        <title>Login/signup</title>
+        <sys_updated_on>2021-06-28 17:10:40</sys_updated_on>
+        <title>Login/register</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=b78ce3c11bc5f010fdc3ece4604bcb15"/>
