@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>covid_test_flow</internal_name>
-        <label_cache>[{"name":"df45a842-e810-465a-aea4-1306f637756e.email","label":"5➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.681cd9f0076030104c40f4be7c1ed08c}}","label":"Jaswinder Kaur","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.7e8c557c2fe874102144265df699b6df}}","label":"Srashti Sharma","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.cf3d43482f603010a0c3d0e62799b604}}","label":"Elon Musk","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"d0098667-0959-4194-b371-ef884a5c1abb.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.name","label":"Trigger➛Testing Record➛Name ","reference":"","reference_display":"Name ","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_testing","column_name":"name"},{"name":"Created or Updated_1.current.u_result","label":"Trigger➛Testing Record➛Test Result","reference":"","reference_display":"Test Result","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_testing","column_name":"u_result"},{"name":"Created or Updated_1.current.email","label":"Trigger➛Testing Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_testing","column_name":"email"},{"name":"4641c587-1825-497b-b409-630af05ff97f.email.user","label":"1➛Email➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user"},{"name":"d7903026-61d7-4337-85aa-b05b07dc1e55.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e50ad20-6988-47ae-a224-585bd10d67e4.email","label":"3➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"da5d9e9f-a967-441b-ba6a-c93ee4ef75d9.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b71cf4b7-d007-444d-9679-d2a08c7e1df6.email","label":"3➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"{{static.0a826bf03710200044e0bfc8bcbe5d7a}}","label":"Adela Cervantsz","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.6cb1427b2f903010a0c3d0e62799b6d7}}","label":"Cowicare testing group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"2e49b0a2-864d-4c4e-a095-268c92093631.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e88583c9-050b-407b-aa26-59dd775b2028.decisions","label":"2➛Decisions","reference_display":"Decisions","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"visible_in_fd":"false","uiTypeLabel":"String (Full UTF-8)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string_full_utf8","uiUniqueId":"ceae4573-7f3f-46d0-a26e-13923ca0252b"}},{"name":"e88583c9-050b-407b-aa26-59dd775b2028.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"ffef9f46-2397-4435-939c-3bb37b7a39a7"}},{"name":"Created or Updated_1.current.u_long_mobile2","label":"Trigger➛Testing Record➛Mobile Number","reference":"","reference_display":"Mobile Number","type":"longint","base_type":"longint","parent_table_name":"x_566030_cowicare2_testing","column_name":"u_long_mobile2"},{"name":"Created or Updated_1.current","label":"Trigger➛Testing Record","reference":"x_566030_cowicare2_testing","reference_display":"Testing","type":"reference","base_type":"reference","attributes":{}},{"name":"4641c587-1825-497b-b409-630af05ff97f.email","label":"1➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"0223654f-054b-459f-b69d-3f0ff1711f74.email","label":"1➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.changed_fields","label":"Trigger➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"6703c573-17c4-4bc0-a661-3126bebec0d7.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"250c5909-74fb-495d-af82-f39fe175c63f.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ec63bb4b-9e40-4d51-958b-eb9b19b15a8a.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"78fe4140-79c6-4099-9ff4-35f80956878b.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.659605541bc53010fdc3ece4604bcb09}}","label":"Srashti Sharma","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"a1274886-0765-4791-b175-8f581341d7db.email","label":"7➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"a1274886-0765-4791-b175-8f581341d7db.email","label":"7➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.659605541bc53010fdc3ece4604bcb09}}","label":"Srashti Sharma","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"78fe4140-79c6-4099-9ff4-35f80956878b.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ec63bb4b-9e40-4d51-958b-eb9b19b15a8a.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"250c5909-74fb-495d-af82-f39fe175c63f.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6703c573-17c4-4bc0-a661-3126bebec0d7.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Created or Updated_1.changed_fields","label":"Trigger➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"0223654f-054b-459f-b69d-3f0ff1711f74.email","label":"1➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4641c587-1825-497b-b409-630af05ff97f.email","label":"1➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"Created or Updated_1.current","label":"Trigger➛Testing Record","reference":"x_566030_cowicare2_testing","reference_display":"Testing","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.u_long_mobile2","label":"Trigger➛Testing Record➛Mobile Number","reference":"","reference_display":"Mobile Number","type":"longint","base_type":"longint","parent_table_name":"x_566030_cowicare2_testing","column_name":"u_long_mobile2"},{"name":"e88583c9-050b-407b-aa26-59dd775b2028.state","label":"2➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"ffef9f46-2397-4435-939c-3bb37b7a39a7"}},{"name":"e88583c9-050b-407b-aa26-59dd775b2028.decisions","label":"2➛Decisions","reference_display":"Decisions","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"visible_in_fd":"false","uiTypeLabel":"String (Full UTF-8)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string_full_utf8","uiUniqueId":"ceae4573-7f3f-46d0-a26e-13923ca0252b"}},{"name":"2e49b0a2-864d-4c4e-a095-268c92093631.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.a8f98bb0eb32010045e1a5115206fe3a}}","label":"Abraham Lincoln","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.6cb1427b2f903010a0c3d0e62799b6d7}}","label":"Cowicare testing group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.0a826bf03710200044e0bfc8bcbe5d7a}}","label":"Adela Cervantsz","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"b71cf4b7-d007-444d-9679-d2a08c7e1df6.email","label":"3➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"da5d9e9f-a967-441b-ba6a-c93ee4ef75d9.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9e50ad20-6988-47ae-a224-585bd10d67e4.email","label":"3➛Email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"138380a7-e484-4080-b196-b42d33aa57b0"}},{"name":"d7903026-61d7-4337-85aa-b05b07dc1e55.email","label":"3➛email","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4641c587-1825-497b-b409-630af05ff97f.email.user","label":"1➛Email➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user"},{"name":"Created or Updated_1.current.email","label":"Trigger➛Testing Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_testing","column_name":"email"},{"name":"Created or Updated_1.current.u_result","label":"Trigger➛Testing Record➛Test Result","reference":"","reference_display":"Test Result","type":"choice","base_type":"choice","parent_table_name":"x_566030_cowicare2_testing","column_name":"u_result"},{"name":"Created or Updated_1.current.name","label":"Trigger➛Testing Record➛Name ","reference":"","reference_display":"Name ","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_testing","column_name":"name"},{"name":"{{static.5137153cc611227c000bbd1bd8cd2005}}","label":"Fred Luddy","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"d0098667-0959-4194-b371-ef884a5c1abb.state","label":"3➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"{{static.cf3d43482f603010a0c3d0e62799b604}}","label":"Elon Musk","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.7e8c557c2fe874102144265df699b6df}}","label":"Srashti Sharma","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.681cd9f0076030104c40f4be7c1ed08c}}","label":"Jaswinder Kaur","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"df45a842-e810-465a-aea4-1306f637756e.email","label":"5➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.number","label":"Trigger➛Testing Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_566030_cowicare2_testing","column_name":"number"}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Covid Test Flow</name>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>70b2ce3b2f903010a0c3d0e62799b6db</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Covid Test Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_update_name>sys_hub_flow_70b2ce3b2f903010a0c3d0e62799b6db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-25 17:15:34</sys_updated_on>
+        <sys_updated_on>2021-06-29 12:12:08</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=70b2ce3b2f903010a0c3d0e62799b6db"/>
@@ -53,10 +53,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-30 11:12:13</sys_created_on>
         <sys_id>5c76c63f2f903010a0c3d0e62799b6e0</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-25 17:15:33</sys_updated_on>
+        <sys_updated_on>2021-06-29 12:12:07</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -363,10 +363,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-25 08:42:28</sys_created_on>
         <sys_id>0c8d9b8c1b413010fdc3ece4604bcb4a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-25 17:15:33</sys_updated_on>
+        <sys_updated_on>2021-06-29 12:12:07</sys_updated_on>
         <ui_id>df45a842-e810-465a-aea4-1306f637756e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0c8d9b8c1b413010fdc3ece4604bcb4a"/>
@@ -431,11 +431,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-25 08:42:28</sys_created_on>
         <sys_id>448d9b8c1b413010fdc3ece4604bcb4d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-25 17:00:08</sys_updated_on>
+        <sys_updated_on>2021-06-29 12:12:07</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
-        <value>&lt;p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="font-family: 'times new roman', times; color: #333333; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; font-size: 12pt;"&gt;Dear &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:2e77dbe8-1cb6-40a2-8b91-f42fc3d551f6}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:2e77dbe8-1cb6-40a2-8b91-f42fc3d551f6}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Testing Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name &lt;button id="transform_function_facade_2e77dbe8-1cb6-40a2-8b91-f42fc3d551f6" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+        <value>&lt;p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="font-family: 'times new roman', times; color: #333333; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; font-size: 12pt;"&gt;Dear &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:2e77dbe8-1cb6-40a2-8b91-f42fc3d551f6}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:2e77dbe8-1cb6-40a2-8b91-f42fc3d551f6}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Testing Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name &lt;button id="transform_function_facade_2e77dbe8-1cb6-40a2-8b91-f42fc3d551f6" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; &lt;/span&gt;&lt;span style="font-family: 'times new roman', times; color: #333333; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; font-size: 12pt;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="font-family: 'times new roman', times; color: #333333; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap; font-size: 12pt;"&gt;We are happy to share that your covid test results are &lt;strong&gt;Negative&lt;/strong&gt;. Although the pandemic is still around the corner so, we would recommend you follow all the required precautions and stay safe.&lt;/span&gt;&lt;/p&gt;
 &lt;p data-tinymcerootblock=""&gt;&lt;span style="font-family: 'times new roman', times; font-size: 12pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
 &lt;p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="color: #333333; font-family: 'times new roman', times; font-size: 12pt;"&gt;&lt;span style="background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt;You can access our &lt;/span&gt;&lt;span style="color: #3366ff;"&gt;&lt;a style="text-decoration: none; color: #3366ff;" href="cowicare" target="_blank"&gt;&lt;span style="background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: underline; text-decoration-skip-ink: none; vertical-align: baseline; white-space: pre-wrap;"&gt;CowiCare&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span style="background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"&gt; application for any healthcare requirements.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
@@ -484,10 +484,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-30 11:18:21</sys_created_on>
         <sys_id>0ed7ca7f2f903010a0c3d0e62799b665</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-25 17:15:33</sys_updated_on>
+        <sys_updated_on>2021-06-29 12:12:07</sys_updated_on>
         <ui_id>0223654f-054b-459f-b69d-3f0ff1711f74</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0ed7ca7f2f903010a0c3d0e62799b665"/>
@@ -594,16 +594,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-30 11:18:21</sys_created_on>
         <sys_id>8ad7ca7f2f903010a0c3d0e62799b667</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-25 17:00:07</sys_updated_on>
+        <sys_updated_on>2021-06-29 12:12:07</sys_updated_on>
         <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
         <value>&lt;p&gt;&lt;span style="font-family: 'times new roman', times; font-size: 12pt;"&gt;Dear&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b9704f7f-c3ee-4bed-af36-4a4c8344f377}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:b9704f7f-c3ee-4bed-af36-4a4c8344f377}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Testing Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Name &lt;button id="transform_function_facade_b9704f7f-c3ee-4bed-af36-4a4c8344f377" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family: 'times new roman', times; font-size: 12pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="font-family: 'times new roman', times; font-size: 12pt;"&gt;Your&amp;nbsp;request has been submitted.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family: 'times new roman', times; font-size: 12pt;"&gt;Thank you for using CowiCare!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family: 'times new roman', times; font-size: 12pt;"&gt;Your&amp;nbsp;request has been submitted.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family: 'times new roman', times; font-size: 12pt;"&gt;Please note that your record number is&amp;nbsp;&lt;/span&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:9e843fde-b98b-42b4-9968-e0a6de602358}}"&gt;&lt;span class="data_pill  accepts_transform_functions" contenteditable="false" data-pillvalue="{{fd_transform:9e843fde-b98b-42b4-9968-e0a6de602358}}"&gt;&lt;span class="data-pill-content-container"&gt;Trigger&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Testing Record&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;Number&lt;button id="transform_function_facade_9e843fde-b98b-42b4-9968-e0a6de602358" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span style="font-family: 'times new roman', times; font-size: 12pt;"&gt;Thank you for using CowiCare!&lt;/span&gt;&lt;/p&gt;
 &lt;div&gt;
-&lt;p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="font-family: 'times new roman', times; color: #000000; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap; font-size: 12pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
-&lt;p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="font-family: 'times new roman', times; color: #808080; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap; font-size: 12pt;"&gt;Stay Safe, Stay Healthy&lt;/span&gt;&lt;/p&gt;
-&lt;p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="font-family: 'times new roman', times; color: #808080; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap; font-size: 12pt;"&gt;With Regards&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="color: #000000; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap; font-family: 'times new roman', times; font-size: 12pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="color: #808080; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap; font-family: 'times new roman', times; font-size: 12pt;"&gt;Stay Safe, Stay Healthy&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="color: #808080; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap; font-family: 'times new roman', times; font-size: 12pt;"&gt;With Regards&lt;/span&gt;&lt;/p&gt;
 &lt;p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"&gt;&lt;span style="font-family: 'times new roman', times; font-size: 12pt;"&gt;&lt;strong&gt;&lt;span style="color: #808080; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"&gt;Team CowiCare&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;</value>
     </sys_element_mapping>
@@ -682,10 +682,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-25 16:38:04</sys_created_on>
         <sys_id>7a5a09181bc53010fdc3ece4604bcbec</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-25 17:15:33</sys_updated_on>
+        <sys_updated_on>2021-06-29 12:12:07</sys_updated_on>
         <ui_id>a1274886-0765-4791-b175-8f581341d7db</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7a5a09181bc53010fdc3ece4604bcbec"/>
@@ -804,10 +804,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-25 16:38:03</sys_created_on>
         <sys_id>7e5a09181bc53010fdc3ece4604bcbc8</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-25 17:15:33</sys_updated_on>
+        <sys_updated_on>2021-06-29 12:12:07</sys_updated_on>
         <ui_id>78fe4140-79c6-4099-9ff4-35f80956878b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7e5a09181bc53010fdc3ece4604bcbc8"/>
@@ -903,10 +903,10 @@
         <sys_created_by>UID1221</sys_created_by>
         <sys_created_on>2021-05-31 12:53:40</sys_created_on>
         <sys_id>9047af8c2fa03010a0c3d0e62799b6d5</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-25 17:15:33</sys_updated_on>
+        <sys_updated_on>2021-06-29 12:12:07</sys_updated_on>
         <ui_id>ec63bb4b-9e40-4d51-958b-eb9b19b15a8a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9047af8c2fa03010a0c3d0e62799b6d5"/>
@@ -998,10 +998,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-25 08:42:27</sys_created_on>
         <sys_id>848d9b8c1b413010fdc3ece4604bcb40</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-25 17:15:33</sys_updated_on>
+        <sys_updated_on>2021-06-29 12:12:07</sys_updated_on>
         <ui_id>d359ca54-4b4a-4d58-b901-f2ae72174062</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1042,10 +1042,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-25 16:38:04</sys_created_on>
         <sys_id>be5a09181bc53010fdc3ece4604bcbe3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-25 17:15:33</sys_updated_on>
+        <sys_updated_on>2021-06-29 12:12:07</sys_updated_on>
         <ui_id>00368a38-3133-4ee7-8e38-dfcd2f434d9b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1064,7 +1064,7 @@
         <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
         <value>{{Created or Updated_1.current.u_result}}=POSITIVE</value>
     </sys_element_mapping>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=70b2ce3b2f903010a0c3d0e62799b6db^sys_idNOT IN0de8c3bb2f543010a0c3d0e62799b61d,45e8c3bb2f543010a0c3d0e62799b61d,7e5a09181bc53010fdc3ece4604bcbf1,8c2b1f7b2f943010a0c3d0e62799b6d5,92d7ca7f2f903010a0c3d0e62799b674,a8760a3f2f903010a0c3d0e62799b62e,c88d9b8c1b413010fdc3ece4604bcb66"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=70b2ce3b2f903010a0c3d0e62799b6db^sys_idNOT IN0de8c3bb2f543010a0c3d0e62799b61d,45e8c3bb2f543010a0c3d0e62799b61d,7e5a09181bc53010fdc3ece4604bcbf1,8c2b1f7b2f943010a0c3d0e62799b6d5,92d370a91b093410fdc3ece4604bcbc0,92d7ca7f2f903010a0c3d0e62799b674,a8760a3f2f903010a0c3d0e62799b62e,c88d9b8c1b413010fdc3ece4604bcb66"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>70b2ce3b2f903010a0c3d0e62799b6db</attached_to>
         <extra_info/>
@@ -1132,6 +1132,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>b9704f7f-c3ee-4bed-af36-4a4c8344f377</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>70b2ce3b2f903010a0c3d0e62799b6db</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created or Updated_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 12:12:08</sys_created_on>
+        <sys_id>92d370a91b093410fdc3ece4604bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 12:12:08</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>9e843fde-b98b-42b4-9968-e0a6de602358</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>70b2ce3b2f903010a0c3d0e62799b6db</attached_to>
