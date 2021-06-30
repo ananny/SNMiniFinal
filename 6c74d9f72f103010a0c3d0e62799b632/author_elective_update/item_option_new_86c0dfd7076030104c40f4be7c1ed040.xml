@@ -156,7 +156,7 @@
         <update_guid_history>82c0dfd72760301032548f3831dc5868:-1158841364</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">3c615f1b076030104c40f4be7c1ed06e</sys_audit_delete>
+        <sys_audit_delete display_value="Non-Veg Food choice">3c615f1b076030104c40f4be7c1ed06e</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-10 13:38:24</sys_created_on>

@@ -288,7 +288,7 @@
         <update_guid_history>86c93217fb2030105b341088ea0e4f98:2074553931</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">e0e15f5b076030104c40f4be7c1ed0ee</sys_audit_delete>
+        <sys_audit_delete display_value="Testing Details">e0e15f5b076030104c40f4be7c1ed0ee</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-10 13:40:34</sys_created_on>
