@@ -42,7 +42,7 @@
         <update_guid_history>e90b28992b89f010cacc2b796f3fe6e8:2111725782</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">690b28991b89f010fdc3ece4604bcbea</sys_audit_delete>
+        <sys_audit_delete display_value="u_user_reg_req_140363.admin">690b28991b89f010fdc3ece4604bcbea</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-28 16:55:05</sys_created_on>

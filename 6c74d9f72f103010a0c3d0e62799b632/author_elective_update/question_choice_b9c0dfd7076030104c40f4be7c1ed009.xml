@@ -46,7 +46,7 @@
         <update_guid_history>35c0dfd762603010979011093d47830b:1912778304</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Veg Thali">8b519b1b076030104c40f4be7c1ed0d3</sys_audit_delete>
+        <sys_audit_delete display_value="">8b519b1b076030104c40f4be7c1ed0d3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-10 13:38:17</sys_created_on>

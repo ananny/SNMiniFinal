@@ -6,7 +6,7 @@
         <display>true</display>
         <mandatory>false</mandatory>
         <order>10000</order>
-        <registration_configuration display_value="">c26dcbdd1b013410fdc3ece4604bcb12</registration_configuration>
+        <registration_configuration display_value="CowiCare Registration">c26dcbdd1b013410fdc3ece4604bcb12</registration_configuration>
         <sys_class_name>registration_form_field</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-29 04:49:20</sys_created_on>

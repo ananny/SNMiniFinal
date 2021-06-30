@@ -114,7 +114,7 @@
         <update_guid_history>c1cdd40704343010a2565ef890d1763e:447523276</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">85273c281bc17010fdc3ece4604bcbe0</sys_audit_delete>
+        <sys_audit_delete display_value="Make 'u_choice_2' hidden depending on 'u_boolean_1'">85273c281bc17010fdc3ece4604bcbe0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-26 09:52:36</sys_created_on>

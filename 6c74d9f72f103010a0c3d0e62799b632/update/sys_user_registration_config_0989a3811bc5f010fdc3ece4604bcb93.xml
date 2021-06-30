@@ -11,7 +11,7 @@
         <internal_name>x_566030_cowicare2.Srashti Sharma</internal_name>
         <name>Srashti Sharma</name>
         <post_registration_redirect_page display_value="sn_user_post_registration_redirect">61638b31533200102b12ddeeff7b12f5</post_registration_redirect_page>
-        <record_producer display_value="Srashti Sharma">27a967811bc5f010fdc3ece4604bcb76</record_producer>
+        <record_producer/>
         <registration_label>Register</registration_label>
         <registration_table>u_user_reg_req_140363</registration_table>
         <requires_user_verification>true</requires_user_verification>

@@ -42,7 +42,7 @@
         <update_guid_history>23fae4995b89f0102a06c33416e86754:-1180082046</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">affae4991b89f010fdc3ece4604bcb55</sys_audit_delete>
+        <sys_audit_delete display_value="u_user_acti_req_140363.admin">affae4991b89f010fdc3ece4604bcb55</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-28 16:54:57</sys_created_on>

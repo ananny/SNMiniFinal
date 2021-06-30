@@ -35,7 +35,7 @@
         <title>CowiCare</title>
         <ts_index_group/>
         <url_suffix>cowicare</url_suffix>
-        <user_registration_config display_value="CowiCare Registration">7ab65bd907c170104c40f4be7c1ed0e0</user_registration_config>
+        <user_registration_config display_value="">7ab65bd907c170104c40f4be7c1ed0e0</user_registration_config>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=c5f362062fe0b8102144265df699b668"/>
     <sys_attachment action="INSERT_OR_UPDATE">

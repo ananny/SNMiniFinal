@@ -72,7 +72,7 @@
         <update_guid_history>92bf6c1de189f010e5e7450af6008dcb:-1819125744,ebbda81d0789f01010b750494b5148dd:-94725576,914d241dc989f010b61a8fd476eefcc1:-150050781,f03da41d3189f010c63ca6df9cc87c7d:-2129257339,390de01dd489f01026c8c066006c68af:-2023887612,15fca41d9e89f01015a6dfc289f5875e:1352691076,89ececd9cc89f010c66b8e231153c27c:1289437061,30dcacd90c89f0108c068f1839e3f592:-532453917,81ccecd9b489f0105cdbccb1f9c23e65:-1681713213,bd3ca4d9cd89f01062ed114a5105488b:502855595,92bb20d9f789f0107851b1e64132e3e0:2012394048,817b20d9bf89f01014daf903151d3246:1572485586,566be499f189f0104678dff0ab5eb6bf:-701455287</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">69b01f511bc13410fdc3ece4604bcb9d</sys_audit_delete>
+        <sys_audit_delete display_value="Register">69b01f511bc13410fdc3ece4604bcb9d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-29 04:58:59</sys_created_on>

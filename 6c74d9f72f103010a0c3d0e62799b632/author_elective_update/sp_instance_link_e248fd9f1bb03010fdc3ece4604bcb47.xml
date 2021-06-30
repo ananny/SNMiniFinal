@@ -72,7 +72,7 @@
         <update_guid_history>ff78f99f1ab03010ff22dc241c4960a0:319077683,7e48fd9f5db030102b10e1938a9eef48:-194507484</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">85a83ddf1bb03010fdc3ece4604bcb3c</sys_audit_delete>
+        <sys_audit_delete display_value="About Cowicare">85a83ddf1bb03010fdc3ece4604bcb3c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-22 17:26:21</sys_created_on>

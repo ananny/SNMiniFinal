@@ -156,7 +156,7 @@
         <update_guid_history>f3b05fd7bd603010b88e416d4784fa9e:-2072942305</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Bed Required">8871135b076030104c40f4be7c1ed087</sys_audit_delete>
+        <sys_audit_delete display_value="">8871135b076030104c40f4be7c1ed087</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-06-10 13:38:38</sys_created_on>

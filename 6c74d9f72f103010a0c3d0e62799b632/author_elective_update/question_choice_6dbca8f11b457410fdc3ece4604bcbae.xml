@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>3</order>
+        <published_ref display_value="Oxygen Bed">02e4338e2fe4b8102144265df699b65a</published_ref>
+        <question display_value="Bed Required">6dbca8f11b457410fdc3ece4604bcb9a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 06:19:26</sys_created_on>
+        <sys_id>6dbca8f11b457410fdc3ece4604bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Oxygen Bed</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>question_choice_6dbca8f11b457410fdc3ece4604bcbae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 06:19:26</sys_updated_on>
+        <text>Oxygen Bed</text>
+        <value>oxygen bed</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=6dbca8f11b457410fdc3ece4604bcbae"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>bdbcf2fc1b44341032182f8dee4bcb1b</instance_id>
+        <instance_name>dev114283</instance_name>
+        <name>question_choice_6dbca8f11b457410fdc3ece4604bcbae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>3</order><published_ref display_value="Oxygen Bed">02e4338e2fe4b8102144265df699b65a</published_ref><question display_value="Bed Required">6dbca8f11b457410fdc3ece4604bcb9a</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-30 06:19:26</sys_created_on><sys_id>6dbca8f11b457410fdc3ece4604bcbae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Oxygen Bed</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>question_choice_6dbca8f11b457410fdc3ece4604bcbae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-30 06:19:26</sys_updated_on><text>Oxygen Bed</text><value>oxygen bed</value></question_choice><fx_price action="delete_multiple" query="id=6dbca8f11b457410fdc3ece4604bcbae"/></record_update>]]></payload>
+        <payload_hash>-1366342684</payload_hash>
+        <record_name>Oxygen Bed</record_name>
+        <reverted_from/>
+        <source>918e98c31b343010fdc3ece4604bcb30</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 06:19:26</sys_created_on>
+        <sys_id>61bca8f11b457410fdc3ece4604bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a5b9282fe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 06:19:26</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>e5bca8f136457410955971709e4c8db1</update_guid>
+        <update_guid_history>e5bca8f136457410955971709e4c8db1:-1366342684</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Oxygen Bed">02ede4751b457410fdc3ece4604bcbdc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-30 06:24:38</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>15f81b4e413742ee991437f079247631</sys_id>
+        <sys_metadata>6dbca8f11b457410fdc3ece4604bcbae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Oxygen Bed</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent display_value="">6dbca8f11b457410fdc3ece4604bcb9a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>question_choice_6dbca8f11b457410fdc3ece4604bcbae</sys_update_name>
+        <sys_update_version display_value="question_choice_6dbca8f11b457410fdc3ece4604bcbae">61bca8f11b457410fdc3ece4604bcbb2</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-30 06:24:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
