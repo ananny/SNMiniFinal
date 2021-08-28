@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 04:49:20</sys_created_on>
+        <sys_id>488e8bdd1b813410fdc3ece4604bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_user_acti_req_718471.admin</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_security_acl display_value="u_user_acti_req_718471">888e8bdd1b813410fdc3ece4604bcbb3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_488e8bdd1b813410fdc3ece4604bcbb6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 04:49:20</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>3afcea99db8d08508aea21c4059619e9</instance_id>
+        <instance_name>dev94518</instance_name>
+        <name>sys_security_acl_role_488e8bdd1b813410fdc3ece4604bcbb6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 04:49:20</sys_created_on>
+        <sys_id>488e8bdd1b813410fdc3ece4604bcbb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_user_acti_req_718471.admin</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_security_acl display_value="u_user_acti_req_718471">888e8bdd1b813410fdc3ece4604bcbb3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_488e8bdd1b813410fdc3ece4604bcbb6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 04:49:20</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-527938622</payload_hash>
+        <record_name>u_user_acti_req_718471.admin</record_name>
+        <reverted_from/>
+        <source>cb53db1507c170104c40f4be7c1ed024</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 05:11:43</sys_created_on>
+        <sys_id>00a3df5507c170104c40f4be7c1ed0e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a562e26e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 05:11:43</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>cca3df55cdc170108104963cef54dce5</update_guid>
+        <update_guid_history>cca3df55cdc170108104963cef54dce5:-527938622</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">48f55f9907c170104c40f4be7c1ed066</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 05:21:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2c64b6a0b2a145c38fb64b296ba5df19</sys_id>
+        <sys_metadata>488e8bdd1b813410fdc3ece4604bcbb6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_user_acti_req_718471.admin</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent display_value="">888e8bdd1b813410fdc3ece4604bcbb3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_488e8bdd1b813410fdc3ece4604bcbb6</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_488e8bdd1b813410fdc3ece4604bcbb6">00a3df5507c170104c40f4be7c1ed0e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 05:21:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

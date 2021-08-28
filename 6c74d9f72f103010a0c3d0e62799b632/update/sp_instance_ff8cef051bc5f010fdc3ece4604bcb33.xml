@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>@media (max-width: 767px) {
+  .wrapper-xl {
+    padding: 25px 15px !important;
+  }
+  .text-4x {
+    font-size: 3em;
+  }
+}</css>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">bb8cef051bc5f010fdc3ece4604bcb31</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-28 12:22:10</sys_created_on>
+        <sys_id>ff8cef051bc5f010fdc3ece4604bcb33</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Welcome to CowiCare Portal</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sp_instance_ff8cef051bc5f010fdc3ece4604bcb33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-28 17:09:16</sys_updated_on>
+        <title>Welcome to CowiCare Portal</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div class=\"wrapper-xl welcome\"><h1 class=\"text-white text-4x\">${Welcome to the<br>CowiCare&nbsp;Portal}</h1><h3 class=\"text-white\">${Log in to access covid healthcare services}</h3></div>",
+		"displayValue": "<div class=\"wrapper-xl welcome\">\n<h1 class=\"text-white text-4x\">${Welcome to the<br />CowiCare&nbsp;Portal}</h1>\n<h3 class=\"text-white\">${Log in to access covid heathcare services}</h3>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff8cef051bc5f010fdc3ece4604bcb33"/>
+</record_update>

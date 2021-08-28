@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Request Services">d0573b022f28b8102144265df699b6b0</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field>u_boolean_1</field>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <macroponent/>
+        <mandatory>false</mandatory>
+        <map_to_field>true</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>u_boolean_1</name>
+        <order>3100</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref display_value="Veg Food">a1e4338e2fe4b8102144265df699b609</published_ref>
+        <question_text>Veg Food</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_566030_cowicare2_services</record_producer_table>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 19:11:44</sys_created_on>
+        <sys_id>3c57fb022f28b8102144265df699b61b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Veg Food</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>item_option_new_3c57fb022f28b8102144265df699b61b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 19:53:28</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>7</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="DELETE" query="documentkey=3c57fb022f28b8102144265df699b61b"/>
+    <fx_price action="DELETE" query="id=3c57fb022f28b8102144265df699b61b"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>3c57fb022f28b8102144265df699b61b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 19:11:44</sys_created_on>
+        <sys_id>3c57fb022f28b8102144265df699b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 19:11:44</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>3c57fb022f28b8102144265df699b61b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 19:11:44</sys_created_on>
+        <sys_id>fc57fb022f28b8102144265df699b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 19:11:44</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>1447003cdb3d9b041ddcf22ebf9619c7</instance_id>
+        <instance_name>dev57683</instance_name>
+        <name>item_option_new_3c57fb022f28b8102144265df699b61b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item display_value="Request Services">d0573b022f28b8102144265df699b6b0</cat_item><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><enable_also_request_for>false</enable_also_request_for><example_text/><field>u_boolean_1</field><global>false</global><help_tag>More information</help_tag><help_text/><hidden>false</hidden><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><macroponent/><mandatory>false</mandatory><map_to_field>true</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>u_boolean_1</name><order>3100</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><published_ref display_value="Veg Food">a1e4338e2fe4b8102144265df699b609</published_ref><question_text>Veg Food</question_text><read_only>false</read_only><read_roles/><read_script/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table>x_566030_cowicare2_services</record_producer_table><reference/><reference_qual/><reference_qual_condition/><rich_text/><roles_to_use_also_request_for/><save_script/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget/><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-06 19:11:44</sys_created_on><sys_id>3c57fb022f28b8102144265df699b61b</sys_id><sys_mod_count>9</sys_mod_count><sys_name>Veg Food</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>item_option_new_3c57fb022f28b8102144265df699b61b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-06 19:53:28</sys_updated_on><table/><tooltip/><type>7</type><ui_page/><unique>false</unique><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><validate_regex/><variable_name/><variable_set/><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=3c57fb022f28b8102144265df699b61b"/><fx_price action="delete_multiple" query="id=3c57fb022f28b8102144265df699b61b"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>3c57fb022f28b8102144265df699b61b</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-06 19:11:44</sys_created_on><sys_id>3c57fb022f28b8102144265df699b61e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-06 19:11:44</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>3c57fb022f28b8102144265df699b61b</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-06 19:11:44</sys_created_on><sys_id>fc57fb022f28b8102144265df699b61d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-06 19:11:44</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-2044133557</payload_hash>
+        <record_name>Veg Food</record_name>
+        <reverted_from/>
+        <source>7ef15abc2fac74102144265df699b6c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 19:53:29</sys_created_on>
+        <sys_id>94e0889a2f28b8102144265df699b6ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e2e32aa50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 19:53:29</sys_updated_on>
+        <type>Variable</type>
+        <update_guid>1ce0889a4628b81037ccd346be7cf0ac</update_guid>
+        <update_guid_history>1ce0889a4628b81037ccd346be7cf0ac:-2044133557,148cf786d628b8108ff418c30cd2d82a:766738060,ed8b7746f028b810169cccf75b664067:2025295988,3c3b7f06b328b81093a528368efa0365:-2112351567,985a3fc24628b8106b60db59eefe4ae8:-628255888,7e0a3bc27c28b810856f74738a7004bd:-2108157514,140af7c2c128b810aacdf9bd6191307b:-1950837773,13a933c28828b8108ecaca8d25dcbbdd:-692279845,2399bf823028b810dd53b7529442894c:791815834,cd57fb02f828b810a45d06aa5cd4cc25:-2019055783</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c03086162fecb8102144265df699b631</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-07 05:09:42</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
+        <sys_id>36877f32e4974e6a992e76d0794b4ed1</sys_id>
+        <sys_metadata>3c57fb022f28b8102144265df699b61b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Veg Food</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent display_value="">d0573b022f28b8102144265df699b6b0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>item_option_new_3c57fb022f28b8102144265df699b61b</sys_update_name>
+        <sys_update_version display_value="item_option_new_3c57fb022f28b8102144265df699b61b">94e0889a2f28b8102144265df699b6ad</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-07 05:09:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

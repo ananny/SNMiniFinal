@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">368cbd931bf03010fdc3ece4604bcb5b</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 15:48:02</sys_created_on>
+        <sys_id>eebb266f1b343010fdc3ece4604bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sp_instance_eebb266f1b343010fdc3ece4604bcbcd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 15:48:02</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=eebb266f1b343010fdc3ece4604bcbcd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>bdbcf2fc1b44341032182f8dee4bcb1b</instance_id>
+        <instance_name>dev114283</instance_name>
+        <name>sp_instance_eebb266f1b343010fdc3ece4604bcbcd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">368cbd931bf03010fdc3ece4604bcb5b</sp_column><sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-23 15:48:02</sys_created_on><sys_id>eebb266f1b343010fdc3ece4604bcbcd</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>sp_instance_eebb266f1b343010fdc3ece4604bcbcd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-23 15:48:02</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=eebb266f1b343010fdc3ece4604bcbcd"/></record_update>]]></payload>
+        <payload_hash>1630307168</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>918e98c31b343010fdc3ece4604bcb30</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 15:48:02</sys_created_on>
+        <sys_id>aabb266f1b343010fdc3ece4604bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a398e8fe00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 15:48:02</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>e2bb266fec34301001d700c925d583d0</update_guid>
+        <update_guid_history>e2bb266fec34301001d700c925d583d0:1630307168</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">74cba26f1b343010fdc3ece4604bcb58</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 15:48:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0c3241790e434c3880ca4f5dff016190</sys_id>
+        <sys_metadata>eebb266f1b343010fdc3ece4604bcbcd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>sp_instance_eebb266f1b343010fdc3ece4604bcbcd</sys_update_name>
+        <sys_update_version display_value="sp_instance_eebb266f1b343010fdc3ece4604bcbcd">aabb266f1b343010fdc3ece4604bcbd0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 15:48:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

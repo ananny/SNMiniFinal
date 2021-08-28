@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>true</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>User Reg Req 718471</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_user_reg_req_718471</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="User Registration Request" name="sys_user_registration_request">b036e34d1b85f010fdc3ece4604bcb6a</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 04:49:19</sys_created_on>
+        <sys_id>337ecf9d1b813410fdc3ece4604bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Reg Req 718471</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sys_db_object_337ecf9d1b813410fdc3ece4604bcb37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 04:49:19</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>false</ws_access>
+    </sys_db_object>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>3afcea99db8d08508aea21c4059619e9</instance_id>
+        <instance_name>dev94518</instance_name>
+        <name>sys_db_object_337ecf9d1b813410fdc3ece4604bcb37</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>true</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>User Reg Req 718471</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_user_reg_req_718471</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="User Registration Request" name="sys_user_registration_request">b036e34d1b85f010fdc3ece4604bcb6a</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 04:49:19</sys_created_on>
+        <sys_id>337ecf9d1b813410fdc3ece4604bcb37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Reg Req 718471</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sys_db_object_337ecf9d1b813410fdc3ece4604bcb37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 04:49:19</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>false</ws_access>
+    </sys_db_object>
+</record_update>]]></payload>
+        <payload_hash>-2030822248</payload_hash>
+        <record_name>User Reg Req 718471</record_name>
+        <reverted_from/>
+        <source>cb53db1507c170104c40f4be7c1ed024</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 05:11:05</sys_created_on>
+        <sys_id>3673575507c170104c40f4be7c1ed0e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a562d92f20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 05:11:05</sys_updated_on>
+        <type>Table</type>
+        <update_guid>f273575517c17010bcfb091b4c3cd5e3</update_guid>
+        <update_guid_history>f273575517c17010bcfb091b4c3cd5e3:-2030822248</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 05:24:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>29e08f76752f4e478614f0a3fcc90701</sys_id>
+        <sys_metadata>337ecf9d1b813410fdc3ece4604bcb37</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Reg Req 718471</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>sys_db_object_337ecf9d1b813410fdc3ece4604bcb37</sys_update_name>
+        <sys_update_version display_value="sys_db_object_337ecf9d1b813410fdc3ece4604bcb37">3673575507c170104c40f4be7c1ed0e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 05:24:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

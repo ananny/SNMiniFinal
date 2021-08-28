@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_result" table="x_566030_cowicare2_testing" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_result</element>
+            <name>x_566030_cowicare2_testing</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-30 09:20:26</sys_created_on>
+            <sys_id>feb0d7302f247010a0c3d0e62799b669</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_result</sys_name>
+            <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+            <sys_update_name>sys_choice_x_566030_cowicare2_testing_u_result</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-30 09:20:26</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_result</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Not Yet Requested</label>
+            <language>en</language>
+            <name>x_566030_cowicare2_testing</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>UID1221</sys_created_by>
+            <sys_created_on>2021-05-31 12:08:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb6cd7442fa03010a0c3d0e62799b6ef</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-31 12:38:53</sys_updated_on>
+            <value>not requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>POSITIVE</label>
+            <language>en</language>
+            <name>x_566030_cowicare2_testing</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-30 09:20:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7adc693b2f503010a0c3d0e62799b657</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 18:22:42</sys_updated_on>
+            <value>POSITIVE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_result</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NEGATIVE</label>
+            <language>en</language>
+            <name>x_566030_cowicare2_testing</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-30 09:20:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7dc693b2f503010a0c3d0e62799b659</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 18:22:51</sys_updated_on>
+            <value>NEGATIVE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_result</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Requested</label>
+            <language>en</language>
+            <name>x_566030_cowicare2_testing</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>UID1221</sys_created_by>
+            <sys_created_on>2021-05-31 12:09:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f2d5b442fa03010a0c3d0e62799b6ae</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-31 12:38:53</sys_updated_on>
+            <value>requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_result</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_566030_cowicare2_testing</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>UID1221</sys_created_by>
+            <sys_created_on>2021-05-31 12:08:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3becdf442fa03010a0c3d0e62799b6ee</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-31 12:38:53</sys_updated_on>
+            <value>cancelled</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_result</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>No Longer Required</label>
+            <language>en</language>
+            <name>x_566030_cowicare2_testing</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>UID1221</sys_created_by>
+            <sys_created_on>2021-05-31 12:08:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>100ddf042fa03010a0c3d0e62799b6bc</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-31 12:38:53</sys_updated_on>
+            <value>not_required</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

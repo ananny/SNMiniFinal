@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Request Services">68e43f4e2fe4b8102144265df699b697</catalog_item>
+        <catalog_variable>IO:06e4338e2fe4b8102144265df699b647</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-08 08:48:09</sys_created_on>
+        <sys_id>b5cbf72a2f6030102144265df699b6b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_bed_required</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b5cbf72a2f6030102144265df699b6b2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-08 08:54:11</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'u_bed_required' hidden depending on 'u_home_isolation'">35cbf72a2f6030102144265df699b6af</ui_policy>
+        <variable>u_bed_required</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>3afcea99db8d08508aea21c4059619e9</instance_id>
+        <instance_name>dev94518</instance_name>
+        <name>catalog_ui_policy_action_b5cbf72a2f6030102144265df699b6b2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Request Services">68e43f4e2fe4b8102144265df699b697</catalog_item>
+        <catalog_variable>IO:06e4338e2fe4b8102144265df699b647</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-08 08:48:09</sys_created_on>
+        <sys_id>b5cbf72a2f6030102144265df699b6b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_bed_required</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b5cbf72a2f6030102144265df699b6b2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-08 08:54:11</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'u_bed_required' hidden depending on 'u_home_isolation'">35cbf72a2f6030102144265df699b6af</ui_policy>
+        <variable>u_bed_required</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>1426557262</payload_hash>
+        <record_name>u_bed_required</record_name>
+        <reverted_from/>
+        <source>0fa9bad3072030104c40f4be7c1ed087</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 11:55:06</sys_created_on>
+        <sys_id>ebb9bed3072030104c40f4be7c1ed01e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179f5c6a31f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 11:55:06</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>abb9bed34c203010baa9e72efc7cc51e</update_guid>
+        <update_guid_history>abb9bed34c203010baa9e72efc7cc51e:1426557262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">f5515b1b076030104c40f4be7c1ed0ac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-10 13:38:11</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>5f794c693d614a5aafef36516164bca4</sys_id>
+        <sys_metadata>b5cbf72a2f6030102144265df699b6b2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_bed_required</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_b5cbf72a2f6030102144265df699b6b2</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_b5cbf72a2f6030102144265df699b6b2">ebb9bed3072030104c40f4be7c1ed01e</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-10 13:38:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

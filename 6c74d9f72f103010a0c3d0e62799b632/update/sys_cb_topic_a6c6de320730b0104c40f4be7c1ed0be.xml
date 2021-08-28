@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <auto_resolution_enabled>false</auto_resolution_enabled>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Cowicare virtual agent</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.31",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "e50ac9af4ec342bfbb0cec888b616a75": {
+          "id": "e50ac9af4ec342bfbb0cec888b616a75",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Welcome to CowiCare support "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "eb6cc736f3864f3aa711036e28081167": {
+          "id": "eb6cc736f3864f3aa711036e28081167",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "54717479b10f4140ac6ea16fa0924c93": {
+          "stepType": "ChoicePrompt",
+          "name": "u_user_input",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "How can I help you?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "5a140339ea344753a9ac272f2117bcab",
+          "id": "54717479b10f4140ac6ea16fa0924c93",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "92e2b78e242d42f4b19bf3e511a13fd7": {
+          "id": "92e2b78e242d42f4b19bf3e511a13fd7",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "f50f0133114144808a4fd840e95836e2": {
+          "id": "f50f0133114144808a4fd840e95836e2",
+          "stepType": "Prompt",
+          "name": "u_username",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please tell your name"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "04d4142c88ba4148a04d5314f864933a",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "f1511c6bf7634a1986ac6af88dcfd646": {
+          "id": "f1511c6bf7634a1986ac6af88dcfd646",
+          "stepType": "TextOutput",
+          "name": "name_of_user",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hi there "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.u_username}}",
+                      "displayValue": "Input Variables➛U_username"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "I am CowiCare agent."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "14d79c86f1c64efebb902b7fda646634": {
+          "id": "14d79c86f1c64efebb902b7fda646634",
+          "stepType": "MultiPartOutput",
+          "name": "Contact helpline",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "navigationLabel": "Go back to main menu",
+          "messages": [
+            {
+              "type": "Text",
+              "value": "You can Mail us at: support@cowicare.com or call us at: 9997878"
+            }
+          ]
+        },
+        "e05ad4f8499344349a252040a2794751": {
+          "id": "e05ad4f8499344349a252040a2794751",
+          "stepType": "MultiPartOutput",
+          "name": "Know about Cowicare",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "navigationLabel": "Go back to main menu",
+          "messages": [
+            {
+              "type": "Text",
+              "value": "As the covid-19 cases have reached to its highest peak, so is the concern of every individual to avail basic necessities for health care. The requirement is to access all medical facilities ensuring safer delivery.  The Mini-Project idea is to build an application where-  1-User can request medical services like covid-19 testing facility (Pathology &amp; Home Sample Collection), RT-PCR testing (Authorized Test Centers)  2-According to the condition of their health, users can request for Home Isolation Care Package, Home Oxygen Concentrator Support, availability of beds in hospital, delivery of food packages to their homes, delivery of medicines based on their medical reports.  3-The users will be provided with services based on the priority of their request and their health condition."
+            }
+          ]
+        },
+        "0d4b1c0ca857440b9dbfdc838d87a800": {
+          "id": "0d4b1c0ca857440b9dbfdc838d87a800",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "9270d53e94524074b19ddce28001f4e0": {
+          "id": "9270d53e94524074b19ddce28001f4e0",
+          "stepType": "RecordOutput",
+          "name": "Testing_card",
+          "variableId": "current-user",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "script",
+          "tableName": "x_566030_cowicare2_testing",
+          "fields": [
+            "u_covid_test",
+            "u_result"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "numberLIKE{{vaInputs.u_text}}"
+          }
+        },
+        "2e5df8d2cec44376a8a460714b5def5c": {
+          "id": "2e5df8d2cec44376a8a460714b5def5c",
+          "stepType": "Prompt",
+          "name": "u_text",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please provide your record number."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "56dce8ae99854daba44023d54fa1c13a",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        },
+        "01ced9427fc84094a2870d4c311bef23": {
+          "id": "01ced9427fc84094a2870d4c311bef23",
+          "stepType": "RecordOutput",
+          "name": "Services",
+          "variableId": "",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "script",
+          "tableName": "x_566030_cowicare2_services",
+          "fields": [
+            "name",
+            "u_address2",
+            "email",
+            "u_medicines",
+            "u_choice_5",
+            "u_choice_2",
+            "u_choice_3",
+            "u_bed_required",
+            "select_hospitals",
+            "state"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "numberLIKE{{vaInputs.u_record}}"
+          }
+        },
+        "2a92138cc75244b2a4b1dd7461179c2e": {
+          "stepType": "ChoicePrompt",
+          "name": "record_type",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Which record do you want to check?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "2140c002c9314198b79246b1aa25ee37",
+          "id": "2a92138cc75244b2a4b1dd7461179c2e",
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "121467993ce247488fc7e1de8dd254be": {
+          "id": "121467993ce247488fc7e1de8dd254be",
+          "stepType": "Prompt",
+          "name": "u_record",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please mention your record number."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "70277ffe258e443e97c0b82530c14fef",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "464d33d6aeb248ee8644a8aecf7351d5",
+          "edgeType": "Branch",
+          "source": "92e2b78e242d42f4b19bf3e511a13fd7",
+          "target": "2a92138cc75244b2a4b1dd7461179c2e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.u_user_input=view",
+            "mode": "query"
+          },
+          "label": "View your record"
+        },
+        {
+          "id": "dac0806ee6a74c00856bac94cd65ef70",
+          "edgeType": "Edge",
+          "source": "01ced9427fc84094a2870d4c311bef23",
+          "target": "eb6cc736f3864f3aa711036e28081167",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6ab469c4a9b94e0ebecc717e1add8cb8",
+          "edgeType": "Edge",
+          "source": "54717479b10f4140ac6ea16fa0924c93",
+          "target": "92e2b78e242d42f4b19bf3e511a13fd7",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c18755d2f66c4ec0b9b1fe4e64607a4d",
+          "edgeType": "Edge",
+          "source": "e50ac9af4ec342bfbb0cec888b616a75",
+          "target": "f50f0133114144808a4fd840e95836e2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ce5883a20c064fe78c8cd0efaaf088b3",
+          "edgeType": "Edge",
+          "source": "f50f0133114144808a4fd840e95836e2",
+          "target": "f1511c6bf7634a1986ac6af88dcfd646",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "19c1379dc1034e88b42d25f39322853a",
+          "edgeType": "Edge",
+          "source": "f1511c6bf7634a1986ac6af88dcfd646",
+          "target": "54717479b10f4140ac6ea16fa0924c93",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "43bec392467f41edb10e728d04b4f4e4",
+          "edgeType": "Branch",
+          "source": "92e2b78e242d42f4b19bf3e511a13fd7",
+          "target": "14d79c86f1c64efebb902b7fda646634",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.u_user_input=contact",
+            "mode": "query"
+          },
+          "label": "Contact Helpline"
+        },
+        {
+          "id": "109a7980389c49bcb7f707e90f47d0bc",
+          "edgeType": "Edge",
+          "source": "14d79c86f1c64efebb902b7fda646634",
+          "target": "54717479b10f4140ac6ea16fa0924c93",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "da7bd14121c14e64a223cfa433abccd0",
+          "edgeType": "Branch",
+          "source": "92e2b78e242d42f4b19bf3e511a13fd7",
+          "target": "e05ad4f8499344349a252040a2794751",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.u_user_input=CowiCare",
+            "mode": "query"
+          },
+          "label": "Know about Cowicare"
+        },
+        {
+          "id": "f385a633ce5f40eb9595b2c5b4bf5945",
+          "edgeType": "Edge",
+          "source": "e05ad4f8499344349a252040a2794751",
+          "target": "54717479b10f4140ac6ea16fa0924c93",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "4fdf77f1112e476a84d9ea5f9a4cea86",
+          "edgeType": "Edge",
+          "source": "9270d53e94524074b19ddce28001f4e0",
+          "target": "eb6cc736f3864f3aa711036e28081167",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "51886bd6179e43cfab89adadb556e023",
+          "edgeType": "Branch",
+          "source": "0d4b1c0ca857440b9dbfdc838d87a800",
+          "target": "2e5df8d2cec44376a8a460714b5def5c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.record_type=testing",
+            "mode": "query"
+          },
+          "label": "Testing"
+        },
+        {
+          "id": "40440aa6e4be4c288fc7e357f86bb28e",
+          "edgeType": "Edge",
+          "source": "2e5df8d2cec44376a8a460714b5def5c",
+          "target": "9270d53e94524074b19ddce28001f4e0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "744e42e7ec774e239f2bce028c2f48d7",
+          "edgeType": "Edge",
+          "source": "2a92138cc75244b2a4b1dd7461179c2e",
+          "target": "0d4b1c0ca857440b9dbfdc838d87a800",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ee2ab8ea99304d5fb4e2f1f2ebc83854",
+          "edgeType": "Branch",
+          "source": "0d4b1c0ca857440b9dbfdc838d87a800",
+          "target": "121467993ce247488fc7e1de8dd254be",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.record_type=services",
+            "mode": "query"
+          },
+          "label": "Service"
+        },
+        {
+          "id": "b3054532499e492a8f0b9ce988ebe146",
+          "edgeType": "Edge",
+          "source": "121467993ce247488fc7e1de8dd254be",
+          "target": "01ced9427fc84094a2870d4c311bef23",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "5a140339ea344753a9ac272f2117bcab": {
+      "id": "5a140339ea344753a9ac272f2117bcab",
+      "name": "u_user_input",
+      "label": "U_user_input",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Contact helpline",
+          "value": "contact"
+        },
+        {
+          "label": "View your record",
+          "value": "view",
+          "checked": true
+        },
+        {
+          "label": "Know about Cowicare",
+          "value": "CowiCare",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "70277ffe258e443e97c0b82530c14fef": {
+      "id": "70277ffe258e443e97c0b82530c14fef",
+      "name": "u_record",
+      "label": "U_record",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTYyNDI1NzA2MTEwMCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      }
+    },
+    "04d4142c88ba4148a04d5314f864933a": {
+      "id": "04d4142c88ba4148a04d5314f864933a",
+      "name": "u_username",
+      "label": "U_username",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTYyNDI3ODUyMDkwNCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      }
+    },
+    "2140c002c9314198b79246b1aa25ee37": {
+      "id": "2140c002c9314198b79246b1aa25ee37",
+      "name": "record_type",
+      "label": "Record_type",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Testing ",
+          "value": "testing"
+        },
+        {
+          "label": "Service",
+          "value": "services",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "56dce8ae99854daba44023d54fa1c13a": {
+      "id": "56dce8ae99854daba44023d54fa1c13a",
+      "name": "u_text",
+      "label": "U_text",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTYyNDI4MjI4NzkwMCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      }
+    }
+  }
+}</graph>
+        <key_phrases>Cowicare,help</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Cowicare</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 06:21:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a6c6de320730b0104c40f4be7c1ed0be</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Cowicare</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sys_cb_topic_a6c6de320730b0104c40f4be7c1ed0be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 14:31:54</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=a6c6de320730b0104c40f4be7c1ed0be"/>
+</record_update>

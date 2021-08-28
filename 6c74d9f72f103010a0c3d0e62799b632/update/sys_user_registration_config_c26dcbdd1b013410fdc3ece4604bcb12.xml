@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_user_registration_config">
+    <sys_user_registration_config action="INSERT_OR_UPDATE">
+        <activation_error_page display_value="sn_user_activation_error">b8e54fb1533200102b12ddeeff7b1286</activation_error_page>
+        <activation_link_expiry_time>24</activation_link_expiry_time>
+        <activation_success_page display_value="sn_user_activation_success">2df447b1533200102b12ddeeff7b12c5</activation_success_page>
+        <activation_table>u_user_acti_req_718471</activation_table>
+        <active>true</active>
+        <description><![CDATA[<p>Please register yourself to CowiCare Portal.</p>]]></description>
+        <enable_captcha>false</enable_captcha>
+        <enable_terms>false</enable_terms>
+        <internal_name>x_566030_cowicare2.CowiCare Registration</internal_name>
+        <name>CowiCare Registration</name>
+        <post_registration_redirect_page display_value="sn_user_post_registration_redirect">61638b31533200102b12ddeeff7b12f5</post_registration_redirect_page>
+        <record_producer display_value="CowiCare Registration">148e8bdd1b813410fdc3ece4604bcbf6</record_producer>
+        <registration_label>Register</registration_label>
+        <registration_table>u_user_reg_req_718471</registration_table>
+        <requires_user_verification>true</requires_user_verification>
+        <role_to_assign name="snc_external">940ba702933002009c8579b4f47ffbe2</role_to_assign>
+        <sys_class_name>sys_user_registration_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 04:49:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c26dcbdd1b013410fdc3ece4604bcb12</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CowiCare Registration</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sys_user_registration_config_c26dcbdd1b013410fdc3ece4604bcb12</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 04:51:50</sys_updated_on>
+        <terms_and_condition_url/>
+        <transform_map display_value="u_reg_xmap_272372">a08ecbdd1b813410fdc3ece4604bcb93</transform_map>
+        <user_onboarding_flow display_value="External User Onboarding">3539c77e5376001001a3ddeeff7b1214</user_onboarding_flow>
+        <user_table>u_self_reg_user_profile_718471</user_table>
+        <user_verification_flow display_value="External User Verification">ecebaf7a533200102b12ddeeff7b1257</user_verification_flow>
+    </sys_user_registration_config>
+</record_update>

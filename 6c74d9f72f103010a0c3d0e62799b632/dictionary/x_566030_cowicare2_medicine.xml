@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Medicines/injections" max_length="40" name="x_566030_cowicare2_medicine" sizeclass="20" type="collection">
+        <element display="true" label="Name of Medicine/Injection" max_length="40" name="name_of_medicine_injection" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="40" name="number" type="integer"/>
+    </element>
+</database>

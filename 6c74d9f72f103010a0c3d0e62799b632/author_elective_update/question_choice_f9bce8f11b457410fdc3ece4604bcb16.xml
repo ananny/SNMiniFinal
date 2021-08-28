@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>2</order>
+        <published_ref display_value="2 - High">2de4ff4e2fe4b8102144265df699b6f6</published_ref>
+        <question display_value="Priority">bdbca8f11b457410fdc3ece4604bcbfe</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 06:19:26</sys_created_on>
+        <sys_id>f9bce8f11b457410fdc3ece4604bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2 - High</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>question_choice_f9bce8f11b457410fdc3ece4604bcb16</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 06:19:26</sys_updated_on>
+        <text>2 - High</text>
+        <value>2 - high</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=f9bce8f11b457410fdc3ece4604bcb16"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>bdbcf2fc1b44341032182f8dee4bcb1b</instance_id>
+        <instance_name>dev114283</instance_name>
+        <name>question_choice_f9bce8f11b457410fdc3ece4604bcb16</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>2</order><published_ref display_value="2 - High">2de4ff4e2fe4b8102144265df699b6f6</published_ref><question display_value="Priority">bdbca8f11b457410fdc3ece4604bcbfe</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-30 06:19:26</sys_created_on><sys_id>f9bce8f11b457410fdc3ece4604bcb16</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2 - High</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>question_choice_f9bce8f11b457410fdc3ece4604bcb16</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-30 06:19:26</sys_updated_on><text>2 - High</text><value>2 - high</value></question_choice><fx_price action="delete_multiple" query="id=f9bce8f11b457410fdc3ece4604bcb16"/></record_update>]]></payload>
+        <payload_hash>-386062894</payload_hash>
+        <record_name>2 - High</record_name>
+        <reverted_from/>
+        <source>918e98c31b343010fdc3ece4604bcb30</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 06:19:26</sys_created_on>
+        <sys_id>31bce8f11b457410fdc3ece4604bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a5b92844e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 06:19:26</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>b5bce8f1ba4574101129d251053fbf18</update_guid>
+        <update_guid_history>b5bce8f1ba4574101129d251053fbf18:-386062894</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2 - High">d2ed28751b457410fdc3ece4604bcbbd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-30 06:24:40</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>7a356a2be2804ed4a4684a5b5108d424</sys_id>
+        <sys_metadata>f9bce8f11b457410fdc3ece4604bcb16</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2 - High</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent display_value="">bdbca8f11b457410fdc3ece4604bcbfe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>question_choice_f9bce8f11b457410fdc3ece4604bcb16</sys_update_name>
+        <sys_update_version display_value="question_choice_f9bce8f11b457410fdc3ece4604bcb16">31bce8f11b457410fdc3ece4604bcb19</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-30 06:24:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

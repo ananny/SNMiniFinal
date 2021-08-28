@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color/>
+        <css/>
+        <glyph>user</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>3</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>If you are not a registered user, Please click on register</short_description>
+        <size>md</size>
+        <sp_column display_value="2">ff8cef051bc5f010fdc3ece4604bcb38</sp_column>
+        <sp_page display_value="sn_user_post_registration_redirect">61638b31533200102b12ddeeff7b12f5</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-28 16:56:47</sys_created_on>
+        <sys_id>d26be4991b89f010fdc3ece4604bcbbd</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Register</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sp_instance_link_d26be4991b89f010fdc3ece4604bcbbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-28 17:15:38</sys_updated_on>
+        <title>Register</title>
+        <type>url</type>
+        <url>https://dev114283.service-now.com/nav_to.do?uri=%2Fuser_registration_request.do%3Fsys_id%3D-1%26sysparm_view%3Dess</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=d26be4991b89f010fdc3ece4604bcbbd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>bdbcf2fc1b44341032182f8dee4bcb1b</instance_id>
+        <instance_name>dev114283</instance_name>
+        <name>sp_instance_link_d26be4991b89f010fdc3ece4604bcbbd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color/&gt;&lt;css/&gt;&lt;glyph&gt;user&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;3&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;If you are not a registered user, Please click on register&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;ff8cef051bc5f010fdc3ece4604bcb38&lt;/sp_column&gt;&lt;sp_page display_value="sn_user_post_registration_redirect"&gt;61638b31533200102b12ddeeff7b12f5&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-28 16:56:47&lt;/sys_created_on&gt;&lt;sys_id&gt;d26be4991b89f010fdc3ece4604bcbbd&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Register&lt;/sys_name&gt;&lt;sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2"&gt;6c74d9f72f103010a0c3d0e62799b632&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CowiCare 2.0"&gt;6c74d9f72f103010a0c3d0e62799b632&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_d26be4991b89f010fdc3ece4604bcbbd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-28 17:15:38&lt;/sys_updated_on&gt;&lt;title&gt;Register&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;https://dev114283.service-now.com/nav_to.do?uri=%2Fuser_registration_request.do%3Fsys_id%3D-1%26sysparm_view%3Dess&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d26be4991b89f010fdc3ece4604bcbbd"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1819125744</payload_hash>
+        <record_name>Register</record_name>
+        <reverted_from/>
+        <source>918e98c31b343010fdc3ece4604bcb30</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-28 17:15:38</sys_created_on>
+        <sys_id>9abf6c1d1b89f010fdc3ece4604bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a539e8f4c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-28 17:15:38</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>92bf6c1de189f010e5e7450af6008dcb</update_guid>
+        <update_guid_history>92bf6c1de189f010e5e7450af6008dcb:-1819125744,ebbda81d0789f01010b750494b5148dd:-94725576,914d241dc989f010b61a8fd476eefcc1:-150050781,f03da41d3189f010c63ca6df9cc87c7d:-2129257339,390de01dd489f01026c8c066006c68af:-2023887612,15fca41d9e89f01015a6dfc289f5875e:1352691076,89ececd9cc89f010c66b8e231153c27c:1289437061,30dcacd90c89f0108c068f1839e3f592:-532453917,81ccecd9b489f0105cdbccb1f9c23e65:-1681713213,bd3ca4d9cd89f01062ed114a5105488b:502855595,92bb20d9f789f0107851b1e64132e3e0:2012394048,817b20d9bf89f01014daf903151d3246:1572485586,566be499f189f0104678dff0ab5eb6bf:-701455287</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Register">69b01f511bc13410fdc3ece4604bcb9d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 04:58:59</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>0758aada9b084349809b6f0aaa78e551</sys_id>
+        <sys_metadata>d26be4991b89f010fdc3ece4604bcbbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Register</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>sp_instance_link_d26be4991b89f010fdc3ece4604bcbbd</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_d26be4991b89f010fdc3ece4604bcbbd">9abf6c1d1b89f010fdc3ece4604bcbcb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 04:58:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

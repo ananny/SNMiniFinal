@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="CowiCare About - Container 2">49e19a1a2f20f8102144265df699b60c</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 17:15:16</sys_created_on>
+        <sys_id>6616b55f1bb03010fdc3ece4604bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sp_row_6616b55f1bb03010fdc3ece4604bcb89</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 17:15:16</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>bdbcf2fc1b44341032182f8dee4bcb1b</instance_id>
+        <instance_name>dev114283</instance_name>
+        <name>sp_row_6616b55f1bb03010fdc3ece4604bcb89</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="CowiCare About - Container 2">49e19a1a2f20f8102144265df699b60c</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-22 17:15:16</sys_created_on><sys_id>6616b55f1bb03010fdc3ece4604bcb89</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>sp_row_6616b55f1bb03010fdc3ece4604bcb89</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-22 17:15:16</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>-119031807</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>918e98c31b343010fdc3ece4604bcb30</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 17:15:16</sys_created_on>
+        <sys_id>a216b55f1bb03010fdc3ece4604bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a34b811710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 17:15:16</sys_updated_on>
+        <type>Row</type>
+        <update_guid>ea16b55f9db03010b6254e883e67688a</update_guid>
+        <update_guid_history>ea16b55f9db03010b6254e883e67688a:-119031807</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">69d6719f1bb03010fdc3ece4604bcbde</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 17:18:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>1dd92d19f41a4caca6726b3f0ce19410</sys_id>
+        <sys_metadata>6616b55f1bb03010fdc3ece4604bcb89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>sp_row_6616b55f1bb03010fdc3ece4604bcb89</sys_update_name>
+        <sys_update_version display_value="sp_row_6616b55f1bb03010fdc3ece4604bcb89">a216b55f1bb03010fdc3ece4604bcb8b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 17:18:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

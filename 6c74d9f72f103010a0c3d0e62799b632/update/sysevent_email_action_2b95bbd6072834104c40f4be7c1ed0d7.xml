@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_566030_cowicare2_services</collection>
+        <condition table="x_566030_cowicare2_services">state=2^u_home_isolation=false^EQ<item display_value="Work in progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="false" field="u_home_isolation" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p><br /></p>
+<hr />
+<p><br /></p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-family: 'times new roman', times; font-size: 12pt;">Dear&nbsp; <strong>${name}</strong></span><br /></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">Hope you are doing well!</span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">According to your request submitted, Your requirements are listed below-</span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">You have been alloted a ${u_bed_required} in ${select_hospitals}</span><br /></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">Medicines/Injections: ${u_medicines} ${u_string_9}</span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">Other Requirements: ${u_glide_list_1}</span><br /></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">${u_choice_5}</span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">${u_choice_2}</span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">&nbsp;${u_choice_3}</span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">&nbsp;${u_string_7}</span></p>
+<div><span style="font-family: 'times new roman', times; font-size: 12pt;">We know that these times are tough due to the pandemic but we assure you that the good times are near. Your Mental Health is a Priority, Your Happiness is fundamental and Your Self-care is vital. So stay strong and take care.&nbsp;</span></div>
+<div><span style="font-family: 'times new roman', times; font-size: 12pt;">Thank you for using CowiCare!</span></div>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;">The requested item will reach you shortly in 1-2 days.</span></p>
+<p><br /></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong>Stay Safe, Stay Healthy</strong></span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong>With regards</strong></span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong>CowiCare team</strong></span></p>
+<p><span style="font-family: 'times new roman', times; font-size: 12pt;"><strong><img style="align: bottom;" src="4%20(1).JPGx" width="71" height="71" align="bottom" /></strong></span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Service work progress</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users>jass.superstarr@gmail.com,6816f79cc0a8016401c5a33be04be441,659605541bc53010fdc3ece4604bcb09</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Updated Services Requested </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 14:00:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b95bbd6072834104c40f4be7c1ed0d7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Service work progress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sysevent_email_action_2b95bbd6072834104c40f4be7c1ed0d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 16:56:18</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

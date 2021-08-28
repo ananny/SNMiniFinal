@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Covid -19 Testing">aa57169e2f20f8102144265df699b6e7</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 06:50:56</sys_created_on>
+        <sys_id>cf57969e2f20f8102144265df699b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Covid -19 Testing</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_cf57969e2f20f8102144265df699b6b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 06:50:56</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>1447003cdb3d9b041ddcf22ebf9619c7</instance_id>
+        <instance_name>dev57683</instance_name>
+        <name>sc_cat_item_catalog_cf57969e2f20f8102144265df699b6b1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Covid -19 Testing">aa57169e2f20f8102144265df699b6e7</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-07 06:50:56</sys_created_on><sys_id>cf57969e2f20f8102144265df699b6b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Covid -19 Testing</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>sc_cat_item_catalog_cf57969e2f20f8102144265df699b6b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-07 06:50:56</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1095041249</payload_hash>
+        <record_name>Service Catalog.Covid -19 Testing</record_name>
+        <reverted_from/>
+        <source>7ef15abc2fac74102144265df699b6c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 06:50:56</sys_created_on>
+        <sys_id>8757969e2f20f8102144265df699b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179e53d17200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 06:50:56</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>0f57969efa20f81029200ad84422d7b3</update_guid>
+        <update_guid_history>0f57969efa20f81029200ad84422d7b3:1095041249</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9938a6de2f60f8102144265df699b666</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-07 08:04:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>07a5a501bca84dde80d7e354f9d097f1</sys_id>
+        <sys_metadata>cf57969e2f20f8102144265df699b6b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Covid -19 Testing</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_cf57969e2f20f8102144265df699b6b1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_cf57969e2f20f8102144265df699b6b1">8757969e2f20f8102144265df699b6b4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-07 08:04:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

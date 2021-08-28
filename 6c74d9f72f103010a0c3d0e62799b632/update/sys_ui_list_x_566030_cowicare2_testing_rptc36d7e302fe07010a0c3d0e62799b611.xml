@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_566030_cowicare2_testing" version="2" view="RPTc36d7e302fe07010a0c3d0e62799b611">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="64fd98471b343010fdc3ece4604bcb8b">cf6dfe302fe07010a0c3d0e62799b628</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-02 17:46:21</sys_created_on>
+            <sys_id>8b6dfe302fe07010a0c3d0e62799b629</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 17:46:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="64fd98471b343010fdc3ece4604bcb8b">cf6dfe302fe07010a0c3d0e62799b628</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-02 17:46:21</sys_created_on>
+            <sys_id>0f6dfe302fe07010a0c3d0e62799b629</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 17:46:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>email</element>
+            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="64fd98471b343010fdc3ece4604bcb8b">cf6dfe302fe07010a0c3d0e62799b628</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-02 17:46:21</sys_created_on>
+            <sys_id>8f6dfe302fe07010a0c3d0e62799b629</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 17:46:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_covid_test</element>
+            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="64fd98471b343010fdc3ece4604bcb8b">cf6dfe302fe07010a0c3d0e62799b628</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-02 17:46:21</sys_created_on>
+            <sys_id>036dfe302fe07010a0c3d0e62799b62a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 17:46:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_result</element>
+            <list_id display_value="x_566030_cowicare2_testing" element="NULL" name="x_566030_cowicare2_testing" parent="NULL" relationship="NULL" sys_domain="global" view="64fd98471b343010fdc3ece4604bcb8b">cf6dfe302fe07010a0c3d0e62799b628</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-02 17:46:22</sys_created_on>
+            <sys_id>836dfe302fe07010a0c3d0e62799b62a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 17:46:22</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_566030_cowicare2_testing</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-02 17:46:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf6dfe302fe07010a0c3d0e62799b628</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_566030_cowicare2_testing</sys_name>
+            <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+            <sys_update_name>sys_ui_list_x_566030_cowicare2_testing_RPTc36d7e302fe07010a0c3d0e62799b611</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-02 17:46:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptc36d7e302fe07010a0c3d0e62799b611" name="RPTc36d7e302fe07010a0c3d0e62799b611">64fd98471b343010fdc3ece4604bcb8b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

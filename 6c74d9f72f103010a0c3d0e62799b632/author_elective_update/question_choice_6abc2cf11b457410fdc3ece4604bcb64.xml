@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref display_value="Veg Thali">f9e4338e2fe4b8102144265df699b622</published_ref>
+        <question display_value="Veg Food Choice">2ebc2cf11b457410fdc3ece4604bcb52</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 06:19:29</sys_created_on>
+        <sys_id>6abc2cf11b457410fdc3ece4604bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Veg Thali</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_update_name>question_choice_6abc2cf11b457410fdc3ece4604bcb64</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 06:19:29</sys_updated_on>
+        <text>Veg Thali</text>
+        <value>veg_thali</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=6abc2cf11b457410fdc3ece4604bcb64"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</application>
+        <file_path/>
+        <instance_id>bdbcf2fc1b44341032182f8dee4bcb1b</instance_id>
+        <instance_name>dev114283</instance_name>
+        <name>question_choice_6abc2cf11b457410fdc3ece4604bcb64</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref display_value="Veg Thali">f9e4338e2fe4b8102144265df699b622</published_ref><question display_value="Veg Food Choice">2ebc2cf11b457410fdc3ece4604bcb52</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-30 06:19:29</sys_created_on><sys_id>6abc2cf11b457410fdc3ece4604bcb64</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Veg Thali</sys_name><sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package><sys_policy/><sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope><sys_update_name>question_choice_6abc2cf11b457410fdc3ece4604bcb64</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-30 06:19:29</sys_updated_on><text>Veg Thali</text><value>veg_thali</value></question_choice><fx_price action="delete_multiple" query="id=6abc2cf11b457410fdc3ece4604bcb64"/></record_update>]]></payload>
+        <payload_hash>1916645627</payload_hash>
+        <record_name>Veg Thali</record_name>
+        <reverted_from/>
+        <source>918e98c31b343010fdc3ece4604bcb30</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-30 06:19:29</sys_created_on>
+        <sys_id>aebc2cf11b457410fdc3ece4604bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a5b9290a40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-30 06:19:29</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>26bc2cf1ca4574101fa1f550b96d1d66</update_guid>
+        <update_guid_history>26bc2cf1ca4574101fa1f550b96d1d66:1916645627</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Veg Thali">4aede4751b457410fdc3ece4604bcbd2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-06-30 06:24:38</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>5f5ac8dbced642b49953d4fa391476e9</sys_id>
+        <sys_metadata>6abc2cf11b457410fdc3ece4604bcb64</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Veg Thali</sys_name>
+        <sys_package display_value="CowiCare 2.0" source="x_566030_cowicare2">6c74d9f72f103010a0c3d0e62799b632</sys_package>
+        <sys_parent display_value="">2ebc2cf11b457410fdc3ece4604bcb52</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CowiCare 2.0">6c74d9f72f103010a0c3d0e62799b632</sys_scope>
+        <sys_scope_delete display_value="">3760b2430fab45049e19b1600467e484</sys_scope_delete>
+        <sys_update_name>question_choice_6abc2cf11b457410fdc3ece4604bcb64</sys_update_name>
+        <sys_update_version display_value="question_choice_6abc2cf11b457410fdc3ece4604bcb64">aebc2cf11b457410fdc3ece4604bcb66</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-30 06:24:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
